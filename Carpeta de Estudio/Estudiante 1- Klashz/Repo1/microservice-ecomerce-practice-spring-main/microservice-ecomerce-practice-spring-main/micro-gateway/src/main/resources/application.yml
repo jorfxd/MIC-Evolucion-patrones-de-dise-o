@@ -1,0 +1,31 @@
+server:
+  port: 8080
+spring:
+  config:
+    import: optional:configserver:http://localhost:888
+  application:
+    name: micro-gateway
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id: micro-user
+            uri: http://localhost:8090
+            predicates:
+              - Path=/users/**
+          - id: micro-product
+            uri: http://localhost:9090/
+            predicates:
+              - Path=/product/**
+          - id: micro-comment
+            uri: http://localhost:9080/
+            predicates:
+              - Path=/comment/**
+          - id: micro-order-item
+            uri: http://localhost:7090/
+            predicates:
+              - Path=/item/**
+          - id: micro-order
+            uri: http://localhost:9070/
+            predicates:
+              - Path=/order/**

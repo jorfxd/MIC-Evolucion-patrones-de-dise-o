@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Desing-Patterns2-main,Iterator,ProductsCollection,cargarProductos,Magic Number,The method contains a magic number: 389,21
+Desing-Patterns2-main,Iterator,ProductsCollection,cargarProductos,Magic Number,The method contains a magic number: 150,21
+Desing-Patterns2-main,Iterator,ProductsCollection,cargarProductos,Magic Number,The method contains a magic number: 456,21

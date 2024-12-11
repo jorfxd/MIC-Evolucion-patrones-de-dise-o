@@ -1,0 +1,17 @@
+Project Name,Package Name,Type Name,Method Name,Test Smell,Cause of the Smell
+microservice-ecomerce-practice-spring-main,com.klashz.microcomments,MicroCommentsApplicationTests,contextLoads,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+microservice-ecomerce-practice-spring-main,com.klashz.microcomments,MicroCommentsApplicationTests,contextLoads,Empty test,The tool detected the smell in this test method because the test is empty.
+microservice-ecomerce-practice-spring-main,com.klashz.microconfigserver,MicroConfigServerApplicationTests,contextLoads,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+microservice-ecomerce-practice-spring-main,com.klashz.microconfigserver,MicroConfigServerApplicationTests,contextLoads,Empty test,The tool detected the smell in this test method because the test is empty.
+microservice-ecomerce-practice-spring-main,com.klashz.microeureka,MicroEurekaApplicationTests,contextLoads,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+microservice-ecomerce-practice-spring-main,com.klashz.microeureka,MicroEurekaApplicationTests,contextLoads,Empty test,The tool detected the smell in this test method because the test is empty.
+microservice-ecomerce-practice-spring-main,com.klashz.microgateway,MicroGatewayApplicationTests,contextLoads,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+microservice-ecomerce-practice-spring-main,com.klashz.microgateway,MicroGatewayApplicationTests,contextLoads,Empty test,The tool detected the smell in this test method because the test is empty.
+microservice-ecomerce-practice-spring-main,com.klashz.microorder,MicroOrderApplicationTests,contextLoads,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+microservice-ecomerce-practice-spring-main,com.klashz.microorder,MicroOrderApplicationTests,contextLoads,Empty test,The tool detected the smell in this test method because the test is empty.
+microservice-ecomerce-practice-spring-main,com.klashz.microorderitem,MicroOrderItemApplicationTests,contextLoads,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+microservice-ecomerce-practice-spring-main,com.klashz.microorderitem,MicroOrderItemApplicationTests,contextLoads,Empty test,The tool detected the smell in this test method because the test is empty.
+microservice-ecomerce-practice-spring-main,com.klashz.microproduct,MicroProductApplicationTests,contextLoads,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+microservice-ecomerce-practice-spring-main,com.klashz.microproduct,MicroProductApplicationTests,contextLoads,Empty test,The tool detected the smell in this test method because the test is empty.
+microservice-ecomerce-practice-spring-main,com.klashz.microuser,MicroUserApplicationTests,contextLoads,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+microservice-ecomerce-practice-spring-main,com.klashz.microuser,MicroUserApplicationTests,contextLoads,Empty test,The tool detected the smell in this test method because the test is empty.

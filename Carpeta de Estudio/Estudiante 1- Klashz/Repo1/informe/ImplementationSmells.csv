@@ -1,0 +1,10 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+microservice-ecomerce-practice-spring-main,com.klashz.microorderitem,OrderItemController,addOrderItem,Magic Number,The method contains a magic number: 201,27
+microservice-ecomerce-practice-spring-main,com.klashz.microorderitem,OrderItemController,getOrderItem,Magic Number,The method contains a magic number: 200,33
+microservice-ecomerce-practice-spring-main,com.klashz.microorderitem,OrderItemController,deleteOrderItem,Magic Number,The method contains a magic number: 200,65
+microservice-ecomerce-practice-spring-main,com.klashz.microproduct,ProductController,saveNewProduct,Magic Number,The method contains a magic number: 201,29
+microservice-ecomerce-practice-spring-main,com.klashz.microproduct,ProductController,getProduct,Long Statement,The length of the statement "ProductResponseDto prdto=ProductResponseDto.builder().Id(product.getId()).name(product.getName()).image(product.getImage()).price(product.getPrice()).stock(product.getStock()).description(product.getDescription()).comments(commentByP).build();" is 243.,35
+microservice-ecomerce-practice-spring-main,com.klashz.microuser,UserController,save,Magic Number,The method contains a magic number: 201,17
+microservice-ecomerce-practice-spring-main,com.klashz.microuser,UserController,findById,Long Statement,The length of the statement "return user.map(userEntity -> ResponseEntity.status(200).body(userEntity)).orElseGet(() -> ResponseEntity.status(404).body(null));" is 130.,28
+microservice-ecomerce-practice-spring-main,com.klashz.microuser,UserController,findById,Magic Number,The method contains a magic number: 200,28
+microservice-ecomerce-practice-spring-main,com.klashz.microuser,UserController,findById,Magic Number,The method contains a magic number: 404,28
