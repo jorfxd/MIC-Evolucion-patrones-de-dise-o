@@ -1,0 +1,6 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+EDD2P-main,casa.proyectoedd2p,App,1,0,4,2,22,4,0,0,0.5,0,0,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E02\Repo1\EDD2P-main\EDD2P-main\src\main\java\casa\proyectoedd2p\App.java,11
+EDD2P-main,casa.proyectoedd2p,PrimaryController,11,0,14,3,292,33,0,0,0.35714285714285715,0,1,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E02\Repo1\EDD2P-main\EDD2P-main\src\main\java\casa\proyectoedd2p\PrimaryController.java,45
+EDD2P-main,clases,Archivo,4,0,11,10,48,12,0,0,0.0,0,0,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E02\Repo1\EDD2P-main\EDD2P-main\src\main\java\clases\Archivo.java,3
+EDD2P-main,clases,NodeTree,2,0,7,7,26,7,0,0,0.0,1,0,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E02\Repo1\EDD2P-main\EDD2P-main\src\main\java\clases\NodeTree.java,5
+EDD2P-main,clases,Tree,1,0,7,7,34,9,0,0,0.0,1,1,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E02\Repo1\EDD2P-main\EDD2P-main\src\main\java\clases\Tree.java,4

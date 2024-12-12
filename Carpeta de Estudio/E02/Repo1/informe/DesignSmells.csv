@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,Design Smell,Cause of the Smell
+EDD2P-main,casa.proyectoedd2p,App,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)
+EDD2P-main,casa.proyectoedd2p,PrimaryController,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)
+EDD2P-main,clases,Archivo,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)

@@ -1,0 +1,64 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+EDD2P-main,casa.proyectoedd2p,PrimaryController,renderizarTreemap,Magic Number,The method contains a magic number: 1000,76
+EDD2P-main,casa.proyectoedd2p,PrimaryController,renderizarTreemap,Magic Number,The method contains a magic number: 600,76
+EDD2P-main,casa.proyectoedd2p,PrimaryController,renderizarTreemap,Magic Number,The method contains a magic number: 1000,76
+EDD2P-main,casa.proyectoedd2p,PrimaryController,renderizarTreemap,Magic Number,The method contains a magic number: 600,76
+EDD2P-main,casa.proyectoedd2p,PrimaryController,selectPath,Magic Number,The method contains a magic number: 250,115
+EDD2P-main,casa.proyectoedd2p,PrimaryController,selectPath,Magic Number,The method contains a magic number: 250,115
+EDD2P-main,casa.proyectoedd2p,PrimaryController,selectPath,Magic Number,The method contains a magic number: 114,115
+EDD2P-main,casa.proyectoedd2p,PrimaryController,generateRandomColor,Magic Number,The method contains a magic number: 3,165
+EDD2P-main,casa.proyectoedd2p,PrimaryController,generateRandomColor,Magic Number,The method contains a magic number: 3,165
+EDD2P-main,casa.proyectoedd2p,PrimaryController,generateRandomColor,Magic Number,The method contains a magic number: 3,165
+EDD2P-main,casa.proyectoedd2p,PrimaryController,generateRandomColor,Magic Number,The method contains a magic number: 250,165
+EDD2P-main,casa.proyectoedd2p,PrimaryController,generateRandomColor,Magic Number,The method contains a magic number: 250,165
+EDD2P-main,casa.proyectoedd2p,PrimaryController,generateRandomColor,Magic Number,The method contains a magic number: 2,165
+EDD2P-main,casa.proyectoedd2p,PrimaryController,createTreemap,Long Parameter List,The method has 5 parameters. ,185
+EDD2P-main,casa.proyectoedd2p,PrimaryController,createTreemap,Complex Conditional,The conditional expression permitidas != null && !permitidas.isEmpty() && !permitidas.contains(extension) is complex.,189
+EDD2P-main,casa.proyectoedd2p,PrimaryController,createTreemap,Complex Method,Cyclomatic complexity of the method is 8,189
+EDD2P-main,casa.proyectoedd2p,PrimaryController,createTreemap,Long Parameter List,The method has 8 parameters. ,189
+EDD2P-main,casa.proyectoedd2p,PrimaryController,createTreemap,Magic Number,The method contains a magic number: 255,189
+EDD2P-main,casa.proyectoedd2p,PrimaryController,createTreemap,Magic Number,The method contains a magic number: 255,189
+EDD2P-main,casa.proyectoedd2p,PrimaryController,createTreemap,Magic Number,The method contains a magic number: 255,189
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Empty catch clause,The method has an empty catch block.,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Empty catch clause,The method has an empty catch block.,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Empty catch clause,The method has an empty catch block.,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Empty catch clause,The method has an empty catch block.,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Magic Number,The method contains a magic number: 14,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Magic Number,The method contains a magic number: 20,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Magic Number,The method contains a magic number: 20,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Magic Number,The method contains a magic number: 20,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Magic Number,The method contains a magic number: 20,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Magic Number,The method contains a magic number: 5,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Magic Number,The method contains a magic number: 3,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Magic Number,The method contains a magic number: 3,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Magic Number,The method contains a magic number: 3,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,buscar,Magic Number,The method contains a magic number: 3,267
+EDD2P-main,casa.proyectoedd2p,PrimaryController,explorar,Magic Number,The method contains a magic number: 5,316
+EDD2P-main,casa.proyectoedd2p,PrimaryController,explorar,Magic Number,The method contains a magic number: 5,316
+EDD2P-main,casa.proyectoedd2p,PrimaryController,explorar,Magic Number,The method contains a magic number: 5,316
+EDD2P-main,casa.proyectoedd2p,PrimaryController,explorar,Magic Number,The method contains a magic number: 5,316
+EDD2P-main,casa.proyectoedd2p,PrimaryController,explorar,Magic Number,The method contains a magic number: 5,316
+EDD2P-main,casa.proyectoedd2p,PrimaryController,explorar,Magic Number,The method contains a magic number: 10,316
+EDD2P-main,casa.proyectoedd2p,PrimaryController,explorar,Magic Number,The method contains a magic number: 10,316
+EDD2P-main,casa.proyectoedd2p,PrimaryController,explorar,Magic Number,The method contains a magic number: 10,316
+EDD2P-main,casa.proyectoedd2p,PrimaryController,explorar,Magic Number,The method contains a magic number: 10,316
+EDD2P-main,casa.proyectoedd2p,PrimaryController,explorar,Magic Number,The method contains a magic number: 500,316
+EDD2P-main,casa.proyectoedd2p,PrimaryController,explorar,Magic Number,The method contains a magic number: 400,316
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Empty catch clause,The method has an empty catch block.,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Empty catch clause,The method has an empty catch block.,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Long Statement,The length of the statement "try (FileInputStream input=new FileInputStream("src/main/resources/imagenes/" + directorio.getRoot().getContent().getExtension() + ".png")){" is 140.,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 10,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 10,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 10,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 10,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 14,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 2048,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 100d,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 100d,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 14,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 50,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 50,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 50,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 50,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 20,340
+EDD2P-main,casa.proyectoedd2p,PrimaryController,abrirPopup,Magic Number,The method contains a magic number: 100,340
