@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+proyectoFIFA,grupo8.proyectofifa,ConsultaPartidoController,4,0,7,7,0,40,0,0,0.2857142857142857,0,1,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E06\Repo1\Proyecto2-main\Proyecto2-main\proyectoFIFA\src\main\java\grupo8\proyectofifa\ConsultaPartidoController.java,28
+proyectoFIFA,grupo8.proyectofifa,Principal,4,4,4,4,40,4,0,0,0.75,2,0,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E06\Repo1\Proyecto2-main\Proyecto2-main\proyectoFIFA\src\main\java\grupo8\proyectofifa\Principal.java,17
+proyectoFIFA,grupo8.proyectofifa,VentanaController,5,0,4,4,118,8,0,0,0.75,0,1,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E06\Repo1\Proyecto2-main\Proyecto2-main\proyectoFIFA\src\main\java\grupo8\proyectofifa\VentanaController.java,27

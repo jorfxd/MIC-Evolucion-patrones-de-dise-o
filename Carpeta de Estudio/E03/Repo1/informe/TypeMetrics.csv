@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+CodingStandards-main,(default package),Items,4,0,10,8,39,10,0,0,0.0,0,0,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E03\Repo1\CodingStandards-main\CodingStandards-main\Items.java,3
+CodingStandards-main,(default package),Main,0,0,1,1,21,2,0,0,-1.0,0,0,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E03\Repo1\CodingStandards-main\CodingStandards-main\Main.java,2
+CodingStandards-main,(default package),ShoppingCart,7,0,5,0,43,10,0,0,0.6,0,0,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E03\Repo1\CodingStandards-main\CodingStandards-main\ShoppingCart.java,4

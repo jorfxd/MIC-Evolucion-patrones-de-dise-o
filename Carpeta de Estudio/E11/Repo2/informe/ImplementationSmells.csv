@@ -1,0 +1,35 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+jekins-main,com.mycompany.gymmembership,GymMembership,main,Complex Method,Cyclomatic complexity of the method is 16,30
+jekins-main,com.mycompany.gymmembership,GymMembership,main,Long Statement,The length of the statement "if (memberships.get(i).isAvailable()) System.out.println((i + 1) + ". " + memberships.get(i).getName()+ " - $"+ memberships.get(i).getBaseCost());" is 146.,30
+jekins-main,com.mycompany.gymmembership,GymMembership,main,Long Statement,The length of the statement "System.out.println("- " + featureCounter.get(feature.getName()) + " "+ feature.getName()+ " ($"+ feature.getCost()+ ")");" is 121.,30
+jekins-main,com.mycompany.gymmembership,GymMembership,main,Magic Number,The method contains a magic number: 0.9,30
+jekins-main,com.mycompany.gymmembership,GymMembership,addFeatures,Complex Method,Cyclomatic complexity of the method is 10,133
+jekins-main,com.mycompany.gymmembership,GymMembership,addFeatures,Magic Number,The method contains a magic number: 2,133
+jekins-main,com.mycompany.gymmembership,GymMembership,addFeatures,Magic Number,The method contains a magic number: 3,133
+jekins-main,com.mycompany.gymmembership,GymMembership,addFeatures,Magic Number,The method contains a magic number: 4,133
+jekins-main,com.mycompany.gymmembership,GymMembership,addFeatures,Magic Number,The method contains a magic number: 5,133
+jekins-main,com.mycompany.gymmembership,GymMembership,addFeatures,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@6dba847b,133
+jekins-main,com.mycompany.gymmembership,MembershipPlan,calculateTotalCostWithDiscount,Long Statement,The length of the statement "if (feature.getName().equals("Access to exclusive gym facilities") || feature.getName().equals("Specialized Training Programs")) this.hasPremiumFeatures=true;" is 158.,28
+jekins-main,com.mycompany.gymmembership,MembershipPlan,applyDiscounts,Magic Number,The method contains a magic number: 400,42
+jekins-main,com.mycompany.gymmembership,MembershipPlan,applyDiscounts,Magic Number,The method contains a magic number: 50,42
+jekins-main,com.mycompany.gymmembership,MembershipPlan,applyDiscounts,Magic Number,The method contains a magic number: 200,42
+jekins-main,com.mycompany.gymmembership,MembershipPlan,applyDiscounts,Magic Number,The method contains a magic number: 20,42
+jekins-main,com.mycompany.gymmembership,MembershipPlan,applyDiscounts,Magic Number,The method contains a magic number: 0.15,42
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testMembershipAvailability,Magic Number,The method contains a magic number: 200,21
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testFeatureAvailability,Magic Number,The method contains a magic number: 150,31
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testCalculateTotalCostWithNoFeatures,Magic Number,The method contains a magic number: 50,42
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testCalculateTotalCostWithStandardFeatures,Magic Number,The method contains a magic number: 50,49
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testCalculateTotalCostWithStandardFeatures,Magic Number,The method contains a magic number: 30,49
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testCalculateTotalCostWithStandardFeatures,Magic Number,The method contains a magic number: 20,49
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testPremiumFeatureSurcharge,Magic Number,The method contains a magic number: 100,57
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testPremiumFeatureSurcharge,Magic Number,The method contains a magic number: 50,57
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testPremiumFeatureSurcharge,Magic Number,The method contains a magic number: 0.15,57
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testPremiumFeatureSurcharge,Magic Number,The method contains a magic number: 0.01,57
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testApplyDiscountAndPremiumFeatureSurcharge,Long Statement,The length of the statement "MembershipPlan plan=new MembershipPlan(familyMembership`List.of(personalTraining`exclusiveFacilities`specializedTraining));" is 123.,68
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testApplyDiscountAndPremiumFeatureSurcharge,Magic Number,The method contains a magic number: 150,68
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testApplyDiscountAndPremiumFeatureSurcharge,Magic Number,The method contains a magic number: 30,68
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testApplyDiscountAndPremiumFeatureSurcharge,Magic Number,The method contains a magic number: 50,68
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testApplyDiscountAndPremiumFeatureSurcharge,Magic Number,The method contains a magic number: 100,68
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testApplyDiscountAndPremiumFeatureSurcharge,Magic Number,The method contains a magic number: 20,68
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testApplyDiscountAndPremiumFeatureSurcharge,Magic Number,The method contains a magic number: 0.15,68
+jekins-main,com.mycompany.gymmembership,GymMembershipTest,testApplyDiscountAndPremiumFeatureSurcharge,Magic Number,The method contains a magic number: 0.01,68

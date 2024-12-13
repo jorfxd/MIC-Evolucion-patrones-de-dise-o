@@ -1,0 +1,8 @@
+Project Name,Package Name,Type Name,Design Smell,Cause of the Smell
+Java-OOP-Shop-master,com.brtsgn,Camera,Broken Hierarchy,The tool detected a potential instance of the smell because this type does not implement or override any method from it's supertype(s): Product
+Java-OOP-Shop-master,com.brtsgn,Factory.productType,Unnecessary Abstraction,The tool detected the smell in this class because the class contains only a few data members without any method implementation, that indicates that the abstraction might not be required. Following fields are declared in this class: 
+Java-OOP-Shop-master,com.brtsgn,Factory.productType,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)
+Java-OOP-Shop-master,com.brtsgn,Main,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)
+Java-OOP-Shop-master,com.brtsgn,Phone,Broken Hierarchy,The tool detected a potential instance of the smell because this type does not implement or override any method from it's supertype(s): Product
+Java-OOP-Shop-master,com.brtsgn,Printer,Broken Hierarchy,The tool detected a potential instance of the smell because this type does not implement or override any method from it's supertype(s): Product
+Java-OOP-Shop-master,com.brtsgn,Shop,Cyclically-dependent Modularization,The tool detected the smell in this class because this class participates in a cyclic dependency. The participating classes in the cycle are: Shop; ShoppingCart

@@ -1,0 +1,8 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+code-inspection-main,labcodeinspection,Email,Email,4,1,2,14,0,,
+code-inspection-main,labcodeinspection,Email,showInfo,4,1,0,25,0,,
+code-inspection-main,labcodeinspection,Email,setDeparment,13,4,1,34,0,,
+code-inspection-main,labcodeinspection,Email,randomPassword,9,2,1,51,0,,
+code-inspection-main,labcodeinspection,Email,generateEmail,4,1,0,61,0,labcodeinspection.Email,labcodeinspection.Email
+code-inspection-main,labcodeinspection,EmailApp,EmailApp,3,1,0,9,0,,
+code-inspection-main,labcodeinspection,EmailApp,main,14,1,1,14,0,,

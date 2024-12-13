@@ -1,0 +1,10 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+proyectoMD,com.mycompany.proyectomd,App,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: total (19)
+proyectoMD,com.mycompany.proyectomd,Nivel3Controller,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: puntaje (44)
+proyectoMD,com.mycompany.proyectomd,Resultado1Controller,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: totalPuntos (27)
+proyectoMD,com.mycompany.proyectomd,Resultado2Controller,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: totalPuntos (30)
+proyectoMD,com.mycompany.proyectomd,Resultado3Controller,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: totalPuntos (27); texto (39)
+proyectoMD,com.mycompany.proyectomd,Resultado4Controller,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: totalPuntos (28)
+proyectoMD,com.mycompany.proyectomd,Resultado5Controller,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: totalPuntos (31)
+proyectoMD,com.mycompany.proyectomd,Resultado6Controller,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: totalPuntos (28)
+proyectoMD,com.mycompany.proyectomd,VistaPersonajeController,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: personaje (32)

@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detalles de la receta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Recipe details</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card *ngIf="recipe">
+    <img [src]="recipe.image" alt="{{ recipe.label }}">
+    <ion-card-header>
+      <ion-card-title>{{ recipe.label }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ recipe.description }}</p>
+      <p>{{ recipe.description }}</p>
+      <div class="nutrition-info">
+        <div class="nutrition-item">
+          <span class="nutrition-text">Protein:</span>
+          <span class="nutrition-value">{{ recipe.totalNutrients.PROCNT.quantity | number:'1.0-0' }} {{
+            recipe.totalNutrients.PROCNT.unit }}</span>
+        </div>
+        <div class="nutrition-item">
+          <span class="nutrition-text">Fat:</span>
+          <span class="nutrition-value">{{ recipe.totalNutrients.FAT.quantity | number:'1.0-0' }} {{
+            recipe.totalNutrients.FAT.unit }}</span>
+        </div>
+        <div class="nutrition-item">
+          <span class="nutrition-text">Carbs:</span>
+          <span class="nutrition-value">{{ recipe.totalNutrients.CHOCDF.quantity | number:'1.0-0' }} {{
+            recipe.totalNutrients.CHOCDF.unit }}</span>
+        </div>
+      </div>
+      <h2>Ingredients</h2>
+      <ion-list>
+        <ion-item *ngFor="let ingredient of recipe.ingredientLines">
+          {{ ingredient }}
+        </ion-item>
+      </ion-list>
+      <ion-button [routerLink]="['/cart']" expand="block" (click)="addToCart()">Add to Cart</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

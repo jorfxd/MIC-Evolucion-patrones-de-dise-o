@@ -1,0 +1,63 @@
+.centrar {
+  text-align: center;
+}
+
+ion-toolbar{
+  background-color: #2260FF;
+  color: white;
+}
+
+ion-card{
+  margin: 20px;
+}
+
+ion-card-content{
+  text-align: justify;
+}
+
+ion-card-content > h2{
+  color: #2260FF;
+  font-weight: bold;
+}
+
+ion-card-content > p{
+  color: black;
+}
+
+ion-icon {
+  width: 125px;
+  height: 125px;
+}
+
+section#blue, section#white{
+  padding: 25px;
+  display: grid;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  grid-template-areas: "A  B";
+}
+
+section#imagen{
+  grid-area: "A";
+}
+
+section#texto{
+  grid-area: "B";
+  font-weight: bold;
+}
+
+#tituloArticulo{
+  font-weight: bold;
+}
+
+p#ver{
+  color: #2260FF;
+}
+
+section#blue{
+  background-color: #CAD6FF;
+}
+
+section#white{
+  background-color: white;
+}

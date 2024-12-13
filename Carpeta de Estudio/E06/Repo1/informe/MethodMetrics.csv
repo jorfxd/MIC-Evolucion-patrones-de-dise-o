@@ -1,0 +1,16 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+proyectoFIFA,grupo8.proyectofifa,ConsultaPartidoController,initialize,4,1,2,35,0,,
+proyectoFIFA,grupo8.proyectofifa,ConsultaPartidoController,faseEscogida,97,10,1,57,0,grupo8.proyectofifa.ConsultaPartidoController,grupo8.proyectofifa.ConsultaPartidoController
+proyectoFIFA,grupo8.proyectofifa,ConsultaPartidoController,cargarCB,4,1,3,163,0,grupo8.proyectofifa.ConsultaPartidoController,grupo8.proyectofifa.ConsultaPartidoController
+proyectoFIFA,grupo8.proyectofifa,ConsultaPartidoController,cargarEquipos,22,4,4,169,0,,
+proyectoFIFA,grupo8.proyectofifa,ConsultaPartidoController,completarLista,8,3,6,191,0,,
+proyectoFIFA,grupo8.proyectofifa,ConsultaPartidoController,eventoConsultar,53,5,8,201,0,grupo8.proyectofifa.ConsultaPartidoController,grupo8.proyectofifa.ConsultaPartidoController; grupo8.proyectofifa.Principal
+proyectoFIFA,grupo8.proyectofifa,ConsultaPartidoController,diaPartido,0,16,1,256,0,,
+proyectoFIFA,grupo8.proyectofifa,Principal,cargarimagen,9,1,6,29,0,,
+proyectoFIFA,grupo8.proyectofifa,Principal,cargarVentana,10,1,2,40,0,,
+proyectoFIFA,grupo8.proyectofifa,Principal,start,9,1,1,51,0,,
+proyectoFIFA,grupo8.proyectofifa,Principal,main,3,1,1,62,0,,
+proyectoFIFA,grupo8.proyectofifa,VentanaController,initialize,5,1,2,34,0,grupo8.proyectofifa.Principal,grupo8.proyectofifa.Principal
+proyectoFIFA,grupo8.proyectofifa,VentanaController,abrircopas,29,2,1,61,0,,
+proyectoFIFA,grupo8.proyectofifa,VentanaController,mostrarDatos,62,4,2,91,0,grupo8.proyectofifa.Principal,grupo8.proyectofifa.Principal
+proyectoFIFA,grupo8.proyectofifa,VentanaController,abrirpartido,8,1,1,158,0,grupo8.proyectofifa.Principal,grupo8.proyectofifa.Principal

@@ -1,0 +1,10 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+ConexionPrueba,conexionprueba,ConexionPrueba,start,Magic Number,The method contains a magic number: 700,34
+ConexionPrueba,conexionprueba,ConexionPrueba,start,Magic Number,The method contains a magic number: 600,34
+ConexionPrueba,conexionprueba,ConexionPrueba,editar,Long Statement,The length of the statement "st.executeUpdate("CREATE TABLE contacto (" + "id INT AUTO_INCREMENT` " + "PRIMARY KEY(id)` "+ "nombre VARCHAR(20)` "+ "apellidos VARCHAR(20)` "+ "telefono VARCHAR(20))");" is 170.,55
+ConexionPrueba,conexionprueba,ConexionPrueba,editar,Long Statement,The length of the statement "st.executeUpdate("INSERT INTO contacto (nombre` " + "apellidos` " + "telefono) "+ "VALUES ("+ "'" + nombres[i] + "'`'"+ apellidos[i]+ "'`'"+ telefonos[i]+ "' )");" is 162.,55
+ConexionPrueba,conexionprueba,ConexionPrueba,editar,Magic Number,The method contains a magic number: 2,55
+ConexionPrueba,conexionprueba,ConexionPrueba,editar,Magic Number,The method contains a magic number: 3,55
+ConexionPrueba,conexionprueba,ConexionPrueba,editar,Magic Number,The method contains a magic number: 4,55
+ConexionPrueba,conexionprueba,PaneOrganizer,iniciar,Magic Number,The method contains a magic number: 2,36
+ConexionPrueba,conexionprueba,PaneOrganizer,iniciar,Magic Number,The method contains a magic number: 3,36

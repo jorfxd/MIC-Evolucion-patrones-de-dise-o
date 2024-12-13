@@ -1,0 +1,43 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="m1"></ion-menu-button>
+      
+    </ion-buttons>
+    <ion-title>Home</ion-title>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/cart']">
+        <ion-icon slot="icon-only" name="cart-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Search for a recipe</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-item>
+    <ion-input [(ngModel)]='query' placeholder="Enter a keyword..."></ion-input>
+    <ion-button expand='block' (click)='search()'>Search</ion-button>
+  </ion-item>
+  
+
+  <ion-list>
+    <ion-card class="recipe-card" *ngFor="let recipe of recipes">
+      <img [src]="recipe.image" alt="{{ recipe.label }}">
+      <ion-card-header>
+        <ion-card-title>{{ recipe.label }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Dish Type</p>{{ recipe.dishType }}
+        <p> {{recipe.dietLabels}}</p>
+        <ion-button expand='block' [routerLink]="['/recipe', encodeURIComponentWrapper(recipe.uri.split('_')[1])]">View</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
+</ion-content>

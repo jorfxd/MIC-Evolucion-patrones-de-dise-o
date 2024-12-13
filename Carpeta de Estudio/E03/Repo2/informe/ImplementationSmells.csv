@@ -1,0 +1,32 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+WK2-IS2-main,com.group,Membresia,calcularCostoTotal,Magic Number,The method contains a magic number: 0.15,23
+WK2-IS2-main,com.group,Membresia,calcularCostoFinal,Long Statement,The length of the statement "System.out.println("Descuentro por ser mas de dos miembros: 10% " + String.format("%.2f"`(costoFinal - (costoFinal * 0.9))));" is 125.,36
+WK2-IS2-main,com.group,Membresia,calcularCostoFinal,Magic Number,The method contains a magic number: 2,36
+WK2-IS2-main,com.group,Membresia,calcularCostoFinal,Magic Number,The method contains a magic number: 0.9,36
+WK2-IS2-main,com.group,Membresia,calcularCostoFinal,Magic Number,The method contains a magic number: 0.9,36
+WK2-IS2-main,com.group,Membresia,calcularCostoFinal,Magic Number,The method contains a magic number: 400,36
+WK2-IS2-main,com.group,Membresia,calcularCostoFinal,Magic Number,The method contains a magic number: 50,36
+WK2-IS2-main,com.group,Membresia,calcularCostoFinal,Magic Number,The method contains a magic number: 200,36
+WK2-IS2-main,com.group,Membresia,calcularCostoFinal,Magic Number,The method contains a magic number: 20,36
+WK2-IS2-main,com.group,Membresia,infoDescuento,Long Statement,The length of the statement "FuncionAdicional funcionAdicional1=this.planMembresia.getFuncionesAdicionales().get(Integer.parseInt(funcionAdicional) - 1);" is 124.,58
+WK2-IS2-main,com.group,PlanMembresia,PlanMembresia,Long Parameter List,The method has 5 parameters. ,14
+WK2-IS2-main,com.group,SeleccionMembresia,inicializarPlanes,Long Statement,The length of the statement "planes.add(new PlanMembresia("Básico"`50.0`"Acceso al gimnasio y uso de máquinas"`funcionAdicionals`TypeMember.BASIC));" is 121.,17
+WK2-IS2-main,com.group,SeleccionMembresia,inicializarPlanes,Long Statement,The length of the statement "planes.add(new PlanMembresia("Premium"`100.0`"Acceso a instalaciones exclusivas` clases grupales y piscina"`funcionAdicionals`TypeMember.PREMIUM));" is 147.,17
+WK2-IS2-main,com.group,SeleccionMembresia,inicializarPlanes,Long Statement,The length of the statement "planes.add(new PlanMembresia("Familiar"`150.0`"Acceso para 4 personas` incluye clases grupales y áreas recreativas"`funcionAdicionals`TypeMember.FAMILY));" is 155.,17
+WK2-IS2-main,com.group,SeleccionMembresia,inicializarPlanes,Magic Number,The method contains a magic number: 30.0,17
+WK2-IS2-main,com.group,SeleccionMembresia,inicializarPlanes,Magic Number,The method contains a magic number: 20.0,17
+WK2-IS2-main,com.group,SeleccionMembresia,inicializarPlanes,Magic Number,The method contains a magic number: 40.0,17
+WK2-IS2-main,com.group,SeleccionMembresia,inicializarPlanes,Magic Number,The method contains a magic number: 50.0,17
+WK2-IS2-main,com.group,SeleccionMembresia,inicializarPlanes,Magic Number,The method contains a magic number: 100.0,17
+WK2-IS2-main,com.group,SeleccionMembresia,inicializarPlanes,Magic Number,The method contains a magic number: 150.0,17
+WK2-IS2-main,com.group,MembresiaTest,testCalcularCostroPremium,Magic Number,The method contains a magic number: 100,12
+WK2-IS2-main,com.group,MembresiaTest,testCalcularCostroPremium,Magic Number,The method contains a magic number: 3,12
+WK2-IS2-main,com.group,MembresiaTest,testCalcularCostroPremium,Magic Number,The method contains a magic number: 345.0,12
+WK2-IS2-main,com.group,MembresiaTest,testCalcularCostoTotalFamily,Magic Number,The method contains a magic number: 100,21
+WK2-IS2-main,com.group,MembresiaTest,testCalcularCostoTotalFamily,Magic Number,The method contains a magic number: 2,21
+WK2-IS2-main,com.group,MembresiaTest,testCalcularCostoTotalFamily,Magic Number,The method contains a magic number: 100.0,21
+WK2-IS2-main,com.group,MembresiaTest,testEntradaNoValidaMiembros,Magic Number,The method contains a magic number: 100,32
+WK2-IS2-main,com.group,MembresiaTest,testAgregarFuncionAdicional,Magic Number,The method contains a magic number: 100,43
+WK2-IS2-main,com.group,MembresiaTest,testAgregarFuncionAdicional,Magic Number,The method contains a magic number: 2,43
+WK2-IS2-main,com.group,MembresiaTest,testAgregarFuncionAdicional,Magic Number,The method contains a magic number: 50,43
+WK2-IS2-main,com.group,MembresiaTest,testAgregarFuncionAdicional,Magic Number,The method contains a magic number: 50,43

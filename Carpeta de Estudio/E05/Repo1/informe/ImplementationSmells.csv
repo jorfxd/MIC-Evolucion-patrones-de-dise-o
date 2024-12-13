@@ -1,0 +1,76 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+EmojiApp,emojiapp,LinkedList,toString,Magic Number,The method contains a magic number: 2,25
+EmojiApp,com.mycompany.emojiapp,AlertBoxes,confirmAlert,Long Statement,The length of the statement "AlertBoxes.errorAlert("Tristesa"`"ohhh que mal.."`"No te preocupes subiremos mas y mejor contenido :D!\nGracias por tu feedback");" is 130.,60
+EmojiApp,com.mycompany.emojiapp,App,start,Magic Number,The method contains a magic number: 710,26
+EmojiApp,com.mycompany.emojiapp,App,start,Magic Number,The method contains a magic number: 441,26
+EmojiApp,com.mycompany.emojiapp,User,cargarUsuarios,Long Statement,The length of the statement "try (BufferedReader bf=new BufferedReader(new FileReader("src\\main\\resources\\com\\mycompany\\emojiapp\\usuarios.txt"))){" is 123.,32
+EmojiApp,com.mycompany.emojiapp,User,cargarUsuarios,Magic Number,The method contains a magic number: 2,32
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarImagenesInicio,Complex Method,Cyclomatic complexity of the method is 11,276
+EmojiApp,com.mycompany.emojiapp,ViewController,colocarImagenBotones,Magic Number,The method contains a magic number: 50,332
+EmojiApp,com.mycompany.emojiapp,ViewController,colocarImagenBotones,Magic Number,The method contains a magic number: 50,332
+EmojiApp,com.mycompany.emojiapp,ViewController,prevElement,Magic Number,The method contains a magic number: 50,346
+EmojiApp,com.mycompany.emojiapp,ViewController,prevElement,Magic Number,The method contains a magic number: 50,346
+EmojiApp,com.mycompany.emojiapp,ViewController,nextElement,Magic Number,The method contains a magic number: 50,363
+EmojiApp,com.mycompany.emojiapp,ViewController,nextElement,Magic Number,The method contains a magic number: 50,363
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Long Statement,The length of the statement "prevButton.setGraphic(new ImageView(new Image(new FileInputStream("src\\main\\resources\\com\\mycompany\\images\\buttons\\Larrow.png")`45`45`true`false)));" is 155.,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Long Statement,The length of the statement "nextButton.setGraphic(new ImageView(new Image(new FileInputStream("src\\main\\resources\\com\\mycompany\\images\\buttons\\Rarrow.png")`45`45`true`false)));" is 155.,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Long Statement,The length of the statement "loadImg.setGraphic(new ImageView(new Image(new FileInputStream("src\\main\\resources\\com\\mycompany\\images\\buttons\\upload.png")`20`20`true`false)));" is 152.,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Long Statement,The length of the statement "randomButton.setGraphic(new ImageView(new Image(new FileInputStream("src\\main\\resources\\com\\mycompany\\images\\buttons\\random.png")`25`25`true`false)));" is 157.,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Long Statement,The length of the statement "upButton.setGraphic(new ImageView(new Image(new FileInputStream("src\\main\\resources\\com\\mycompany\\images\\buttons\\up.png")`13`13`true`false)));" is 149.,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Long Statement,The length of the statement "leftButton.setGraphic(new ImageView(new Image(new FileInputStream("src\\main\\resources\\com\\mycompany\\images\\buttons\\left.png")`20`17`true`false)));" is 153.,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Long Statement,The length of the statement "rightButton.setGraphic(new ImageView(new Image(new FileInputStream("src\\main\\resources\\com\\mycompany\\images\\buttons\\right.png")`20`17`true`false)));" is 155.,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Long Statement,The length of the statement "downButton.setGraphic(new ImageView(new Image(new FileInputStream("src\\main\\resources\\com\\mycompany\\images\\buttons\\down.png")`13`13`true`false)));" is 153.,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 45,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 45,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 45,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 45,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 20,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 20,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 25,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 25,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 13,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 13,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 20,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 17,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 20,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 17,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 13,381
+EmojiApp,com.mycompany.emojiapp,ViewController,cargarBotones,Magic Number,The method contains a magic number: 13,381
+EmojiApp,com.mycompany.emojiapp,ViewController,mostrarImagen,Complex Method,Cyclomatic complexity of the method is 15,398
+EmojiApp,com.mycompany.emojiapp,ViewController,mostrarImagen,Long Method,The method has 142 lines of code.,398
+EmojiApp,com.mycompany.emojiapp,ViewController,showFace,Magic Number,The method contains a magic number: 150,543
+EmojiApp,com.mycompany.emojiapp,ViewController,showFace,Magic Number,The method contains a magic number: 150,543
+EmojiApp,com.mycompany.emojiapp,ViewController,showEyes,Magic Number,The method contains a magic number: 95,564
+EmojiApp,com.mycompany.emojiapp,ViewController,showEyes,Magic Number,The method contains a magic number: 95,564
+EmojiApp,com.mycompany.emojiapp,ViewController,showEyeBrows,Magic Number,The method contains a magic number: 95,590
+EmojiApp,com.mycompany.emojiapp,ViewController,showEyeBrows,Magic Number,The method contains a magic number: 95,590
+EmojiApp,com.mycompany.emojiapp,ViewController,showMouth,Magic Number,The method contains a magic number: 65,612
+EmojiApp,com.mycompany.emojiapp,ViewController,showMouth,Magic Number,The method contains a magic number: 65,612
+EmojiApp,com.mycompany.emojiapp,ViewController,showAccessories,Magic Number,The method contains a magic number: 105,634
+EmojiApp,com.mycompany.emojiapp,ViewController,showAccessories,Magic Number,The method contains a magic number: 105,634
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 150,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 150,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 6,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 10,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 85,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 85,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 20,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 38,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 13,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 33,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 80,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 53,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 37,655
+EmojiApp,com.mycompany.emojiapp,ViewController,Paneles,Magic Number,The method contains a magic number: 7,655
+EmojiApp,com.mycompany.emojiapp,ViewController,colorButton,Long Method,The method has 130 lines of code.,769
+EmojiApp,com.mycompany.emojiapp,ViewController,randomEmoji,Magic Number,The method contains a magic number: 150,840
+EmojiApp,com.mycompany.emojiapp,ViewController,randomEmoji,Magic Number,The method contains a magic number: 150,840
+EmojiApp,com.mycompany.emojiapp,ViewController,randomEmoji,Magic Number,The method contains a magic number: 95,840
+EmojiApp,com.mycompany.emojiapp,ViewController,randomEmoji,Magic Number,The method contains a magic number: 95,840
+EmojiApp,com.mycompany.emojiapp,ViewController,randomEmoji,Magic Number,The method contains a magic number: 95,840
+EmojiApp,com.mycompany.emojiapp,ViewController,randomEmoji,Magic Number,The method contains a magic number: 95,840
+EmojiApp,com.mycompany.emojiapp,ViewController,randomEmoji,Magic Number,The method contains a magic number: 65,840
+EmojiApp,com.mycompany.emojiapp,ViewController,randomEmoji,Magic Number,The method contains a magic number: 65,840
+EmojiApp,com.mycompany.emojiapp,ViewController,randomEmoji,Magic Number,The method contains a magic number: 105,840
+EmojiApp,com.mycompany.emojiapp,ViewController,randomEmoji,Magic Number,The method contains a magic number: 105,840
+EmojiApp,tda,LinkedList,toString,Magic Number,The method contains a magic number: 2,30

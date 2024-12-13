@@ -1,0 +1,8 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+WK2-IS2-main,com.group,FuncionAdicional,2,0,5,5,20,5,0,0,0.0,3,0,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E03\Repo2\WK2-IS2-main\WK2-IS2-main\src\main\java\com\group\FuncionAdicional.java,3
+WK2-IS2-main,com.group,GimnasioAPP,0,0,1,1,21,3,0,0,-1.0,0,3,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E03\Repo2\WK2-IS2-main\WK2-IS2-main\src\main\java\com\group\GimnasioAPP.java,2
+WK2-IS2-main,com.group,Membresia,4,0,9,9,102,19,0,0,0.0,2,3,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E03\Repo2\WK2-IS2-main\WK2-IS2-main\src\main\java\com\group\Membresia.java,5
+WK2-IS2-main,com.group,PlanMembresia,5,0,12,12,56,13,0,0,0.0,4,1,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E03\Repo2\WK2-IS2-main\WK2-IS2-main\src\main\java\com\group\PlanMembresia.java,6
+WK2-IS2-main,com.group,SeleccionMembresia,1,0,4,3,40,6,0,0,0.0,1,3,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E03\Repo2\WK2-IS2-main\WK2-IS2-main\src\main\java\com\group\SeleccionMembresia.java,7
+WK2-IS2-main,com.group,TypeMember,0,0,0,0,1,0,0,0,-1.0,4,0,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E03\Repo2\WK2-IS2-main\WK2-IS2-main\src\main\java\com\group\TypeMember.java,3
+WK2-IS2-main,com.group,MembresiaTest,0,0,4,0,36,4,0,0,-1.0,0,4,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E03\Repo2\WK2-IS2-main\WK2-IS2-main\src\test\java\com\group\MembresiaTest.java,10

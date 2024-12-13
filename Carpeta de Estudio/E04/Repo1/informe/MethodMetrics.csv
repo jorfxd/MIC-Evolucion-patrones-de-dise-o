@@ -1,0 +1,122 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+ProyectoEstructurasDeDatos-main,espol.grupo_05,App,start,5,1,1,23,0,espol.grupo_05.App,espol.grupo_05.App
+ProyectoEstructurasDeDatos-main,espol.grupo_05,App,setRoot,3,1,1,30,0,espol.grupo_05.App,espol.grupo_05.App
+ProyectoEstructurasDeDatos-main,espol.grupo_05,App,loadFXML,4,1,1,34,0,,
+ProyectoEstructurasDeDatos-main,espol.grupo_05,App,main,3,1,1,39,0,,
+ProyectoEstructurasDeDatos-main,espol.grupo_05,App,changeRoot,3,1,1,43,0,,
+ProyectoEstructurasDeDatos-main,espol.grupo_05,CatalogoController,initialize,3,1,2,47,0,espol.grupo_05.CatalogoController,espol.grupo_05.CatalogoController
+ProyectoEstructurasDeDatos-main,espol.grupo_05,CatalogoController,mostrarDetalle,30,4,0,58,0,modelo.Juego,modelo.Juego
+ProyectoEstructurasDeDatos-main,espol.grupo_05,CatalogoController,cambiarPrevious,2,1,1,107,0,,
+ProyectoEstructurasDeDatos-main,espol.grupo_05,CatalogoController,cambiarNext,2,1,1,113,0,,
+ProyectoEstructurasDeDatos-main,espol.grupo_05,GUIStarter,main,3,1,1,14,0,espol.grupo_05.App,espol.grupo_05.App
+ProyectoEstructurasDeDatos-main,espol.grupo_05,PrincipalController,initialize,2,1,2,38,0,,
+ProyectoEstructurasDeDatos-main,espol.grupo_05,PrincipalController,cambiar,3,1,1,46,0,espol.grupo_05.App,espol.grupo_05.App
+ProyectoEstructurasDeDatos-main,espol.grupo_05,RegistrarUsuarioController,initialize,2,1,2,36,0,,
+ProyectoEstructurasDeDatos-main,espol.grupo_05,RegistrarUsuarioController,regresarPrincipal,2,1,1,44,0,,
+ProyectoEstructurasDeDatos-main,espol.grupo_05,RegistrarUsuarioController,guardaUsuario,2,1,1,48,0,,
+ProyectoEstructurasDeDatos-main,modelo,Buscador,buscarTitulo,16,4,2,19,0,TDAs.CircularDoublyLinkedList,TDAs.CircularDoublyLinkedList; modelo.Juego; TDAs.Node
+ProyectoEstructurasDeDatos-main,modelo,Buscador,buscarLanzamiento,16,4,2,35,0,TDAs.CircularDoublyLinkedList,TDAs.CircularDoublyLinkedList; modelo.Juego; TDAs.Node
+ProyectoEstructurasDeDatos-main,modelo,Buscador,buscarDesarrollador,16,4,2,51,0,TDAs.CircularDoublyLinkedList,TDAs.CircularDoublyLinkedList; modelo.Juego; TDAs.Node
+ProyectoEstructurasDeDatos-main,modelo,Buscador,buscarCalificacion,26,6,2,67,0,TDAs.CircularDoublyLinkedList,TDAs.CircularDoublyLinkedList; TDAs.Node
+ProyectoEstructurasDeDatos-main,modelo,GameLoader,cargarJuegos,14,1,0,17,0,,
+ProyectoEstructurasDeDatos-main,modelo,GameLoader,a,18,1,1,32,0,modelo.GameLoader,modelo.GameLoader
+ProyectoEstructurasDeDatos-main,modelo,GameLoader,asignarResena,2,1,1,50,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,Juego,14,1,6,46,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,getTitulo,3,1,0,62,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,setTitulo,3,1,1,66,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,getDescripcion,3,1,0,70,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,setDescripcion,3,1,1,74,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,getScreenshot,3,1,0,78,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,getDesarrolladores,3,1,0,82,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,setDesarrolladores,3,1,1,86,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,as,3,1,0,90,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,getFecha_l,3,1,0,94,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,getSdf,3,1,0,98,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,setScreenshot,3,1,1,102,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,as,3,1,0,106,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,setFecha_l,3,1,1,110,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,setSdf,3,1,1,114,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,getGenero,3,1,0,118,0,,
+ProyectoEstructurasDeDatos-main,modelo,Juego,setGenero,3,1,1,122,0,,
+ProyectoEstructurasDeDatos-main,modelo,Organizar,organizarJuegos,16,4,1,19,0,TDAs.ArrayList,TDAs.ArrayList
+ProyectoEstructurasDeDatos-main,modelo,Organizar,organizarCalificacion,3,1,0,36,0,,
+ProyectoEstructurasDeDatos-main,modelo,Rese√,a,13,1,6,24,0,,
+ProyectoEstructurasDeDatos-main,modelo,Rese√,getTitulo,3,1,0,44,0,,
+ProyectoEstructurasDeDatos-main,modelo,Rese√,setTitulo,3,1,1,48,0,,
+ProyectoEstructurasDeDatos-main,modelo,Rese√,getNombreJuego,3,1,0,52,0,,
+ProyectoEstructurasDeDatos-main,modelo,Rese√,getContenido,3,1,0,56,0,,
+ProyectoEstructurasDeDatos-main,modelo,Rese√,setContenido,3,1,1,60,0,,
+ProyectoEstructurasDeDatos-main,modelo,Rese√,getPuntuacion,3,1,0,64,0,,
+ProyectoEstructurasDeDatos-main,modelo,Rese√,setPuntuacion,3,1,1,68,0,,
+ProyectoEstructurasDeDatos-main,modelo,Rese√,getAutor,3,1,0,72,0,,
+ProyectoEstructurasDeDatos-main,modelo,Rese√,setAutor,3,1,1,76,0,,
+ProyectoEstructurasDeDatos-main,modelo,Rese√,getFecha,3,1,0,80,0,,
+ProyectoEstructurasDeDatos-main,modelo,Rese√,setFecha,3,1,1,84,0,,
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,ArrayList,3,1,0,22,0,,
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,isEmpty,3,1,0,26,0,,
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,isFull,3,1,0,31,0,,
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,addFirst,14,4,1,35,0,TDAs.ArrayList,TDAs.ArrayList
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,addLast,12,3,1,51,0,TDAs.ArrayList,TDAs.ArrayList
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,add,21,6,2,64,0,TDAs.ArrayList,TDAs.ArrayList
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,addCapacity,8,2,0,83,0,,
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,removeFirst,3,1,0,92,0,TDAs.ArrayList,TDAs.ArrayList
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,removeLast,3,1,0,97,0,TDAs.ArrayList,TDAs.ArrayList
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,remove,14,3,1,102,0,TDAs.ArrayList,TDAs.ArrayList
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,get,8,2,1,117,0,,
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,set,8,2,2,127,0,,
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,size,3,1,0,137,0,,
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,clear,3,1,0,142,0,,
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,equals,15,5,1,147,0,,
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,iterator,15,1,0,167,0,TDAs.ArrayList,TDAs.ArrayList
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,hasNext,3,1,0,172,0,,
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,next,5,1,0,177,0,TDAs.ArrayList,TDAs.ArrayList
+ProyectoEstructurasDeDatos-main,TDAs,ArrayList,toString,14,3,0,188,0,,
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,CircularDoublyLinkedList,4,1,0,17,0,,
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,isEmpty,3,1,0,23,0,,
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,addFirst,21,3,1,28,0,TDAs.Node,TDAs.Node; TDAs.CircularDoublyLinkedList
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,addLast,21,3,1,50,0,TDAs.Node,TDAs.Node
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,add,22,4,2,71,0,TDAs.Node,TDAs.Node; TDAs.CircularDoublyLinkedList
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,removeFirst,11,2,0,94,0,TDAs.Node,TDAs.Node; TDAs.CircularDoublyLinkedList
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,removeLast,11,2,0,107,0,TDAs.Node,TDAs.Node; TDAs.CircularDoublyLinkedList
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,remove,19,3,1,120,0,TDAs.Node,TDAs.Node; TDAs.CircularDoublyLinkedList
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,get,12,3,1,140,0,TDAs.CircularDoublyLinkedList,TDAs.CircularDoublyLinkedList; TDAs.Node
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,set,14,3,2,153,0,TDAs.CircularDoublyLinkedList,TDAs.CircularDoublyLinkedList; TDAs.Node
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,size,3,1,0,168,0,,
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,clear,4,1,0,173,0,,
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,setHead,3,1,1,180,0,,
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,setTail,3,1,1,184,0,,
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,setSize,3,1,1,188,0,,
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,getHead,3,1,0,192,0,,
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,getTail,3,1,0,196,0,,
+ProyectoEstructurasDeDatos-main,TDAs,CircularDoublyLinkedList,getSize,3,1,0,200,0,,
+ProyectoEstructurasDeDatos-main,TDAs,DoublyLinkedList,isEmpty,3,1,0,15,0,,
+ProyectoEstructurasDeDatos-main,TDAs,DoublyLinkedList,addFirst,3,1,1,20,0,,
+ProyectoEstructurasDeDatos-main,TDAs,DoublyLinkedList,addLast,3,1,1,30,0,,
+ProyectoEstructurasDeDatos-main,TDAs,DoublyLinkedList,add,3,1,2,35,0,,
+ProyectoEstructurasDeDatos-main,TDAs,DoublyLinkedList,removeFirst,3,1,0,40,0,,
+ProyectoEstructurasDeDatos-main,TDAs,DoublyLinkedList,removeLast,3,1,0,45,0,,
+ProyectoEstructurasDeDatos-main,TDAs,DoublyLinkedList,remove,3,1,1,50,0,,
+ProyectoEstructurasDeDatos-main,TDAs,DoublyLinkedList,get,3,1,1,55,0,,
+ProyectoEstructurasDeDatos-main,TDAs,DoublyLinkedList,set,3,1,2,60,0,,
+ProyectoEstructurasDeDatos-main,TDAs,DoublyLinkedList,size,3,1,0,65,0,,
+ProyectoEstructurasDeDatos-main,TDAs,DoublyLinkedList,clear,3,1,0,70,0,,
+ProyectoEstructurasDeDatos-main,TDAs,List,isEmpty,0,1,0,12,0,,
+ProyectoEstructurasDeDatos-main,TDAs,List,addFirst,0,1,1,14,0,,
+ProyectoEstructurasDeDatos-main,TDAs,List,addLast,0,1,1,15,0,,
+ProyectoEstructurasDeDatos-main,TDAs,List,add,0,1,2,16,0,,
+ProyectoEstructurasDeDatos-main,TDAs,List,removeFirst,0,1,0,18,0,,
+ProyectoEstructurasDeDatos-main,TDAs,List,removeLast,0,1,0,19,0,,
+ProyectoEstructurasDeDatos-main,TDAs,List,remove,0,1,1,20,0,,
+ProyectoEstructurasDeDatos-main,TDAs,List,get,0,1,1,22,0,,
+ProyectoEstructurasDeDatos-main,TDAs,List,set,0,1,2,23,0,,
+ProyectoEstructurasDeDatos-main,TDAs,List,size,0,1,0,25,0,,
+ProyectoEstructurasDeDatos-main,TDAs,List,clear,0,1,0,26,0,,
+ProyectoEstructurasDeDatos-main,TDAs,List,toString,0,1,0,28,0,,
+ProyectoEstructurasDeDatos-main,TDAs,Node,Node,5,1,1,16,0,,
+ProyectoEstructurasDeDatos-main,TDAs,Node,Node,5,1,3,22,0,,
+ProyectoEstructurasDeDatos-main,TDAs,Node,setVal,3,1,1,28,0,,
+ProyectoEstructurasDeDatos-main,TDAs,Node,setNext,3,1,1,32,0,,
+ProyectoEstructurasDeDatos-main,TDAs,Node,setLast,3,1,1,36,0,,
+ProyectoEstructurasDeDatos-main,TDAs,Node,getVal,3,1,0,40,0,,
+ProyectoEstructurasDeDatos-main,TDAs,Node,getNext,3,1,0,44,0,,
+ProyectoEstructurasDeDatos-main,TDAs,Node,getLast,3,1,0,48,0,,

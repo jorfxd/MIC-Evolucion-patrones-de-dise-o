@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,Design Smell,Cause of the Smell
+ConexionPrueba,conexionprueba,ConexionPrueba,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)
+ConexionPrueba,conexionprueba,PaneOrganizer,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)
+ConexionPrueba,conexionprueba,Probar,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)

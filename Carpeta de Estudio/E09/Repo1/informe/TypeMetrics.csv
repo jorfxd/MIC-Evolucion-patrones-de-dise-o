@@ -1,0 +1,3 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+code-inspection-main,labcodeinspection,Email,6,0,5,4,56,9,0,0,0.0,1,0,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E09\Repo1\code-inspection-main\code-inspection-main\src\main\java\labcodeinspection\Email.java,5
+code-inspection-main,labcodeinspection,EmailApp,0,0,2,1,22,2,0,0,-1.0,0,1,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E09\Repo1\code-inspection-main\code-inspection-main\src\main\java\labcodeinspection\EmailApp.java,6

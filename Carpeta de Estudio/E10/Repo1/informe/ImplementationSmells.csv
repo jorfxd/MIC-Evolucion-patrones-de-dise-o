@@ -1,0 +1,164 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+proyectoMD,com.mycompany.proyectomd,App,start,Magic Number,The method contains a magic number: 640,21
+proyectoMD,com.mycompany.proyectomd,App,start,Magic Number,The method contains a magic number: 480,21
+proyectoMD,com.mycompany.proyectomd,Cinematica3Controller,llenarCampos,Long Statement,The length of the statement "lblTextoCinematica.setText("\"Hola amigo` necesito tu ayuda para un experimento.\nVerás` necesito revisar la edad de los vengadores para\nsaber que vengador es más viejo que otros vengadores\nUsaré la información que recolectes para crear nuevos trajes.\nCuento contigo amigo!\"");" is 285.,46
+proyectoMD,com.mycompany.proyectomd,Cinematica3Controller,cargarImagen,Magic Number,The method contains a magic number: 500,52
+proyectoMD,com.mycompany.proyectomd,Cinematica3Controller,cargarImagen,Magic Number,The method contains a magic number: 500,52
+proyectoMD,com.mycompany.proyectomd,Cinematica4Controller,llenarCampos,Long Statement,The length of the statement "lblTextoCinematica.setText("\"Hola humano!\nDeseo que me ayudes con algo.\nVerás` debo saber como puedo relacionar a estos personajes por su color de cabello\nPor ejemplo: Qué vengadores tienen el mismo color de cabello?\nComo sabrás mi cabello es único e increíble` pero debo conocer\ncomo puedo relacionar los cabellos de los demás.\nThor el dios del trueno cuenta contigo!\"");" is 386.,48
+proyectoMD,com.mycompany.proyectomd,Cinematica4Controller,cargarImagen,Magic Number,The method contains a magic number: 500,54
+proyectoMD,com.mycompany.proyectomd,Cinematica4Controller,cargarImagen,Magic Number,The method contains a magic number: 500,54
+proyectoMD,com.mycompany.proyectomd,Cinematica5Controller,llenarCampos,Long Statement,The length of the statement "lblTextoCinematica.setText("\"Terricola` requiero de tu ayuda para una tarea importante.\nTu trabajo consistirá en relacionar a estos personajes que te mostraré\npor su altura. Debo conocer que personaje es más alto que otros personajes.\nSi consigues completar esta tarea te recompensaré personalmente.\nCuento contigo!\"");" is 329.,48
+proyectoMD,com.mycompany.proyectomd,Cinematica5Controller,cargarImagen,Magic Number,The method contains a magic number: 500,54
+proyectoMD,com.mycompany.proyectomd,Cinematica5Controller,cargarImagen,Magic Number,The method contains a magic number: 500,54
+proyectoMD,com.mycompany.proyectomd,Cinematica6Controller,llenarCampos,Long Statement,The length of the statement "lblTextoCinematica.setText("\"Hola humano.\nNecesito tu ayuda!!!.\nDeberás relacionar a estos personajes que te mostraré\npor su altura. Pero ahora debes fijarte en los más bajos.\nDebes ver si el héroe A tiene la misma altura o es más\n bajo que el héroe B. Venom cuenta contigo!\"");" is 291.,50
+proyectoMD,com.mycompany.proyectomd,Cinematica6Controller,cargarImagen,Magic Number,The method contains a magic number: 500,56
+proyectoMD,com.mycompany.proyectomd,Cinematica6Controller,cargarImagen,Magic Number,The method contains a magic number: 500,56
+proyectoMD,com.mycompany.proyectomd,CinematicaController,llenarCampos,Long Statement,The length of the statement "lblTextoCinematica.setText("\"Hola amigo` para mi siguiente misión necesito tu ayuda.\nDebo " + " encontrar los enemigos de todos los superhéroes que te\n mostraré en pantalla.\n" + " Cuento contigo!\"");" is 207.,56
+proyectoMD,com.mycompany.proyectomd,CinematicaController,llenarCampos,Magic Number,The method contains a magic number: 30,56
+proyectoMD,com.mycompany.proyectomd,CinematicaController,cargarImagen,Magic Number,The method contains a magic number: 500,67
+proyectoMD,com.mycompany.proyectomd,CinematicaController,cargarImagen,Magic Number,The method contains a magic number: 500,67
+proyectoMD,com.mycompany.proyectomd,FinJuegoController,cargarImagen,Magic Number,The method contains a magic number: 500,49
+proyectoMD,com.mycompany.proyectomd,FinJuegoController,cargarImagen,Magic Number,The method contains a magic number: 500,49
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,comprobarResultadosBatman,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("MR.FREEZE") || respuesta.trim().toUpperCase().equals("MR. FREEZE") || respuesta.trim().toUpperCase().equals("MR FREEZE") is complex.,112
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,comprobarResultadosBatman,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("MR.FREEZE") || respuesta.trim().toUpperCase().equals("MR. FREEZE") || respuesta.trim().toUpperCase().equals("MR FREEZE")) {" is 166.,112
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,cargarImagen,Magic Number,The method contains a magic number: 500,219
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,cargarImagen,Magic Number,The method contains a magic number: 500,219
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,preCambio,Magic Number,The method contains a magic number: 10,249
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,preCambio,Magic Number,The method contains a magic number: 5,249
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,preCambio,Magic Number,The method contains a magic number: 6,249
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,preCambio,Magic Number,The method contains a magic number: 12,249
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,preCambio,Magic Number,The method contains a magic number: 7,249
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,preCambio,Magic Number,The method contains a magic number: 8,249
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,preCambio,Magic Number,The method contains a magic number: 11,249
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,preCambio,Magic Number,The method contains a magic number: 9,249
+proyectoMD,com.mycompany.proyectomd,Nivel1Controller,comprobarResultadosHeroes,Long Statement,The length of the statement "resultado=comprobarIronman(txtIronman.getText()) + comprobarResultadosBatman(txtBatman.getText()) + comprobarResultadosSuperman(txtSuperman.getText())+ comprobarSpiderman(txtSpiderman.getText())+ comprobarResultadosThor(txtThor.getText());" is 239.,288
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,cargarImagen,Magic Number,The method contains a magic number: 500,99
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,cargarImagen,Magic Number,The method contains a magic number: 500,99
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,preCambio,Magic Number,The method contains a magic number: 2,129
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,preCambio,Magic Number,The method contains a magic number: 4,129
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,preCambio,Magic Number,The method contains a magic number: 3,129
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,comprobarSpiderman,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN") is complex.,152
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,comprobarSpiderman,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN")) {" is 167.,152
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,comprobarSuperman,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN") is complex.,174
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,comprobarSuperman,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN")) {" is 167.,174
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,comprobarThor,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN") is complex.,200
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,comprobarThor,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN")) {" is 167.,200
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,comprobarIronman,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN") is complex.,222
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,comprobarIronman,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN")) {" is 167.,222
+proyectoMD,com.mycompany.proyectomd,Nivel2Controller,comprobarResultados2,Long Statement,The length of the statement "resultado=comprobarIronman(txtIronman1.getText()) + comprobarSuperman(txtSuperman1.getText()) + comprobarSpiderman(txtSpiderman1.getText())+ comprobarThor(txtThor1.getText());" is 175.,244
+proyectoMD,com.mycompany.proyectomd,Nivel3Controller,cargarImagen,Magic Number,The method contains a magic number: 500,82
+proyectoMD,com.mycompany.proyectomd,Nivel3Controller,cargarImagen,Magic Number,The method contains a magic number: 500,82
+proyectoMD,com.mycompany.proyectomd,Nivel3Controller,preCambio,Magic Number,The method contains a magic number: 4,111
+proyectoMD,com.mycompany.proyectomd,Nivel3Controller,preCambio,Magic Number,The method contains a magic number: 3,111
+proyectoMD,com.mycompany.proyectomd,Nivel3Controller,comprobarH1,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN") is complex.,129
+proyectoMD,com.mycompany.proyectomd,Nivel3Controller,comprobarH1,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN")) {" is 167.,129
+proyectoMD,com.mycompany.proyectomd,Nivel3Controller,comprobarH2,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN") is complex.,146
+proyectoMD,com.mycompany.proyectomd,Nivel3Controller,comprobarH2,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN")) {" is 167.,146
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,cargarImagen,Magic Number,The method contains a magic number: 500,92
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,cargarImagen,Magic Number,The method contains a magic number: 500,92
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,preCambio,Magic Number,The method contains a magic number: 3,122
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,preCambio,Magic Number,The method contains a magic number: 9,122
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,preCambio,Magic Number,The method contains a magic number: 2,122
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,comprobarIronman,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("IRONMAN") || respuesta.trim().toUpperCase().equals("IRON-MAN") || respuesta.trim().toUpperCase().equals("IRON MAN") is complex.,147
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,comprobarIronman,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("IRONMAN") || respuesta.trim().toUpperCase().equals("IRON-MAN") || respuesta.trim().toUpperCase().equals("IRON MAN")) {" is 161.,147
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,comprobarBatman,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("IRONMAN") || respuesta.trim().toUpperCase().equals("IRON-MAN") || respuesta.trim().toUpperCase().equals("IRON MAN") is complex.,170
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,comprobarBatman,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("IRONMAN") || respuesta.trim().toUpperCase().equals("IRON-MAN") || respuesta.trim().toUpperCase().equals("IRON MAN")) {" is 161.,170
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,comprobarLoki,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("IRONMAN") || respuesta.trim().toUpperCase().equals("IRON-MAN") || respuesta.trim().toUpperCase().equals("IRON MAN") is complex.,192
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,comprobarLoki,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("IRONMAN") || respuesta.trim().toUpperCase().equals("IRON-MAN") || respuesta.trim().toUpperCase().equals("IRON MAN")) {" is 161.,192
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,comprobarSpiderman,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN") is complex.,215
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,comprobarSpiderman,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN")) {" is 167.,215
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,comprobarSuperman,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN") is complex.,232
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,comprobarSuperman,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN")) {" is 167.,232
+proyectoMD,com.mycompany.proyectomd,Nivel4Controller,comprobarResultados,Long Statement,The length of the statement "resultado=comprobarIronman(txtIronman.getText()) + comprobarSuperman(txtSuperman.getText()) + comprobarSpiderman(txtSpiderman.getText())+ comprobarLoki(txtLoki.getText())+ comprobarLoki(txtBatman.getText());" is 207.,249
+proyectoMD,com.mycompany.proyectomd,Nivel5Controller,cargarImagen,Magic Number,The method contains a magic number: 500,99
+proyectoMD,com.mycompany.proyectomd,Nivel5Controller,cargarImagen,Magic Number,The method contains a magic number: 500,99
+proyectoMD,com.mycompany.proyectomd,Nivel5Controller,preCambio,Magic Number,The method contains a magic number: 10,129
+proyectoMD,com.mycompany.proyectomd,Nivel5Controller,preCambio,Magic Number,The method contains a magic number: 5,129
+proyectoMD,com.mycompany.proyectomd,Nivel5Controller,preCambio,Magic Number,The method contains a magic number: 6,129
+proyectoMD,com.mycompany.proyectomd,Nivel5Controller,preCambio,Magic Number,The method contains a magic number: 12,129
+proyectoMD,com.mycompany.proyectomd,Nivel5Controller,preCambio,Magic Number,The method contains a magic number: 7,129
+proyectoMD,com.mycompany.proyectomd,Nivel5Controller,preCambio,Magic Number,The method contains a magic number: 11,129
+proyectoMD,com.mycompany.proyectomd,Nivel5Controller,comprobarRespuestas,Long Statement,The length of the statement "return comprobarDuendeverde(txtDuende.getText()) + comprobarGuason(txtGuason.getText()) + comprobarLexLuthor(txtLex.getText())+ comprobarMrfreeze(txtMrFreeze.getText())+ comprobarThanos(txtThanos.getText());" is 207.,267
+proyectoMD,com.mycompany.proyectomd,Nivel6Controller,cargarImagen,Magic Number,The method contains a magic number: 500,97
+proyectoMD,com.mycompany.proyectomd,Nivel6Controller,cargarImagen,Magic Number,The method contains a magic number: 500,97
+proyectoMD,com.mycompany.proyectomd,Nivel6Controller,preCambio,Magic Number,The method contains a magic number: 3,127
+proyectoMD,com.mycompany.proyectomd,Nivel6Controller,preCambio,Magic Number,The method contains a magic number: 4,127
+proyectoMD,com.mycompany.proyectomd,Nivel6Controller,preCambio,Magic Number,The method contains a magic number: 2,127
+proyectoMD,com.mycompany.proyectomd,Nivel6Controller,comprobarSpiderman,Complex Conditional,The conditional expression respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN") is complex.,152
+proyectoMD,com.mycompany.proyectomd,Nivel6Controller,comprobarSpiderman,Long Statement,The length of the statement "if (respuesta.trim().toUpperCase().equals("SPIDERMAN") || respuesta.trim().toUpperCase().equals("SPIDER MAN") || respuesta.trim().toUpperCase().equals("SPIDER-MAN")) {" is 167.,152
+proyectoMD,com.mycompany.proyectomd,Nivel6Controller,comprobarResultados,Long Statement,The length of the statement "return comprobarSpiderman(txtSpiderman.getText()) + comprobarBatman(txtBatman.getText()) + comprobarIronman(txtIronman.getText())+ comprobarSuperman(txtSuperman.getText())+ comprobarThor(txtThor.getText());" is 206.,259
+proyectoMD,com.mycompany.proyectomd,NuevaCinematicaController,llenarCampos,Long Statement,The length of the statement "lblTextoCinematica.setText("\"Hola compañero` necesito tu ayuda para un reportaje.\nVerás` necesito investigar que héroes tienen poderes en común` como por ejemplo:\nSaber qué superhéroes pueden trepar muros como yo.\nEste trabajo me sería útil para poder apoyar a mis otros compañeros.\nCuento contigo amigo!\"");" is 323.,50
+proyectoMD,com.mycompany.proyectomd,NuevaCinematicaController,cargarImagen,Magic Number,The method contains a magic number: 500,57
+proyectoMD,com.mycompany.proyectomd,NuevaCinematicaController,cargarImagen,Magic Number,The method contains a magic number: 500,57
+proyectoMD,com.mycompany.proyectomd,Resultado1Controller,llenarCampos,Long Statement,The length of the statement "lblTexto.setText("\"Muy buen trabajo amigo. Ahora ya sé a que héroe llamar cuando me enfrente\na un villano.\nComo puedes observar la relación de enemistad funciona en ambos sentidos\nSi Iron man es enemigo de Thanos entonces Thanos es enemigo de Iron man.\nA esto se la llama una relación: ");" is 298.,51
+proyectoMD,com.mycompany.proyectomd,Resultado1Controller,cargarImagen,Magic Number,The method contains a magic number: 500,61
+proyectoMD,com.mycompany.proyectomd,Resultado1Controller,cargarImagen,Magic Number,The method contains a magic number: 500,61
+proyectoMD,com.mycompany.proyectomd,Resultado2Controller,llenarCampos,Long Statement,The length of the statement "lbl1.setText("\"Muchas gracias compañero. Esta información me ayudará mucho.\nAlgo curioso es que la relación se puede aplicar entre los héroes mismos.\nUn spiderman puede trepar muros así como otro spiderman del multiverso!\nEste tipo de relación se conoce como:");" is 273.,55
+proyectoMD,com.mycompany.proyectomd,Resultado2Controller,cargarImagen,Magic Number,The method contains a magic number: 500,65
+proyectoMD,com.mycompany.proyectomd,Resultado2Controller,cargarImagen,Magic Number,The method contains a magic number: 500,65
+proyectoMD,com.mycompany.proyectomd,Resultado3Controller,llenarCampos,Long Statement,The length of the statement "lbl1.setText("\"Buen trabajo. Al decir que soy más viejo que Thor` y que Thor es más viejo que \nSpiderman` podemos llegar a la conclusión que también soy \nmás viejo que Spiderman. \nEsta relación se conoce como relación:");" is 232.,60
+proyectoMD,com.mycompany.proyectomd,Resultado3Controller,llenarCampos,Long Statement,The length of the statement "lbl3.setText("Vaya` tu si que sabes mucho de números.\n Sigue así y quizás algún día podamos trabajar juntos\nen industrias Stark!\"");" is 140.,60
+proyectoMD,com.mycompany.proyectomd,Resultado3Controller,cargarImagen,Magic Number,The method contains a magic number: 500,70
+proyectoMD,com.mycompany.proyectomd,Resultado3Controller,cargarImagen,Magic Number,The method contains a magic number: 500,70
+proyectoMD,com.mycompany.proyectomd,Resultado4Controller,llenarCampos,Long Statement,The length of the statement "lbl1.setText("\"Muchas gracias compañero. Esta información me ayudará mucho.\nComo pudiste ver en los primeros ejemplos` esta relación\ncumple con las propiedades de ser simétrica`transitiva y reflexiva\nComo estas 3 propiedades se cumplen\npodemos decir que esta es una relación de:");" is 292.,54
+proyectoMD,com.mycompany.proyectomd,Resultado4Controller,cargarImagen,Magic Number,The method contains a magic number: 500,64
+proyectoMD,com.mycompany.proyectomd,Resultado4Controller,cargarImagen,Magic Number,The method contains a magic number: 500,64
+proyectoMD,com.mycompany.proyectomd,Resultado5Controller,llenarCampos,Long Statement,The length of the statement "lbl1.setText("\"Muy bien hecho!\nAhora que conozco las alturas de cada villano puedo saber\ncomo ordenarlos de manera efectiva. \nEsta relación se conoce como relación:");" is 173.,57
+proyectoMD,com.mycompany.proyectomd,Resultado5Controller,llenarCampos,Long Statement,The length of the statement "lbl3.setText("\nLa relación es antisimétrica ya que puedes decir que yo soy más alto que el Guasón` pero\nel Guasón nunca será mas alto que yo. Gracias a ti puedo decir que las alturas son\nperfectamente equilibradas. Como todo deberia ser\"");" is 250.,57
+proyectoMD,com.mycompany.proyectomd,Resultado5Controller,cargarImagen,Magic Number,The method contains a magic number: 500,67
+proyectoMD,com.mycompany.proyectomd,Resultado5Controller,cargarImagen,Magic Number,The method contains a magic number: 500,67
+proyectoMD,com.mycompany.proyectomd,Resultado6Controller,llenarCampos,Long Statement,The length of the statement "lbl1.setText("\"Esta relación cumple las propiedades para ser reflexiva`ya que por ejemplo:\n Spiderman mide lo mismo que spiderman" + "`transitiva` porque si Spiderman \nes más bajo que Ironman y Ironman es más bajo que Thor\n entonces spiderman es más bajo que Ironman y finalmente antisimétrica` porque\n" + "nunca se dará el caso en el que Superman sea más bajo que Batman \npero siempre se dará que Batman sea más bajo que Superman.\n"+ "Cuando una relación cumple con estas 3 propiedades se la conoce como:");" is 525.,55
+proyectoMD,com.mycompany.proyectomd,Resultado6Controller,cargarImagen,Magic Number,The method contains a magic number: 500,68
+proyectoMD,com.mycompany.proyectomd,Resultado6Controller,cargarImagen,Magic Number,The method contains a magic number: 500,68
+proyectoMD,com.mycompany.proyectomd,VistaPersonajeController,cargarImagen,Magic Number,The method contains a magic number: 500,72
+proyectoMD,com.mycompany.proyectomd,VistaPersonajeController,cargarImagen,Magic Number,The method contains a magic number: 500,72
+proyectoMD,com.mycompany.proyectomd,VistaPersonajeController,llenarCampos,Complex Method,Cyclomatic complexity of the method is 12,84
+proyectoMD,com.mycompany.proyectomd,VistaPersonajeController,countdown,Empty catch clause,The method has an empty catch block.,125
+proyectoMD,com.mycompany.proyectomd,VistaPersonajeController,countdown,Magic Number,The method contains a magic number: 5,125
+proyectoMD,com.mycompany.proyectomd,VistaPersonajeController,countdown,Magic Number,The method contains a magic number: 1000,125
+proyectoMD,com.mycompany.proyectomd,VistaPersonajeController,run,Empty catch clause,The method has an empty catch block.,128
+proyectoMD,com.mycompany.proyectomd,VistaPersonajeController,run,Magic Number,The method contains a magic number: 5,128
+proyectoMD,com.mycompany.proyectomd,VistaPersonajeController,run,Magic Number,The method contains a magic number: 1000,128
+proyectoMD,modelo,Lector,generarTarjetas,Long Method,The method has 249 lines of code.,12
+proyectoMD,modelo,Lector,generarTarjetas,Long Statement,The length of the statement "Tarjeta spiderman=new Tarjeta("Spider-Man"`"Peter Parker"`17`"Castaño"`poderesSpiderman`"Nueva York"`"Café"`gustosSpiderman);" is 127.,12
+proyectoMD,modelo,Lector,generarTarjetas,Long Statement,The length of the statement "Tarjeta superman=new Tarjeta("Super-Man"`"Clark Kent"`28`"Castaño"`poderesSuperman`"Metrópolis"`"Café"`gustosSuperman);" is 122.,12
+proyectoMD,modelo,Lector,generarTarjetas,Long Statement,The length of the statement "Tarjeta lexLuthor=new Tarjeta("Lex Luthor"`"Lex Luthor"`35`"No tiene cabello"`podereslexLuthor`"Metrópolis"`"Verde"`gustosLexLuthor);" is 134.,12
+proyectoMD,modelo,Lector,generarTarjetas,Long Statement,The length of the statement "Tarjeta duendeVerde=new Tarjeta("Duende verde"`"Norman Osborn"`23`"Rojo"`poderesDuendeVerde`"Nueva York"`"Café"`gustosDuendeVerde);" is 132.,12
+proyectoMD,modelo,Lector,generarTarjetas,Long Statement,The length of the statement "Tarjeta mrFreeze=new Tarjeta("Mr Freeze"`"Victor Freeze"`45`"No tiene cabello"`poderesMrFreeze`"Ciudad Gótica"`"Negro"`gustosMrFreeze);" is 136.,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 26,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 17,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 28,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 30,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 25,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 32,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 35,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 1000,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 21,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 23,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 23,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 53,12
+proyectoMD,modelo,Lector,generarTarjetas,Magic Number,The method contains a magic number: 45,12
+proyectoMD,modelo,Lector,generarHeroes,Long Method,The method has 109 lines of code.,465
+proyectoMD,modelo,Lector,generarHeroes,Long Statement,The length of the statement "Tarjeta spiderman=new Tarjeta("Spider-Man"`"Peter Parker"`17`"Castaño"`poderesSpiderman`"Nueva York"`"Café"`gustosSpiderman);" is 127.,465
+proyectoMD,modelo,Lector,generarHeroes,Long Statement,The length of the statement "Tarjeta superman=new Tarjeta("Super-Man"`"Clark Kent"`28`"Castaño"`poderesSuperman`"Metrópolis"`"Café"`gustosSuperman);" is 122.,465
+proyectoMD,modelo,Lector,generarHeroes,Magic Number,The method contains a magic number: 26,465
+proyectoMD,modelo,Lector,generarHeroes,Magic Number,The method contains a magic number: 17,465
+proyectoMD,modelo,Lector,generarHeroes,Magic Number,The method contains a magic number: 28,465
+proyectoMD,modelo,Lector,generarHeroes,Magic Number,The method contains a magic number: 30,465
+proyectoMD,modelo,Lector,generarHeroes,Magic Number,The method contains a magic number: 25,465
+proyectoMD,modelo,Lector,generarVillanos,Long Method,The method has 116 lines of code.,648
+proyectoMD,modelo,Lector,generarVillanos,Long Statement,The length of the statement "Tarjeta lexLuthor=new Tarjeta("Lex Luthor"`"Lex Luthor"`35`"No tiene cabello"`podereslexLuthor`"Metrópolis"`"Verde"`gustosLexLuthor);" is 134.,648
+proyectoMD,modelo,Lector,generarVillanos,Long Statement,The length of the statement "Tarjeta duendeVerde=new Tarjeta("Duende verde"`"Norman Osborn"`23`"Rojo"`poderesDuendeVerde`"Nueva York"`"Café"`gustosDuendeVerde);" is 132.,648
+proyectoMD,modelo,Lector,generarVillanos,Long Statement,The length of the statement "Tarjeta mrFreeze=new Tarjeta("Mr Freeze"`"Victor Freeze"`45`"No tiene cabello"`poderesMrFreeze`"Ciudad Gótica"`"Negro"`gustosMrFreeze);" is 136.,648
+proyectoMD,modelo,Lector,generarVillanos,Magic Number,The method contains a magic number: 32,648
+proyectoMD,modelo,Lector,generarVillanos,Magic Number,The method contains a magic number: 35,648
+proyectoMD,modelo,Lector,generarVillanos,Magic Number,The method contains a magic number: 1000,648
+proyectoMD,modelo,Lector,generarVillanos,Magic Number,The method contains a magic number: 21,648
+proyectoMD,modelo,Lector,generarVillanos,Magic Number,The method contains a magic number: 23,648
+proyectoMD,modelo,Lector,generarVillanos,Magic Number,The method contains a magic number: 23,648
+proyectoMD,modelo,Lector,generarVillanos,Magic Number,The method contains a magic number: 53,648
+proyectoMD,modelo,Lector,generarVillanos,Magic Number,The method contains a magic number: 45,648
+proyectoMD,modelo,Tarjeta,Tarjeta,Long Parameter List,The method has 10 parameters. ,40
+proyectoMD,modelo,Tarjeta,Tarjeta,Long Parameter List,The method has 11 parameters. ,53
+proyectoMD,modelo,Tarjeta,hashCode,Magic Number,The method contains a magic number: 7,72
+proyectoMD,modelo,Tarjeta,Tarjeta,Long Parameter List,The method has 8 parameters. ,96

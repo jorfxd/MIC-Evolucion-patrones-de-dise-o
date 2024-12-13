@@ -1,0 +1,91 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,main,Complex Method,Cyclomatic complexity of the method is 8,32
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,main,Magic Number,The method contains a magic number: 2,32
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,main,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@244e619a,32
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Complex Method,Cyclomatic complexity of the method is 52,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Magic Number,The method contains a magic number: 2,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Magic Number,The method contains a magic number: 2,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Magic Number,The method contains a magic number: 2,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Magic Number,The method contains a magic number: 3,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Magic Number,The method contains a magic number: 3,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Magic Number,The method contains a magic number: 4,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Magic Number,The method contains a magic number: 2,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Magic Number,The method contains a magic number: 3,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Magic Number,The method contains a magic number: 3,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@10acd6,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@61dde151,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@b25b095,150
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Complex Method,Cyclomatic complexity of the method is 40,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Magic Number,The method contains a magic number: 2,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Magic Number,The method contains a magic number: 2,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Magic Number,The method contains a magic number: 3,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Magic Number,The method contains a magic number: 2,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Magic Number,The method contains a magic number: 3,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Magic Number,The method contains a magic number: 2,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Magic Number,The method contains a magic number: 3,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Magic Number,The method contains a magic number: 4,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Magic Number,The method contains a magic number: 5,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Magic Number,The method contains a magic number: 4,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5cb042da,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@59c33386,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@571a9686,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@719d35e8,453
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuCliente,Complex Method,Cyclomatic complexity of the method is 41,818
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuCliente,Magic Number,The method contains a magic number: 2,818
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuCliente,Magic Number,The method contains a magic number: 3,818
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuCliente,Magic Number,The method contains a magic number: 2,818
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuCliente,Magic Number,The method contains a magic number: 4,818
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuCliente,Magic Number,The method contains a magic number: 2,818
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuCliente,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@2f651f93,818
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuVendedor,Complex Method,Cyclomatic complexity of the method is 17,1123
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuVendedor,Long Statement,The length of the statement "vendedorLogeado.rechazarCotizacion((Cliente)solicitudRechazada.getUsuario()`motivo`solicitudRechazada`vehiculoRechazado);" is 121.,1123
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuVendedor,Magic Number,The method contains a magic number: 2,1123
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuVendedor,Magic Number,The method contains a magic number: 2,1123
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuVendedor,Magic Number,The method contains a magic number: 3,1123
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuVendedor,Magic Number,The method contains a magic number: 3,1123
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarUsuarios,Long Statement,The length of the statement "vCliente.add(new Automovil(5`false`true`"Honda"`"Civic"`2020`TipoMotor.DIESEL`18500`EstadoVehiculo.DISPONIBLE`2.5`CONCESIONARIA));" is 130.,1250
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarUsuarios,Long Statement,The length of the statement "listaUsuarios.add(new Cliente("0943156043"`"Jefe de Sistemas"`4000`"Moises Fernando"`"Alvarez Orellana"`"malvarez"`"123"`vCliente));" is 132.,1250
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarUsuarios,Long Statement,The length of the statement "listaUsuarios.add(new Cliente("0981679527"`"Supervisor de Sistemas"`2500`"Winston Humberto"`"Leon Gutierrez"`"wleon"`"123"));" is 125.,1250
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarUsuarios,Magic Number,The method contains a magic number: 5,1250
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarUsuarios,Magic Number,The method contains a magic number: 2020,1250
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarUsuarios,Magic Number,The method contains a magic number: 18500,1250
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarUsuarios,Magic Number,The method contains a magic number: 2.5,1250
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarUsuarios,Magic Number,The method contains a magic number: 4000,1250
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarUsuarios,Magic Number,The method contains a magic number: 1800,1250
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarUsuarios,Magic Number,The method contains a magic number: 2500,1250
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Long Statement,The length of the statement "vehiculos.add(new Automovil(4`false`true`"Chevrolet"`"Aveo"`2021`TipoMotor.DIESEL`21000`EstadoVehiculo.DISPONIBLE`0`CONCESIONARIA));" is 132.,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Long Statement,The length of the statement "vehiculos.add(new Automovil(5`false`true`"Nissan"`"xZ"`2020`TipoMotor.DIESEL`18500`EstadoVehiculo.DISPONIBLE`2.5`CONCESIONARIA));" is 129.,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Long Statement,The length of the statement "vehiculos.add(new Tractor(false`TipoTransmision.HIDRAULICA`"Caterpillar"`"Oruga"`2019`10900.00`EstadoVehiculo.DISPONIBLE`0.00`CONCESIONARIA));" is 142.,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Long Statement,The length of the statement "vehiculos.add(new Motocicleta(MotoCategoria.DEPORTIVA`"Honda"`"CRM-250"`2022`TipoMotor.GASOLINA`4000.00`EstadoVehiculo.DISPONIBLE`500.00`CONCESIONARIA));" is 153.,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Long Statement,The length of the statement "vehiculos.add(new Motocicleta(MotoCategoria.TODOTERRENO`"Yamaha"`"DT-200"`2020`TipoMotor.GASOLINA`2500.00`EstadoVehiculo.DISPONIBLE`100.00`CONCESIONARIA));" is 155.,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Long Statement,The length of the statement "vehiculos.add(new Camion(12000.00`"Chevrolet"`"Frigorifico"`2017`TipoMotor.GASOLINA`6`25000.00`EstadoVehiculo.DISPONIBLE`0.00`CONCESIONARIA));" is 142.,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Long Statement,The length of the statement "vehiculos.add(new Motocicleta(MotoCategoria.SCOOTER`"Kawasaki"`"CRF450X"`2018`TipoMotor.GASOLINA`4500.00`EstadoVehiculo.DISPONIBLE`0.00`CONCESIONARIA));" is 152.,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Long Statement,The length of the statement "vehiculos.add(new Camion(20000.00`"Hyundai"`"Plataforma"`2020`TipoMotor.GASOLINA`8`30000.00`EstadoVehiculo.DISPONIBLE`0.00`CONCESIONARIA));" is 139.,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Long Statement,The length of the statement "vehiculos.add(new Tractor(true`TipoTransmision.MECANICA`"Fendt"`"Neumaticos"`2021`15000.00`EstadoVehiculo.DISPONIBLE`0.00`"Case IH"));" is 134.,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 4,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 2021,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 21000,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 5,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 2020,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 18500,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 2.5,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 2019,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 10900.00,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 2022,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 4000.00,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 500.00,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 2020,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 2500.00,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 100.00,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 12000.00,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 2017,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 6,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 25000.00,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 2018,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 4500.00,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 20000.00,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 2020,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 8,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 30000.00,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 2021,1271
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,Magic Number,The method contains a magic number: 15000.00,1271

@@ -1,0 +1,7 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+CodingStandards-main,(default package),Main,main,Magic Number,The method contains a magic number: 1.5,3
+CodingStandards-main,(default package),Main,main,Magic Number,The method contains a magic number: 10,3
+CodingStandards-main,(default package),Main,main,Magic Number,The method contains a magic number: 0.5,3
+CodingStandards-main,(default package),Main,main,Magic Number,The method contains a magic number: 5,3
+CodingStandards-main,(default package),Main,main,Magic Number,The method contains a magic number: 1000,3
+CodingStandards-main,(default package),ShoppingCart,applyDiscounts,Magic Number,The method contains a magic number: 100,34

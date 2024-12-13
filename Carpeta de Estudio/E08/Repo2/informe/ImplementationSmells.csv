@@ -1,0 +1,7 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+TallerRefactoring-master,taller,RPMGame,main,Complex Method,Cyclomatic complexity of the method is 9,14
+TallerRefactoring-master,taller,RPMGame,main,Magic Number,The method contains a magic number: 2,14
+TallerRefactoring-master,taller,RPMGame,main,Magic Number,The method contains a magic number: 2,14
+TallerRefactoring-master,taller,RPMGame,main,Magic Number,The method contains a magic number: 2,14
+TallerRefactoring-master,taller,RPMGame,main,Magic Number,The method contains a magic number: 3,14
+TallerRefactoring-master,taller,RPMGame,main,Magic Number,The method contains a magic number: 3,14

@@ -1,0 +1,6 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+TallerRefactoring-master,taller,Player,playerChoice,5,1,0,17,0,,
+TallerRefactoring-master,taller,Player,setWins,3,1,0,27,0,,
+TallerRefactoring-master,taller,Player,getWins,3,1,0,31,0,,
+TallerRefactoring-master,taller,RPMGame,main,54,9,1,14,0,taller.RPMGame,taller.RPMGame
+TallerRefactoring-master,taller,RPMGame,playerWins,4,1,2,91,0,,

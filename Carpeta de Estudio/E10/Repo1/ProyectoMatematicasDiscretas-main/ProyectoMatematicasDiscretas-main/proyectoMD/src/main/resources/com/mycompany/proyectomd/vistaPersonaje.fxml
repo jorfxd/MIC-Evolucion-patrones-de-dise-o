@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9BF0F9; -fx-border-color: #01037B #01037B; -fx-border-width: 4; -fx-border-radius: 11;"  xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.proyectomd.VistaPersonajeController">
+   <top>
+      <Label fx:id="lblTitulo" text="Label" BorderPane.alignment="CENTER" style="-fx-text-fill: #01037B #01037B #01037B #01037B;">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="imgview" fitHeight="133.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+            <HBox alignment="CENTER" prefHeight="239.0" prefWidth="600.0">
+               <children>
+                  <GridPane alignment="CENTER" prefHeight="231.0" prefWidth="590.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="250.33331298828125" minWidth="10.0" prefWidth="116.66665903727215" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="474.00001780192065" minWidth="10.0" prefWidth="472.6666742960613" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label prefHeight="23.0" prefWidth="62.0" text="Nombre:" style="-fx-text-fill: #01037B #01037B #01037B #01037B;"/>
+                        <Label text="Edad:" GridPane.rowIndex="1" style="-fx-text-fill: #01037B #01037B #01037B #01037B;"/>
+                        <Label fx:id="estatura" text="Estatura:" GridPane.rowIndex="2" style="-fx-text-fill: #01037B #01037B #01037B #01037B;"/>
+                        <Label text="Enemigos:" GridPane.rowIndex="3" style="-fx-text-fill: #01037B #01037B #01037B #01037B;"/>
+                        <Label text="Color de cabello:" GridPane.rowIndex="4" style="-fx-text-fill: #01037B #01037B #01037B #01037B;"/>
+                        <Label fx:id="gustos" text="Poderes" GridPane.rowIndex="5" style="-fx-text-fill: #01037B #01037B #01037B #01037B;"/>
+                        <Label fx:id="lblNombre" text="Label" GridPane.columnIndex="1" style="-fx-text-fill: #01037B #01037B #01037B #01037B;"/>
+                        <Label fx:id="lblEdad" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" style="-fx-text-fill: #01037B #01037B #01037B #01037B;"/>
+                        <Label fx:id="lblEstatura" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" style="-fx-text-fill: #01037B #01037B #01037B #01037B;"/>
+                        <Label fx:id="lblEnemigos" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" style="-fx-text-fill: #01037B #01037B #01037B #01037B;"/>
+                        <Label fx:id="lblCabello" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" style="-fx-text-fill: #01037B #01037B #01037B #01037B;"/>
+                        <Label fx:id="lblPoderes" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" style="-fx-text-fill: #01037B #01037B #01037B #01037B;"/>
+                     </children>
+                  </GridPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

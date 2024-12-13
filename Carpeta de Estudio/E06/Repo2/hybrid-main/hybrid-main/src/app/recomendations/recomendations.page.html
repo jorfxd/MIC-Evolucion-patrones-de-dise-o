@@ -1,0 +1,258 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button default-href="/home">back</ion-back-button>
+    </ion-buttons>
+    <ion-title>Consejos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar color="#2260FF">
+      <ion-title>
+        <h1>Consejos</h1>
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  @if(index==0){
+  <ion-card>
+    <ion-card-header>
+      <div class="container">
+        <img
+          src="../../assets/images/protector.png"
+          class="sol"
+          style="width: 200px; height: auto"
+        />
+        <h3>Guayaquil <strong>34°C</strong></h3>
+      </div>
+      <ion-card-title>Protección Solar en Guayaquil</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>
+        <strong>¡Atención!</strong> En Guayaquil, la temperatura actual es de
+        34°C. Aquí te dejamos algunas recomendaciones para protegerte del sol:
+      </p>
+      <ul>
+        <li>
+          <strong>Usa protector solar:</strong> Aplica un protector solar de
+          amplio espectro con un factor de protección solar (FPS) de al menos
+          30.
+        </li>
+        <li>
+          <strong>Vístete adecuadamente:</strong> Lleva ropa ligera, de colores
+          claros y con protección UV. Las camisas de manga larga y los
+          pantalones largos también ayudan a protegerte del sol.
+        </li>
+        <li>
+          <strong>Usa gafas de sol:</strong> Asegúrate de usar gafas de sol que
+          bloqueen el 100% de los rayos UVA y UVB.
+        </li>
+        <li>
+          <strong>Busca sombra:</strong> Siempre que sea posible, permanece en
+          la sombra, especialmente durante las horas pico de sol, de 10 a.m. a 4
+          p.m.
+        </li>
+        <li>
+          <strong>Hidrátate:</strong> Bebe mucha agua para mantenerte hidratado,
+          ya que el calor puede causar deshidratación rápidamente.
+        </li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+  }@else if (index==1) {
+  <ion-card>
+    <ion-card-header>
+      <div class ="container">
+        <img src = "../../assets/images/agua.png" class="sol" style="width: 200px; height: auto;">
+       <h3>Guayaquil <strong>32°C</strong></h3>
+       </div>
+      <ion-card-title>Hidratación en Guayaquil</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>
+        <strong>¡Importante!</strong> En Guayaquil, la temperatura actual es de
+        32°C. Aquí te dejamos algunas recomendaciones para mantenerte hidratado:
+      </p>
+      <ul>
+        <li>
+          <strong>Bebe agua frecuentemente:</strong> Asegúrate de tomar al menos
+          8 vasos de agua al día, especialmente con estas altas temperaturas.
+        </li>
+        <li>
+          <strong>Evita bebidas azucaradas:</strong> Las bebidas con alto
+          contenido de azúcar pueden aumentar la deshidratación. Opta por agua o
+          infusiones.
+        </li>
+        <li>
+          <strong>Come frutas frescas:</strong> Sandía, melón, y otras frutas
+          con alto contenido de agua son excelentes para mantenerte hidratado.
+        </li>
+        <li>
+          <strong>Usa ropa ligera:</strong> Vestir prendas ligeras y
+          transpirables ayuda a mantener la temperatura corporal baja.
+        </li>
+        <li>
+          <strong>Evita el sol directo:</strong> Procura estar en lugares con
+          sombra o aire acondicionado durante las horas más calurosas del día.
+        </li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+  } @else if (index==2) {
+  <ion-card>
+    <ion-card-header>
+      <div class ="container">
+        <img src = "../../assets/images/ejercicio.png" class="sol" style="width: 200px; height: auto;">
+       <h3>Guayaquil <strong>30°C</strong></h3>
+       </div>
+      <ion-card-title>Ejercicio al Aire Libre en Guayaquil</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>
+        <strong>¡Ten cuidado!</strong> La temperatura en Guayaquil es de 30°C.
+        Si planeas ejercitarte al aire libre, sigue estas recomendaciones:
+      </p>
+      <ul>
+        <li>
+          <strong>Evita las horas pico de calor:</strong> Intenta hacer
+          ejercicio temprano en la mañana o al atardecer, cuando la temperatura
+          es más baja.
+        </li>
+        <li>
+          <strong>Hidrátate antes y después:</strong> Bebe suficiente agua antes
+          de comenzar y lleva una botella de agua contigo para rehidratarte
+          durante el ejercicio.
+        </li>
+        <li>
+          <strong>Ropa adecuada:</strong> Usa ropa transpirable y ligera, de
+          preferencia de colores claros que reflejen el calor.
+        </li>
+        <li>
+          <strong>Protección solar:</strong> Aplica protector solar en todas las
+          áreas expuestas y usa una gorra para proteger tu cabeza.
+        </li>
+        <li>
+          <strong>Escucha a tu cuerpo:</strong> Si te sientes mareado o
+          fatigado, detente y busca un lugar fresco para descansar.
+        </li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+
+  }@else if (index==3) {
+    <ion-card>
+      <ion-card-header>
+        <div class ="container">
+          <img src = "../../assets/images/quema.png" class="sol" style="width: 200px; height: auto;">
+         <h3>Guayaquil <strong>36°C</strong></h3>
+         </div>
+        <ion-card-title>Prevención de Quemaduras Solares</ion-card-title>
+      </ion-card-header>
+  
+      <ion-card-content>
+        <p><strong>¡Precaución!</strong> La radiación UV en Guayaquil es alta hoy. Sigue estos consejos para evitar quemaduras solares:</p>
+        <ul>
+          <li><strong>Aplica protector solar cada 2 horas:</strong> Usa un protector solar de amplio espectro con FPS 50 o más, y reaplícalo cada 2 horas, especialmente si estás sudando o después de nadar.</li>
+          <li><strong>Busca sombra:</strong> Evita la exposición directa al sol entre las 10 a.m. y las 4 p.m., cuando los rayos UV son más fuertes.</li>
+          <li><strong>Protege tu rostro:</strong> Usa un sombrero de ala ancha y gafas de sol para proteger tu cara y ojos del sol.</li>
+          <li><strong>Vístete con ropa protectora:</strong> Usa prendas de manga larga y de colores claros hechas de tejidos que bloqueen los rayos UV.</li>
+          <li><strong>Hidrata tu piel:</strong> Después de estar al sol, aplica una crema hidratante para ayudar a reparar cualquier daño solar y mantener la piel saludable.</li>
+        </ul>
+      </ion-card-content>
+    </ion-card>
+  }
+  @else if (index==4) {
+    <ion-card>
+      <ion-card-header>
+        <div class ="container">
+          <img src = "../../assets/images/nino.png" class="sol" style="width: 200px; height: auto;">
+         <h3>Guayaquil <strong>36°C</strong></h3>
+         </div>
+        <ion-card-title>Protección Solar para Niños</ion-card-title>
+      </ion-card-header>
+  
+      <ion-card-content>
+        <p><strong>¡Cuidado!</strong> La piel de los niños es más sensible al sol. Aquí tienes algunas recomendaciones para protegerlos:</p>
+        <ul>
+          <li><strong>Usa protector solar infantil:</strong> Aplica un protector solar especialmente formulado para niños, con FPS 50 o superior, en todas las áreas expuestas.</li>
+          <li><strong>Viste a los niños con ropa adecuada:</strong> Usa ropa ligera, de colores claros y con protección UV para cubrir su piel.</li>
+          <li><strong>Gorras y sombreros:</strong> Asegúrate de que los niños lleven gorra o sombrero para proteger su cabeza y rostro.</li>
+          <li><strong>Limita el tiempo al sol:</strong> Evita que los niños jueguen al aire libre durante las horas pico de sol. Busca actividades en interiores si es posible.</li>
+          <li><strong>Hidrata a los niños:</strong> Asegúrate de que beban mucha agua para evitar la deshidratación.</li>
+        </ul>
+      </ion-card-content>
+    </ion-card>
+  }
+  @else if (index==5) {
+    <ion-card>
+      <ion-card-header>
+        <div class ="container">
+          <img src = "../../assets/images/sol.png" class="sol" style="width: 200px; height: auto;">
+         <h3>Guayaquil <strong>22°C</strong></h3>
+         </div>
+        <ion-card-title>Cuidado de la Piel Después del Sol</ion-card-title>
+      </ion-card-header>
+  
+      <ion-card-content>
+        <p><strong>¡Relájate!</strong> Después de un día al sol en Guayaquil, es importante cuidar tu piel. Sigue estas recomendaciones:</p>
+        <ul>
+          <li><strong>Usa un aftersun:</strong> Aplica un producto aftersun con aloe vera o ingredientes calmantes para reducir el enrojecimiento y reparar la piel.</li>
+          <li><strong>Toma una ducha fría:</strong> Una ducha fría o tibia puede ayudar a aliviar la sensación de calor en la piel después de la exposición solar.</li>
+          <li><strong>Hidrata tu cuerpo:</strong> Bebe agua para reponer los líquidos perdidos y mantener la piel hidratada.</li>
+          <li><strong>Evita más exposición:</strong> Si te has quemado, trata de evitar el sol hasta que la piel se recupere para evitar daños mayores.</li>
+          <li><strong>Consulta a un médico:</strong> Si la quemadura es severa o te sientes mal, busca atención médica de inmediato.</li>
+        </ul>
+      </ion-card-content>
+    </ion-card>
+  }
+  
+  @else(){
+  <ion-card>
+    <ion-card-header>
+      <div class ="container">
+        <img src = "../../assets/images/perrito.png" class="sol" style="width: 200px; height: auto;">
+       <h3>Guayaquil <strong>35°C</strong></h3>
+       </div>
+      <ion-card-title>Cuidado de Mascotas en Guayaquil</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>
+        <strong>¡Protege a tus mascotas!</strong> En Guayaquil, la temperatura
+        es de 35°C. Aquí tienes algunas recomendaciones para cuidar a tus
+        mascotas en este calor:
+      </p>
+      <ul>
+        <li>
+          <strong>Agua fresca y limpia:</strong> Asegúrate de que tu mascota
+          siempre tenga acceso a agua fresca y limpia, especialmente durante el
+          calor.
+        </li>
+        <li>
+          <strong>Paseos en horas frescas:</strong> Saca a pasear a tu mascota
+          temprano en la mañana o al atardecer, cuando las temperaturas son más
+          bajas.
+        </li>
+        <li>
+          <strong>Evita superficies calientes:</strong> El pavimento puede
+          quemar las patas de tu mascota. Trata de caminar por áreas sombreadas
+          o con césped.
+        </li>
+        <li>
+          <strong>Sombra y ventilación:</strong> Si tu mascota pasa tiempo al
+          aire libre, asegúrate de que tenga un lugar sombreado y bien ventilado
+          para descansar.
+        </li>
+        <li>
+          <strong>Nunca los dejes en el auto:</strong> Las temperaturas dentro
+          de un auto pueden subir rápidamente y ser peligrosas para tu mascota.
+        </li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+  }
+</ion-content>

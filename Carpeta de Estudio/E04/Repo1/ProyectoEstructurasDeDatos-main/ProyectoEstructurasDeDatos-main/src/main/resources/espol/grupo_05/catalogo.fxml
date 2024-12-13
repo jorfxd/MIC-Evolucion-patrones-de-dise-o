@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="546.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="espol.grupo_05.CatalogoController">
+   <children>
+      <Label alignment="CENTER" prefHeight="26.0" prefWidth="289.0" text="Epic Juegos" textAlignment="CENTER">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="200.0" top="10.0" />
+         </VBox.margin>
+      </Label>
+      <HBox prefHeight="20.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" text="Search">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+            <Separator orientation="VERTICAL" prefHeight="26.0" prefWidth="28.0" />
+            <TextField fx:id="entradaBusqueda" promptText="TYPE FOR SEARCH" />
+         </children>
+      </HBox>
+      <Pane prefHeight="494.0" prefWidth="702.0">
+         <children>
+            <Label fx:id="labelNombreJuego" layoutX="321.0" layoutY="380.0" text="NOMBRE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnAnterior" layoutX="31.0" layoutY="214.0" mnemonicParsing="false" onMouseClicked="#cambiarPrevious" text="Anterior" />
+            <Button fx:id="btnSiguiente" layoutX="605.0" layoutY="214.0" mnemonicParsing="false" onMouseClicked="#cambiarNext" text="Siguiente" />
+            <Label layoutX="605.0" layoutY="39.0" text="Contador: " />
+            <Label fx:id="cantidadTotal" layoutX="634.0" layoutY="77.0" text="9" />
+            <ImageView fx:id="imgviewJUEGO" fitHeight="288.0" fitWidth="375.0" layoutX="170.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

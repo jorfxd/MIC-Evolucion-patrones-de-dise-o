@@ -1,0 +1,5 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+ConexionPrueba,conexionprueba,Conectar,5,0,3,3,35,4,0,0,0.0,3,0,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E08\Repo1\Proyecto1P-master\Proyecto1P-master\ConexionPrueba\src\conexionprueba\Conectar.java,14
+ConexionPrueba,conexionprueba,ConexionPrueba,0,0,4,3,55,6,0,0,-1.0,0,1,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E08\Repo1\Proyecto1P-master\Proyecto1P-master\ConexionPrueba\src\conexionprueba\ConexionPrueba.java,19
+ConexionPrueba,conexionprueba,PaneOrganizer,3,0,3,3,47,5,0,0,0.0,0,1,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E08\Repo1\Proyecto1P-master\Proyecto1P-master\ConexionPrueba\src\conexionprueba\PaneOrganizer.java,23
+ConexionPrueba,conexionprueba,Probar,1,0,2,2,13,2,0,0,0.0,0,1,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E08\Repo1\Proyecto1P-master\Proyecto1P-master\ConexionPrueba\src\conexionprueba\Probar.java,10

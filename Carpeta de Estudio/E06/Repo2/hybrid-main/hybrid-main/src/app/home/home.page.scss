@@ -1,0 +1,26 @@
+.rec{
+    display: flex;
+  align-items: center; /* Alinea el ícono y el texto en la parte superior */
+  justify-content: flex-start; /* Alinea el contenido al inicio */
+  flex-wrap: wrap; /* Permite que el texto se ajuste en múltiples líneas */
+
+  text-align: left; /* Alinea el texto a la izquierda */
+  width: auto; /* Opcional: Ajusta el ancho según sea necesario */
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+
+}
+
+h1{
+    display: block;
+    font-size: 40px;
+    word-wrap: break-word;
+}
+ion-icon{
+    font-size: 150px;
+    flex-shrink: 0;
+}
+
+.submit{
+    
+    margin-top: 20px;
+}

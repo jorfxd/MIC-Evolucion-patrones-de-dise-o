@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+Pet-Contest-Management-System-main,com.mycompany.proyectopoog7parte2,AdministrarConcursoController,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+Pet-Contest-Management-System-main,com.mycompany.proyectopoog7parte2,App,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: pathConcursos (15); pathMascotas (16); pathDuenios (17); pathAuspiciantes (18); pathPremios (19); pathCiudades (20)
+Pet-Contest-Management-System-main,com.mycompany.proyectopoog7parte2,CrearConcursoController,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: concursoCrear (74)

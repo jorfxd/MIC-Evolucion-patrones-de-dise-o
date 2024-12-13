@@ -1,0 +1,19 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,ConcesionariaDeAutos,2,1,0,28,0,,
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,main,0,8,1,32,0,com.alvarez.concesionariadeautos.ConcesionariaDeAutos,com.alvarez.concesionariadeautos.ConcesionariaDeAutos
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,iniciarSesion,18,2,0,97,0,com.alvarez.concesionariadeautos.ConcesionariaDeAutos,com.alvarez.concesionariadeautos.ConcesionariaDeAutos
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,validarUsuario,9,3,2,119,0,,
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,getTipoUsuario,16,5,1,133,0,,
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuJefeDeTaller,0,52,0,150,0,,
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuSupervisor,0,40,0,453,0,,
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuCliente,0,41,0,818,0,com.alvarez.concesionariadeautos.ConcesionariaDeAutos,com.alvarez.concesionariadeautos.ConcesionariaDeAutos
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,esClienteHabitual,8,3,1,1109,0,,
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,menuVendedor,98,17,0,1123,0,,
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,getVendedorAleatorio,10,3,0,1237,0,com.alvarez.concesionariadeautos.ConcesionariaDeAutos,com.alvarez.concesionariadeautos.ConcesionariaDeAutos
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarUsuarios,20,1,0,1250,0,,
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,cargarVehiculos,13,1,0,1271,0,,
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,stockDeVehiculosAcliente,9,3,0,1286,0,,
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,disponibilidadAutos,3,1,0,1299,0,com.alvarez.concesionariadeautos.ConcesionariaDeAutos,com.alvarez.concesionariadeautos.ConcesionariaDeAutos
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,getNumeroEntre,5,1,2,1304,0,,
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,getSupervisor,9,3,0,1310,0,,
+ConcesionariaDeAutos-main,com.alvarez.concesionariadeautos,ConcesionariaDeAutos,getJefeDeTaller,9,3,0,1320,0,,

@@ -1,0 +1,8 @@
+Inventory has : 
+Galaxy_XL (50)
+IPhone_X10 (50)
+DELL (18)
+Lenovo (20)
+Canon (30)
+HP (40)
+EPSON (25)
