@@ -1,0 +1,34 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+RecorridoHeap-master,edu.espol.recorridoheap,App,start,Magic Number,The method contains a magic number: 1280,19
+RecorridoHeap-master,edu.espol.recorridoheap,App,start,Magic Number,The method contains a magic number: 960,19
+RecorridoHeap-master,edu.espol.recorridoheap,GraficaArbol,setStatus,Magic Number,The method contains a magic number: 20,34
+RecorridoHeap-master,edu.espol.recorridoheap,GraficaArbol,setStatus,Magic Number,The method contains a magic number: 20,34
+RecorridoHeap-master,edu.espol.recorridoheap,GraficaArbol,displayTree,Magic Number,The method contains a magic number: 2,38
+RecorridoHeap-master,edu.espol.recorridoheap,GraficaArbol,displayTree,Magic Number,The method contains a magic number: 4,38
+RecorridoHeap-master,edu.espol.recorridoheap,GraficaArbol,displayTree,Long Parameter List,The method has 5 parameters. ,45
+RecorridoHeap-master,edu.espol.recorridoheap,GraficaArbol,displayTree,Magic Number,The method contains a magic number: 2,45
+RecorridoHeap-master,edu.espol.recorridoheap,GraficaArbol,displayTree,Magic Number,The method contains a magic number: 2,45
+RecorridoHeap-master,edu.espol.recorridoheap,GraficaArbol,displayTree,Magic Number,The method contains a magic number: 5,45
+RecorridoHeap-master,edu.espol.recorridoheap,GraficaArbol,displayTree,Magic Number,The method contains a magic number: 4,45
+RecorridoHeap-master,edu.espol.recorridoheap,IndexController,insertarHeap,Magic Number,The method contains a magic number: 15,82
+RecorridoHeap-master,edu.espol.recorridoheap,PresentacionController,verArbol,Long Statement,The length of the statement "labelContenido.setText("Primero explicaremos las propiedades del árbol que se visualiza." + "\n\n" + "El árbol binario heap es el que respeta que los hijos sean menor (o mayor) que sus padres. Esto viene de la noción de que cuando tienes un monticulo de tierra los elementos más pesados que estén presentes` siempre van al fondo si lo sacudes. En esta implementación es lo opuesto` los valores más pequeños van abajo."+ "\n\n"+ "Se escogió este tipo de árbol binario porque es más sencilla la inserción de dados. (A continuación se explicará como es este proceso)");" is 580.,49
+RecorridoHeap-master,edu.espol.recorridoheap,PresentacionController,verArbol,Magic Number,The method contains a magic number: 856,49
+RecorridoHeap-master,edu.espol.recorridoheap,PresentacionController,verArbol,Magic Number,The method contains a magic number: 238,49
+RecorridoHeap-master,edu.espol.recorridoheap,PresentacionController,verInsercion,Long Statement,The length of the statement "labelContenido.setText("El árbol presentado tiene una característica especial al momento de agregarle nuevos vértices` estos siempre se agregan por nivel de izquierda a derecha. Después se verifica si son menores o mayores que el padre. Para esta implementación si el hijo es mayor entonces se intercambia con el padre` así sucesivamente hasta que el padre sea el mayor." + "\n\n" + "Para ingresar datos se debe llenar el cuadro de texto a la derecha del boton de insertar y luego aplastar el botón \"Insertar\" o simplemente darle a la tecla enter en el teclado."+ "\n\n"+ "A continuación se puede observar como se ven los botones al iniciar la aplicación.");" is 669.,72
+RecorridoHeap-master,edu.espol.recorridoheap,PresentacionController,verInsercion,Magic Number,The method contains a magic number: 368,72
+RecorridoHeap-master,edu.espol.recorridoheap,PresentacionController,verInsercion,Magic Number,The method contains a magic number: 234,72
+RecorridoHeap-master,edu.espol.recorridoheap,PresentacionController,verRecorridos,Long Statement,The length of the statement "labelContenido.setText("La última funcionalidad del programa y la principal es la de presentar los recorridos del árbol` los cuales son mostrados en un cuadro de texto en la parte derecha. El usuario puede escoger que recorrido desea que le calcule la aplicación con los botones que se encuentran en la parte inferior de la aplicación" + "\n\n" + "Los botones de recorridos solo estan disponibles una vez se agregue el primer vértice del árbol."+ "\n\n"+ "Ya puede continuar a la aplicación con el botón empezar o puede revisar de nuevo las anteriores páginas.");" is 572.,97
+RecorridoHeap-master,edu.espol.recorridoheap,PresentacionController,verRecorridos,Magic Number,The method contains a magic number: 858,97
+RecorridoHeap-master,edu.espol.recorridoheap,PresentacionController,verRecorridos,Magic Number,The method contains a magic number: 300,97
+RecorridoHeap-master,edu.espol.recorridoheap.tda,Heap,crecer,Magic Number,The method contains a magic number: 2,55
+RecorridoHeap-master,edu.espol.recorridoheap.tda,Heap,ordenarBajada,Complex Method,Cyclomatic complexity of the method is 8,79
+RecorridoHeap-master,edu.espol.recorridoheap.tda,Heap,ordenarBajada,Magic Number,The method contains a magic number: 2,79
+RecorridoHeap-master,edu.espol.recorridoheap.tda,Heap,heapSort,Magic Number,The method contains a magic number: 2,124
+RecorridoHeap-master,edu.espol.recorridoheap.tda,Heap,heapify,Magic Number,The method contains a magic number: 2,143
+RecorridoHeap-master,edu.espol.recorridoheap.tda,Heap,heapify,Magic Number,The method contains a magic number: 2,143
+RecorridoHeap-master,edu.espol.recorridoheap.tda,Heap,recorridoPreOrden,Magic Number,The method contains a magic number: 2,166
+RecorridoHeap-master,edu.espol.recorridoheap.tda,Heap,recorridoEnOrden,Magic Number,The method contains a magic number: 2,189
+RecorridoHeap-master,edu.espol.recorridoheap.tda,Heap,recorridoPostOrden,Magic Number,The method contains a magic number: 2,216
+RecorridoHeap-master,edu.espol.recorridoheap.tda,Heap,indicePadre,Magic Number,The method contains a magic number: 2,275
+RecorridoHeap-master,edu.espol.recorridoheap.tda,Heap,indiceHijoDerecho,Magic Number,The method contains a magic number: 2,279
+RecorridoHeap-master,edu.espol.recorridoheap.tda,Heap,indiceHijoIzquierdo,Magic Number,The method contains a magic number: 2,283

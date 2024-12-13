@@ -1,0 +1,116 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+EmojiBuilder-main,org.openjfx.emojibuilder,App,main,3,1,1,21,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,App,start,21,1,1,26,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,initialize,44,10,2,125,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,changed,11,4,3,128,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,changed,11,4,3,142,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,changed,11,4,3,155,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,agregarImagenesLista,9,2,1,168,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,siguiente,17,4,1,180,0,org.openjfx.emojibuilder.FXMLController,org.openjfx.emojibuilder.FXMLController
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,anterior,17,4,1,203,0,org.openjfx.emojibuilder.FXMLController,org.openjfx.emojibuilder.FXMLController
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,showEyes,8,1,1,226,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,showFaces,8,1,1,238,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,showMouth,8,1,1,251,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ClickImagen,12,4,1,263,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ClickImagen2,12,4,1,275,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ClickImagen3,12,4,1,287,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,CambiarPreviews,5,1,2,299,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,AgregarNuevaImagen,17,5,1,305,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,RemoverImagen,34,7,1,322,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,28,1,1,355,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,save,30,1,1,391,0,org.openjfx.emojibuilder.FXMLController,org.openjfx.emojibuilder.FXMLController
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,load,30,1,1,430,0,org.openjfx.emojibuilder.FXMLController,org.openjfx.emojibuilder.FXMLController
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,convertirImagenABytes,6,1,1,465,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,convertirBytesAImagen,5,1,1,472,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,logout,28,1,0,478,0,,
+EmojiBuilder-main,org.openjfx.emojibuilder,LoginFXMLController,initialize,4,1,2,52,0,org.openjfx.emojibuilder.LoginFXMLController,org.openjfx.emojibuilder.LoginFXMLController
+EmojiBuilder-main,org.openjfx.emojibuilder,LoginFXMLController,CargarListaUsuarios,22,2,0,63,0,TDA.User,TDA.User
+EmojiBuilder-main,org.openjfx.emojibuilder,LoginFXMLController,login,43,2,0,91,0,org.openjfx.emojibuilder.LoginFXMLController,org.openjfx.emojibuilder.LoginFXMLController
+EmojiBuilder-main,org.openjfx.emojibuilder,LoginFXMLController,checkLogin,10,3,2,137,0,TDA.LinkedList,TDA.LinkedList; TDA.User; org.openjfx.emojibuilder.LoginFXMLController
+EmojiBuilder-main,org.openjfx.emojibuilder,LoginFXMLController,checkSignup,10,3,1,149,0,TDA.LinkedList,TDA.LinkedList; TDA.User; org.openjfx.emojibuilder.LoginFXMLController
+EmojiBuilder-main,org.openjfx.emojibuilder,LoginFXMLController,signup,34,3,0,160,0,org.openjfx.emojibuilder.LoginFXMLController,org.openjfx.emojibuilder.LoginFXMLController
+EmojiBuilder-main,TDA,CDLNode,CDLNode,4,1,1,17,0,,
+EmojiBuilder-main,TDA,CDLNode,getContent,3,1,0,22,0,,
+EmojiBuilder-main,TDA,CDLNode,setContent,3,1,1,26,0,,
+EmojiBuilder-main,TDA,CDLNode,getNext,3,1,0,30,0,,
+EmojiBuilder-main,TDA,CDLNode,setNext,3,1,1,34,0,,
+EmojiBuilder-main,TDA,CDLNode,getPrevious,3,1,0,38,0,,
+EmojiBuilder-main,TDA,CDLNode,setPrevious,3,1,1,42,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,CircularDoublyLL,3,1,0,19,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,size,12,3,0,23,0,TDA.CircularDoublyLL,TDA.CircularDoublyLL; TDA.CDLNode
+EmojiBuilder-main,TDA,CircularDoublyLL,isEmpty,3,1,0,36,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,clear,3,1,0,41,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,addFirst,13,2,1,46,0,TDA.CDLNode,TDA.CDLNode
+EmojiBuilder-main,TDA,CircularDoublyLL,addLast,14,3,1,61,0,TDA.CircularDoublyLL,TDA.CircularDoublyLL; TDA.CDLNode
+EmojiBuilder-main,TDA,CircularDoublyLL,removeFirst,3,1,0,78,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,removeLast,13,2,0,83,0,TDA.CircularDoublyLL,TDA.CircularDoublyLL; TDA.CDLNode
+EmojiBuilder-main,TDA,CircularDoublyLL,add,3,1,2,98,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,get,15,4,1,108,0,TDA.CircularDoublyLL,TDA.CircularDoublyLL; TDA.CDLNode
+EmojiBuilder-main,TDA,CircularDoublyLL,set,3,1,2,124,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,getMiddleElement,3,1,0,129,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,swapElements,3,1,2,134,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,splitIntoTwoHalves,3,1,0,139,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,getOddElements,3,1,0,144,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,toString,11,3,0,149,0,TDA.CircularDoublyLL,TDA.CircularDoublyLL; TDA.CDLNode
+EmojiBuilder-main,TDA,CircularDoublyLL,getAnterior,12,3,1,163,0,TDA.CDLNode,TDA.CDLNode
+EmojiBuilder-main,TDA,CircularDoublyLL,getSiguiente,12,3,1,175,0,TDA.CDLNode,TDA.CDLNode
+EmojiBuilder-main,TDA,CircularDoublyLL,iterator,3,1,0,187,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,listIterator,41,1,0,192,0,TDA.CDLNode,TDA.CDLNode
+EmojiBuilder-main,TDA,CircularDoublyLL,forEachRemaining,3,1,1,196,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,hasNext,3,1,0,201,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,next,5,1,0,206,0,TDA.CDLNode,TDA.CDLNode
+EmojiBuilder-main,TDA,CircularDoublyLL,hasPrevious,3,1,0,213,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,previous,5,1,0,218,0,TDA.CDLNode,TDA.CDLNode
+EmojiBuilder-main,TDA,CircularDoublyLL,nextIndex,3,1,0,225,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,previousIndex,3,1,0,231,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,remove,3,1,0,236,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,set,3,1,1,241,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,add,3,1,1,246,0,,
+EmojiBuilder-main,TDA,CircularDoublyLL,remove,20,5,1,254,0,TDA.CircularDoublyLL,TDA.CircularDoublyLL; TDA.CDLNode
+EmojiBuilder-main,TDA,LinkedList,LinkedList,4,1,0,10,0,,
+EmojiBuilder-main,TDA,LinkedList,size,8,2,0,15,0,TDA.Node,TDA.Node
+EmojiBuilder-main,TDA,LinkedList,toString,11,3,0,25,0,TDA.LinkedList,TDA.LinkedList; TDA.Node
+EmojiBuilder-main,TDA,LinkedList,isEmpty,3,1,0,40,0,,
+EmojiBuilder-main,TDA,LinkedList,clear,3,1,0,45,0,,
+EmojiBuilder-main,TDA,LinkedList,addFirst,12,3,1,50,0,TDA.Node,TDA.Node; TDA.LinkedList
+EmojiBuilder-main,TDA,LinkedList,addLast,14,3,1,64,0,TDA.Node,TDA.Node; TDA.LinkedList
+EmojiBuilder-main,TDA,LinkedList,removeFirst,3,1,0,79,0,,
+EmojiBuilder-main,TDA,LinkedList,removeLast,3,1,0,84,0,,
+EmojiBuilder-main,TDA,LinkedList,add,3,1,2,89,0,,
+EmojiBuilder-main,TDA,LinkedList,remove,3,1,1,94,0,,
+EmojiBuilder-main,TDA,LinkedList,get,12,3,1,102,0,TDA.Node,TDA.Node
+EmojiBuilder-main,TDA,LinkedList,set,13,3,2,116,0,TDA.Node,TDA.Node
+EmojiBuilder-main,TDA,LinkedList,swapElements,10,2,2,133,0,TDA.LinkedList,TDA.LinkedList
+EmojiBuilder-main,TDA,LinkedList,splitIntoTwoHalves,20,5,0,144,0,TDA.Node,TDA.Node; TDA.LinkedList
+EmojiBuilder-main,TDA,LinkedList,getOddElements,9,3,0,166,0,TDA.LinkedList,TDA.LinkedList
+EmojiBuilder-main,TDA,LinkedList,getMiddleElement,8,2,0,177,0,TDA.LinkedList,TDA.LinkedList; TDA.Node
+EmojiBuilder-main,TDA,LinkedList,iterator,15,1,0,187,0,TDA.Node,TDA.Node
+EmojiBuilder-main,TDA,LinkedList,hasNext,3,1,0,191,0,,
+EmojiBuilder-main,TDA,LinkedList,next,5,1,0,196,0,TDA.Node,TDA.Node
+EmojiBuilder-main,TDA,List,size,0,1,0,5,0,,
+EmojiBuilder-main,TDA,List,isEmpty,0,1,0,7,0,,
+EmojiBuilder-main,TDA,List,clear,0,1,0,9,0,,
+EmojiBuilder-main,TDA,List,addFirst,0,1,1,11,0,,
+EmojiBuilder-main,TDA,List,addLast,0,1,1,13,0,,
+EmojiBuilder-main,TDA,List,removeFirst,0,1,0,15,0,,
+EmojiBuilder-main,TDA,List,removeLast,0,1,0,17,0,,
+EmojiBuilder-main,TDA,List,add,0,1,2,19,0,,
+EmojiBuilder-main,TDA,List,get,0,1,1,23,0,,
+EmojiBuilder-main,TDA,List,set,0,1,2,25,0,,
+EmojiBuilder-main,TDA,List,toString,0,1,0,27,0,,
+EmojiBuilder-main,TDA,List,getMiddleElement,0,1,0,30,0,,
+EmojiBuilder-main,TDA,List,swapElements,0,1,2,32,0,,
+EmojiBuilder-main,TDA,List,splitIntoTwoHalves,0,1,0,34,0,,
+EmojiBuilder-main,TDA,List,getOddElements,0,1,0,36,0,,
+EmojiBuilder-main,TDA,Node,Node,4,1,1,7,0,,
+EmojiBuilder-main,TDA,Node,Node,4,1,2,12,0,,
+EmojiBuilder-main,TDA,Node,getContent,3,1,0,17,0,,
+EmojiBuilder-main,TDA,Node,setContent,3,1,1,21,0,,
+EmojiBuilder-main,TDA,Node,getNext,3,1,0,25,0,,
+EmojiBuilder-main,TDA,Node,setNext,3,1,1,29,0,,
+EmojiBuilder-main,TDA,User,User,4,1,0,16,0,,
+EmojiBuilder-main,TDA,User,getUsername,3,1,0,21,0,,
+EmojiBuilder-main,TDA,User,setUsername,3,1,1,25,0,,
+EmojiBuilder-main,TDA,User,getPassword,3,1,0,29,0,,
+EmojiBuilder-main,TDA,User,setPassword,3,1,1,33,0,,
+EmojiBuilder-main,TDA,User,toString,3,1,0,37,0,,

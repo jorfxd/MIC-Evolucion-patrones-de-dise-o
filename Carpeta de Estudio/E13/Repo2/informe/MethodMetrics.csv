@@ -1,0 +1,10 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+tresEnRaya-main,tresenraya,FXMLvistaElegirController,init,4,1,2,29,0,,
+tresEnRaya-main,tresenraya,FXMLvistaElegirController,showWindow3,11,1,1,34,0,,
+tresEnRaya-main,tresenraya,FXMLvistaElegirController,show,3,1,0,47,0,,
+tresEnRaya-main,tresenraya,FXMLvistaJuegoController,showWindow2,4,1,1,25,0,,
+tresEnRaya-main,tresenraya,FXMLvistaJuegoController,init,4,1,2,31,0,,
+tresEnRaya-main,tresenraya,FXMLvistaPrincipalController,showWindow2,11,1,1,29,0,,
+tresEnRaya-main,tresenraya,FXMLvistaPrincipalController,setStage,3,1,1,42,0,,
+tresEnRaya-main,tresenraya,TresEnRaya,start,9,1,1,20,0,,
+tresEnRaya-main,tresenraya,TresEnRaya,main,3,1,1,31,0,,

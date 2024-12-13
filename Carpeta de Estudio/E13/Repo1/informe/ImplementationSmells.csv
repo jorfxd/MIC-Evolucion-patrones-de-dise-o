@@ -1,0 +1,23 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+EmojiBuilder-main,org.openjfx.emojibuilder,App,start,Magic Number,The method contains a magic number: .8,26
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,initialize,Complex Method,Cyclomatic complexity of the method is 10,125
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,Long Statement,The length of the statement "fileChooser.getExtensionFilters().addAll(new ExtensionFilter("PNG File"`"*.png")`new ExtensionFilter("JPEG File"`"*.jpeg"));" is 124.,355
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,Magic Number,The method contains a magic number: 640,355
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,Magic Number,The method contains a magic number: 640,355
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,Magic Number,The method contains a magic number: 640,355
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,Magic Number,The method contains a magic number: 640,355
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,Magic Number,The method contains a magic number: 100,355
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,Magic Number,The method contains a magic number: 450,355
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,Magic Number,The method contains a magic number: 450,355
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,Magic Number,The method contains a magic number: 100,355
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,Magic Number,The method contains a magic number: 250,355
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,Magic Number,The method contains a magic number: 450,355
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,ExportPNG,Magic Number,The method contains a magic number: 450,355
+EmojiBuilder-main,org.openjfx.emojibuilder,FXMLController,logout,Magic Number,The method contains a magic number: .8,478
+EmojiBuilder-main,org.openjfx.emojibuilder,LoginFXMLController,login,Magic Number,The method contains a magic number: .8,91
+EmojiBuilder-main,TDA,CircularDoublyLL,toString,Magic Number,The method contains a magic number: 2,149
+EmojiBuilder-main,TDA,LinkedList,toString,Magic Number,The method contains a magic number: 2,25
+EmojiBuilder-main,TDA,LinkedList,splitIntoTwoHalves,Magic Number,The method contains a magic number: 2,144
+EmojiBuilder-main,TDA,LinkedList,splitIntoTwoHalves,Magic Number,The method contains a magic number: 2,144
+EmojiBuilder-main,TDA,LinkedList,getOddElements,Magic Number,The method contains a magic number: 2,166
+EmojiBuilder-main,TDA,LinkedList,getMiddleElement,Magic Number,The method contains a magic number: 2,177

@@ -1,0 +1,11 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+welleats-main,com.mycompany.welleats,App,start,5,1,1,19,0,com.mycompany.welleats.App,com.mycompany.welleats.App
+welleats-main,com.mycompany.welleats,App,setRoot,3,1,1,26,0,com.mycompany.welleats.App,com.mycompany.welleats.App
+welleats-main,com.mycompany.welleats,App,loadFXML,4,1,1,30,0,,
+welleats-main,com.mycompany.welleats,App,main,3,1,1,35,0,,
+welleats-main,com.mycompany.welleats,ConozcamonosController,initialize,2,1,2,33,0,,
+welleats-main,com.mycompany.welleats,IniciarSesionController,initialize,2,1,2,18,0,,
+welleats-main,com.mycompany.welleats,InicioController,initialize,2,1,2,37,0,,
+welleats-main,com.mycompany.welleats,InicioController,registrarse,8,1,1,58,0,,
+welleats-main,com.mycompany.welleats,MenuController,initialize,2,1,2,26,0,,
+welleats-main,com.mycompany.welleats,RegistroController,initialize,2,1,2,41,0,,

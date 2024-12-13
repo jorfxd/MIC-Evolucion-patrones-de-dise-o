@@ -1,0 +1,5 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+tresEnRaya-main,tresenraya,FXMLvistaElegirController,2,0,3,0,26,3,0,0,0.0,2,2,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E13\Repo2\tresEnRaya-main\tresEnRaya-main\src\tresenraya\FXMLvistaElegirController.java,19
+tresEnRaya-main,tresenraya,FXMLvistaJuegoController,2,0,2,0,16,2,0,0,0.0,1,1,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E13\Repo2\tresEnRaya-main\tresEnRaya-main\src\tresenraya\FXMLvistaJuegoController.java,15
+tresEnRaya-main,tresenraya,FXMLvistaPrincipalController,1,0,2,0,21,2,0,0,0.0,2,1,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E13\Repo2\tresEnRaya-main\tresEnRaya-main\src\tresenraya\FXMLvistaPrincipalController.java,21
+tresEnRaya-main,tresenraya,TresEnRaya,0,0,2,2,20,2,0,0,-1.0,0,1,C:\Users\jorge\OneDrive\Documentos\GitHub\MIC-Evolucion_patrones_de_diseno\Carpeta de Estudio\E13\Repo2\tresEnRaya-main\tresEnRaya-main\src\tresenraya\TresEnRaya.java,14

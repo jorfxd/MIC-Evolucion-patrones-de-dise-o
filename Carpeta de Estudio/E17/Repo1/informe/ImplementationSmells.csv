@@ -1,0 +1,21 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+ProyectoPooBacan-main,ec.edu.espol.proyectop1,App,start,Magic Number,The method contains a magic number: 640,21
+ProyectoPooBacan-main,ec.edu.espol.proyectop1,App,start,Magic Number,The method contains a magic number: 480,21
+ProyectoPooBacan-main,ec.edu.espol.proyectop1,Auto,Auto,Long Parameter List,The method has 12 parameters. ,23
+ProyectoPooBacan-main,ec.edu.espol.proyectop1,Camioneta,Camioneta,Long Parameter List,The method has 13 parameters. ,19
+ProyectoPooBacan-main,ec.edu.espol.proyectop1,Oferta,saveSer,Empty catch clause,The method has an empty catch block.,53
+ProyectoPooBacan-main,ec.edu.espol.proyectop1,Usuario,Usuario,Long Parameter List,The method has 5 parameters. ,37
+ProyectoPooBacan-main,ec.edu.espol.proyectop1,Utilitaria,nextID,Empty catch clause,The method has an empty catch block.,29
+ProyectoPooBacan-main,ec.edu.espol.proyectop1,Utilitaria,toHexString,Magic Number,The method contains a magic number: 16,53
+ProyectoPooBacan-main,ec.edu.espol.proyectop1,Utilitaria,toHexString,Magic Number,The method contains a magic number: 64,53
+ProyectoPooBacan-main,ec.edu.espol.proyectop1,Vehiculo,Vehiculo,Long Parameter List,The method has 10 parameters. ,27
+ProyectoPooBacan-main,ec.edu.espol.proyectop1.controllers,CarrosEncontradosController,mostrar,Magic Number,The method contains a magic number: 10,89
+ProyectoPooBacan-main,ec.edu.espol.proyectop1.controllers,CarrosUsuarioController,llenarTabla,Magic Number,The method contains a magic number: 10,74
+ProyectoPooBacan-main,ec.edu.espol.proyectop1.controllers,CreacionController,registratVehiculo,Complex Conditional,The conditional expression imgFile == null || pl.isEmpty() || marc.isEmpty() || model.isEmpty() || motor.isEmpty() || col.isEmpty() || combust.isEmpty() || anoStr.isEmpty() || recoStr.isEmpty() || priceStr.isEmpty() is complex.,165
+ProyectoPooBacan-main,ec.edu.espol.proyectop1.controllers,CreacionController,registratVehiculo,Complex Conditional,The conditional expression vidrio.isEmpty() || transmision.isEmpty() || traccion.isEmpty() is complex.,165
+ProyectoPooBacan-main,ec.edu.espol.proyectop1.controllers,CreacionController,registratVehiculo,Complex Method,Cyclomatic complexity of the method is 8,165
+ProyectoPooBacan-main,ec.edu.espol.proyectop1.controllers,CreacionController,registratVehiculo,Long Statement,The length of the statement "if (imgFile == null || pl.isEmpty() || marc.isEmpty() || model.isEmpty() || motor.isEmpty() || col.isEmpty() || combust.isEmpty() || anoStr.isEmpty() || recoStr.isEmpty() || priceStr.isEmpty()) {" is 195.,165
+ProyectoPooBacan-main,ec.edu.espol.proyectop1.controllers,CreacionController,guardarImagen,Long Statement,The length of the statement "String rutaProyecto=System.getProperty("user.dir") + File.separator + "src"+ File.separator+ "main"+ File.separator+ "resources";" is 129.,287
+ProyectoPooBacan-main,ec.edu.espol.proyectop1.controllers,MisCarrosController,buscarVehiculo,Complex Conditional,The conditional expression !((usuarioC.getNombres()).equals(v.getUsuario().getNombres())) && v.getRecorrido() > recorridoMin && v.getRecorrido() < recorridoMax is complex.,58
+ProyectoPooBacan-main,ec.edu.espol.proyectop1.controllers,MisCarrosController,buscarVehiculo,Long Statement,The length of the statement "if (!((usuarioC.getNombres()).equals(v.getUsuario().getNombres())) && v.getRecorrido() > recorridoMin && v.getRecorrido() < recorridoMax) vehiculos.add(v);" is 155.,58
+ProyectoPooBacan-main,ec.edu.espol.proyectop1.controllers,SpecsAceptarOfertaController,aceptarOferta,Long Statement,The length of the statement "Utilitaria.enviarConGMail(oferta.getUsuario().getCorreo()`"Oferta aceptada"`"Su oferta al vehículo con placa " + vehiculosSelec.getPlaca() + " ha sido aceptada por su dueño.\nInformación del dueño:\nNombres: "+ vehiculosSelec.getUsuario().getNombres()+ "\nApellidos: "+ vehiculosSelec.getUsuario().getApellidos()+ "\nOrganización: "+ vehiculosSelec.getUsuario().getOrganizacion()+ "\nCorreo: "+ vehiculosSelec.getUsuario().getCorreo());" is 441.,246

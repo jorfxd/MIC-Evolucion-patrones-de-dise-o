@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,Design Smell,Cause of the Smell
+RecorridoHeap-master,edu.espol.recorridoheap,GuiStarter,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)
+RecorridoHeap-master,edu.espol.recorridoheap,IndexController,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)
+RecorridoHeap-master,edu.espol.recorridoheap,PresentacionController,Unutilized Abstraction,The tool detected the smell in this class because this class is potentially unused. (Please ignore the smell if the reported class is auto-generated and/or used to serve a specific known purpose.)

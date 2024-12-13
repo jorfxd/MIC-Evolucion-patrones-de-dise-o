@@ -1,0 +1,72 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+Tetris-master,org.psnbtech,BoardPanel,BoardPanel,6,1,1,110,0,,
+Tetris-master,org.psnbtech,BoardPanel,clear,7,3,0,122,0,,
+Tetris-master,org.psnbtech,BoardPanel,isValidAndEmpty,16,6,4,137,0,org.psnbtech.BoardPanel,org.psnbtech.BoardPanel
+Tetris-master,org.psnbtech,BoardPanel,addPiece,9,4,4,173,0,org.psnbtech.BoardPanel,org.psnbtech.BoardPanel
+Tetris-master,org.psnbtech,BoardPanel,checkLines,9,3,0,196,0,org.psnbtech.BoardPanel,org.psnbtech.BoardPanel
+Tetris-master,org.psnbtech,BoardPanel,checkLine,13,5,1,220,0,org.psnbtech.BoardPanel,org.psnbtech.BoardPanel
+Tetris-master,org.psnbtech,BoardPanel,isOccupied,3,1,2,249,0,,
+Tetris-master,org.psnbtech,BoardPanel,setTile,3,1,3,259,0,,
+Tetris-master,org.psnbtech,BoardPanel,getTile,3,1,2,269,0,,
+Tetris-master,org.psnbtech,BoardPanel,paintComponent,65,16,1,279,0,org.psnbtech.Tetris,org.psnbtech.Tetris; org.psnbtech.BoardPanel
+Tetris-master,org.psnbtech,BoardPanel,drawTile,3,1,4,390,0,org.psnbtech.BoardPanel,org.psnbtech.BoardPanel
+Tetris-master,org.psnbtech,BoardPanel,drawTile,12,2,6,401,0,,
+Tetris-master,org.psnbtech,Clock,Clock,4,1,1,37,0,org.psnbtech.Clock,org.psnbtech.Clock
+Tetris-master,org.psnbtech,Clock,setCyclesPerSecond,3,1,1,46,0,,
+Tetris-master,org.psnbtech,Clock,reset,6,1,0,54,0,org.psnbtech.Clock,org.psnbtech.Clock
+Tetris-master,org.psnbtech,Clock,update,9,2,0,66,0,org.psnbtech.Clock,org.psnbtech.Clock
+Tetris-master,org.psnbtech,Clock,setPaused,3,1,1,87,0,,
+Tetris-master,org.psnbtech,Clock,isPaused,3,1,0,97,0,,
+Tetris-master,org.psnbtech,Clock,hasElapsedCycle,7,2,0,105,0,,
+Tetris-master,org.psnbtech,Clock,peekElapsedCycle,3,1,0,119,0,,
+Tetris-master,org.psnbtech,Clock,getCurrentTime,3,1,0,130,0,,
+Tetris-master,org.psnbtech,SidePanel,SidePanel,5,1,1,99,0,,
+Tetris-master,org.psnbtech,SidePanel,paintComponent,39,5,1,110,0,org.psnbtech.SidePanel,org.psnbtech.SidePanel; org.psnbtech.Tetris
+Tetris-master,org.psnbtech,SidePanel,drawTile,12,2,4,193,0,,
+Tetris-master,org.psnbtech,Tetris,Tetris,64,16,0,116,0,org.psnbtech.Tetris,org.psnbtech.Tetris; org.psnbtech.Clock; org.psnbtech.BoardPanel
+Tetris-master,org.psnbtech,Tetris,keyPressed,40,15,1,146,0,org.psnbtech.Tetris,org.psnbtech.Tetris; org.psnbtech.BoardPanel; org.psnbtech.Clock
+Tetris-master,org.psnbtech,Tetris,keyReleased,8,2,1,235,0,org.psnbtech.Clock,org.psnbtech.Clock
+Tetris-master,org.psnbtech,Tetris,startGame,27,5,0,264,0,org.psnbtech.Tetris,org.psnbtech.Tetris; org.psnbtech.Clock
+Tetris-master,org.psnbtech,Tetris,updateGame,18,3,0,319,0,org.psnbtech.Clock,org.psnbtech.Clock; org.psnbtech.Tetris; org.psnbtech.BoardPanel
+Tetris-master,org.psnbtech,Tetris,renderGame,4,1,0,374,0,,
+Tetris-master,org.psnbtech,Tetris,resetGame,12,1,0,382,0,org.psnbtech.Clock,org.psnbtech.Clock; org.psnbtech.Tetris; org.psnbtech.BoardPanel
+Tetris-master,org.psnbtech,Tetris,spawnPiece,11,2,0,399,0,org.psnbtech.BoardPanel,org.psnbtech.BoardPanel; org.psnbtech.Clock
+Tetris-master,org.psnbtech,Tetris,rotatePiece,25,6,1,424,0,org.psnbtech.BoardPanel,org.psnbtech.BoardPanel
+Tetris-master,org.psnbtech,Tetris,isPaused,3,1,0,477,0,,
+Tetris-master,org.psnbtech,Tetris,isGameOver,3,1,0,485,0,,
+Tetris-master,org.psnbtech,Tetris,isNewGame,3,1,0,493,0,,
+Tetris-master,org.psnbtech,Tetris,getScore,3,1,0,501,0,,
+Tetris-master,org.psnbtech,Tetris,getLevel,3,1,0,509,0,,
+Tetris-master,org.psnbtech,Tetris,getPieceType,3,1,0,517,0,,
+Tetris-master,org.psnbtech,Tetris,getNextPieceType,3,1,0,525,0,,
+Tetris-master,org.psnbtech,Tetris,getPieceCol,3,1,0,533,0,,
+Tetris-master,org.psnbtech,Tetris,getPieceRow,3,1,0,541,0,,
+Tetris-master,org.psnbtech,Tetris,getPieceRotation,3,1,0,549,0,,
+Tetris-master,org.psnbtech,Tetris,main,4,1,1,557,0,org.psnbtech.Tetris,org.psnbtech.Tetris
+Tetris-master,(default package),ITetrisTile,getBaseColor,0,1,0,2,0,,
+Tetris-master,(default package),ITetrisTile,getLightColor,0,1,0,3,0,,
+Tetris-master,(default package),ITetrisTile,getDarkColor,0,1,0,4,0,,
+Tetris-master,(default package),ITetrisTile,getDimension,0,1,0,5,0,,
+Tetris-master,(default package),ITetrisTile,getSpawnColumn,0,1,0,6,0,,
+Tetris-master,(default package),ITetrisTile,getSpawnRow,0,1,0,7,0,,
+Tetris-master,(default package),ITetrisTile,getLeftInset,0,1,1,8,0,,
+Tetris-master,(default package),ITetrisTile,getRightInset,0,1,1,9,0,,
+Tetris-master,(default package),ITetrisTile,getTopInset,0,1,1,10,0,,
+Tetris-master,(default package),ITetrisTile,getBottomInset,0,1,1,11,0,,
+Tetris-master,(default package),ITetrisTile,isTile,0,1,3,12,0,,
+Tetris-master,(default package),TileTypeI,TileTypeI,11,1,0,2,0,,
+Tetris-master,(default package),TileTypeIFactory,createTile,3,1,0,2,0,,
+Tetris-master,(default package),Tile,getBaseColor,3,1,0,13,0,,
+Tetris-master,(default package),Tile,getLightColor,3,1,0,21,0,,
+Tetris-master,(default package),Tile,getDarkColor,3,1,0,29,0,,
+Tetris-master,(default package),Tile,getDimension,3,1,0,37,0,,
+Tetris-master,(default package),Tile,getSpawnColumn,3,1,0,45,0,,
+Tetris-master,(default package),Tile,getSpawnRow,3,1,0,53,0,,
+Tetris-master,(default package),Tile,getRows,3,1,0,61,0,,
+Tetris-master,(default package),Tile,getCols,3,1,0,70,0,,
+Tetris-master,(default package),Tile,isTile,3,1,3,79,0,,
+Tetris-master,(default package),Tile,getLeftInset,10,4,1,90,0,,
+Tetris-master,(default package),Tile,getRightInset,10,4,1,111,0,,
+Tetris-master,(default package),Tile,getTopInset,10,4,1,132,0,,
+Tetris-master,(default package),Tile,getBottomInset,10,4,1,153,0,,
+Tetris-master,(default package),TileFactory,createTile,0,1,1,2,0,,

@@ -1,0 +1,38 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Tetris-master,org.psnbtech,BoardPanel,paintComponent,Complex Method,Cyclomatic complexity of the method is 16,279
+Tetris-master,org.psnbtech,BoardPanel,paintComponent,Long Statement,The length of the statement "drawTile(base`base.brighter()`base.darker()`(pieceCol + col) * TILE_SIZE`(lowest + row - HIDDEN_ROW_COUNT) * TILE_SIZE`g);" is 122.,279
+Tetris-master,org.psnbtech,BoardPanel,paintComponent,Magic Number,The method contains a magic number: 2,279
+Tetris-master,org.psnbtech,BoardPanel,paintComponent,Magic Number,The method contains a magic number: 2,279
+Tetris-master,org.psnbtech,BoardPanel,paintComponent,Magic Number,The method contains a magic number: 150,279
+Tetris-master,org.psnbtech,BoardPanel,paintComponent,Magic Number,The method contains a magic number: 2,279
+Tetris-master,org.psnbtech,BoardPanel,paintComponent,Magic Number,The method contains a magic number: 300,279
+Tetris-master,org.psnbtech,BoardPanel,paintComponent,Magic Number,The method contains a magic number: 2,279
+Tetris-master,org.psnbtech,BoardPanel,paintComponent,Magic Number,The method contains a magic number: 20,279
+Tetris-master,org.psnbtech,BoardPanel,paintComponent,Magic Number,The method contains a magic number: 2,279
+Tetris-master,org.psnbtech,BoardPanel,drawTile,Long Parameter List,The method has 6 parameters. ,401
+Tetris-master,org.psnbtech,Clock,setCyclesPerSecond,Magic Number,The method contains a magic number: 1000,46
+Tetris-master,org.psnbtech,Clock,getCurrentTime,Magic Number,The method contains a magic number: 1000000L,130
+Tetris-master,org.psnbtech,SidePanel,SidePanel,Magic Number,The method contains a magic number: 200,99
+Tetris-master,org.psnbtech,SidePanel,paintComponent,Magic Number,The method contains a magic number: 70,110
+Tetris-master,org.psnbtech,SidePanel,paintComponent,Magic Number,The method contains a magic number: 2,110
+Tetris-master,org.psnbtech,SidePanel,paintComponent,Magic Number,The method contains a magic number: 2,110
+Tetris-master,org.psnbtech,SidePanel,paintComponent,Magic Number,The method contains a magic number: 2,110
+Tetris-master,org.psnbtech,SidePanel,paintComponent,Magic Number,The method contains a magic number: 2,110
+Tetris-master,org.psnbtech,Tetris,Tetris,Complex Method,Cyclomatic complexity of the method is 16,116
+Tetris-master,org.psnbtech,Tetris,Tetris,Magic Number,The method contains a magic number: 25.0f,116
+Tetris-master,org.psnbtech,Tetris,Tetris,Magic Number,The method contains a magic number: 3,116
+Tetris-master,org.psnbtech,Tetris,Tetris,Magic Number,The method contains a magic number: 3,116
+Tetris-master,org.psnbtech,Tetris,keyPressed,Complex Method,Cyclomatic complexity of the method is 15,146
+Tetris-master,org.psnbtech,Tetris,keyPressed,Magic Number,The method contains a magic number: 25.0f,146
+Tetris-master,org.psnbtech,Tetris,keyPressed,Magic Number,The method contains a magic number: 3,146
+Tetris-master,org.psnbtech,Tetris,keyPressed,Magic Number,The method contains a magic number: 3,146
+Tetris-master,org.psnbtech,Tetris,startGame,Magic Number,The method contains a magic number: 1000000L,264
+Tetris-master,org.psnbtech,Tetris,updateGame,Magic Number,The method contains a magic number: 50,319
+Tetris-master,org.psnbtech,Tetris,updateGame,Magic Number,The method contains a magic number: 0.035f,319
+Tetris-master,org.psnbtech,Tetris,updateGame,Magic Number,The method contains a magic number: 25,319
+Tetris-master,org.psnbtech,Tetris,updateGame,Magic Number,The method contains a magic number: 1.70f,319
+Tetris-master,(default package),TileTypeI,TileTypeI,Long Statement,The length of the statement "this.tiles=new boolean[][]{{false`false`false`false`true`true`true`true`false`false`false`false`false`false`false`false}`{false`false`true`false`false`false`true`false`false`false`true`false`false`false`true`false}`{false`false`false`false`false`false`false`false`true`true`true`true`false`false`false`false}`{false`true`false`false`false`true`false`false`false`true`false`false`false`true`false`false}};" is 404.,2
+Tetris-master,(default package),TileTypeI,TileTypeI,Magic Number,The method contains a magic number: 4,2
+Tetris-master,(default package),TileTypeI,TileTypeI,Magic Number,The method contains a magic number: 4,2
+Tetris-master,(default package),TileTypeI,TileTypeI,Magic Number,The method contains a magic number: 4,2
+Tetris-master,(default package),TileTypeI,TileTypeI,Magic Number,The method contains a magic number: 5,2

@@ -1,0 +1,38 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+EDD_2-main,EDD_2,App,start,Magic Number,The method contains a magic number: 640,21
+EDD_2-main,EDD_2,App,start,Magic Number,The method contains a magic number: 480,21
+EDD_2-main,EDD_2.controllers,GameController,initialize,Magic Number,The method contains a magic number: 2,71
+EDD_2-main,EDD_2.controllers,GameController,setPlayerSymbol,Magic Number,The method contains a magic number: 2,118
+EDD_2-main,EDD_2.controllers,GameController,changeTextColor,Long Statement,The length of the statement "btn.setStyle("-fx-text-fill: #eee000; -fx-font-family: 'Courier New'; -fx-font-size: 45; -fx-font-weight: bold; -fx-background-color: transparent; -fx-border-color: #eee000;");" is 176.,160
+EDD_2-main,EDD_2.controllers,GameController,backHome,Empty catch clause,The method has an empty catch block.,164
+EDD_2-main,EDD_2.controllers,GameCvCController,initialize,Magic Number,The method contains a magic number: 2,78
+EDD_2-main,EDD_2.controllers,GameCvCController,switchToLauncherController,Empty catch clause,The method has an empty catch block.,113
+EDD_2-main,EDD_2.controllers,GameCvCController,changeTextColor,Long Statement,The length of the statement "btn.setStyle("-fx-text-fill: #eee000; " + "-fx-font-family: 'Courier New'; " + "-fx-font-size: 45; -fx-font-weight: bold; "+ "-fx-background-color: transparent; "+ "-fx-border-color: #eee000;");" is 194.,197
+EDD_2-main,EDD_2.controllers,GamePvCController,initialize,Magic Number,The method contains a magic number: 2,72
+EDD_2-main,EDD_2.controllers,GamePvCController,initialize,Magic Number,The method contains a magic number: 2,72
+EDD_2-main,EDD_2.controllers,GamePvCController,switchToLauncherController,Empty catch clause,The method has an empty catch block.,132
+EDD_2-main,EDD_2.controllers,GamePvCController,setupButton,Complex Conditional,The conditional expression i == 2 || i == 5 || i == 8 is complex.,165
+EDD_2-main,EDD_2.controllers,GamePvCController,setupButton,Complex Method,Cyclomatic complexity of the method is 8,165
+EDD_2-main,EDD_2.controllers,GamePvCController,setupButton,Magic Number,The method contains a magic number: 9,165
+EDD_2-main,EDD_2.controllers,GamePvCController,setupButton,Magic Number,The method contains a magic number: 2,165
+EDD_2-main,EDD_2.controllers,GamePvCController,setupButton,Magic Number,The method contains a magic number: 5,165
+EDD_2-main,EDD_2.controllers,GamePvCController,setupButton,Magic Number,The method contains a magic number: 8,165
+EDD_2-main,EDD_2.controllers,GamePvCController,changeTextColor,Long Statement,The length of the statement "btn.setStyle("-fx-text-fill: #eee000; " + "-fx-font-family: 'Courier New'; " + "-fx-font-size: 45; -fx-font-weight: bold; "+ "-fx-background-color: transparent; "+ "-fx-border-color: #eee000;");" is 194.,286
+EDD_2-main,EDD_2.controllers,LauncherController,switchToGameController,Empty catch clause,The method has an empty catch block.,43
+EDD_2-main,EDD_2.controllers,LauncherController,switchToSelectingController,Empty catch clause,The method has an empty catch block.,48
+EDD_2-main,EDD_2.controllers,LauncherController,switchToRankingController,Empty catch clause,The method has an empty catch block.,53
+EDD_2-main,EDD_2.controllers,LauncherController,CvC,Empty catch clause,The method has an empty catch block.,65
+EDD_2-main,EDD_2.controllers,RankingController,setScene,Empty catch clause,The method has an empty catch block.,90
+EDD_2-main,EDD_2.controllers,SelectingController,warningMiniWindow,Magic Number,The method contains a magic number: 300,71
+EDD_2-main,EDD_2.controllers,SelectingController,warningMiniWindow,Magic Number,The method contains a magic number: 100,71
+EDD_2-main,EDD_2.controllers,SelectingController,setStyleLabel,Long Statement,The length of the statement "label.setStyle("-fx-font-family: 'Courier New';" + "-fx-font-weight: bold;" + "-fx-font-size:" + size + ";"+ "-fx-text-fill: #eee000;");" is 136.,85
+EDD_2-main,EDD_2.controllers,SelectingController,createThread,Magic Number,The method contains a magic number: 5000,92
+EDD_2-main,EDD_2.controllers,SelectingController,setScene,Empty catch clause,The method has an empty catch block.,154
+EDD_2-main,EDD_2.models,Board,Board,Magic Number,The method contains a magic number: 9,30
+EDD_2-main,EDD_2.models,Board,whoIsWinner,Magic Number,The method contains a magic number: 8,40
+EDD_2-main,EDD_2.models,Board,whoIsWinner,Magic Number,The method contains a magic number: 2,40
+EDD_2-main,EDD_2.models,Board,utility,Complex Conditional,The conditional expression !oMovements.contains(n1) && !oMovements.contains(n2) && !oMovements.contains(n3) is complex.,79
+EDD_2-main,EDD_2.models,Board,utility,Complex Conditional,The conditional expression !xMovements.contains(n1) && !xMovements.contains(n2) && !xMovements.contains(n3) is complex.,79
+EDD_2-main,EDD_2.models,Board,utility,Magic Number,The method contains a magic number: 2,79
+EDD_2-main,EDD_2.models,Board,utility,Magic Number,The method contains a magic number: 8,79
+EDD_2-main,EDD_2.models,Board,utility,Magic Number,The method contains a magic number: 2,79

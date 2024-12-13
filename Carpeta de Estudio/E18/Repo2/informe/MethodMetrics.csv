@@ -1,0 +1,117 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+EDD_2-main,EDD_2,App,start,5,1,1,21,0,EDD_2.App,EDD_2.App
+EDD_2-main,EDD_2,App,setRoot,3,1,1,29,0,EDD_2.App,EDD_2.App
+EDD_2-main,EDD_2,App,loadFXML,4,1,1,33,0,,
+EDD_2-main,EDD_2,App,main,3,1,1,38,0,,
+EDD_2-main,EDD_2,App,changeRoot,3,1,1,42,0,,
+EDD_2-main,EDD_2.controllers,GameController,initialize,15,1,2,71,0,EDD_2.controllers.GameController,EDD_2.controllers.GameController
+EDD_2-main,EDD_2.controllers,GameController,restartGame,4,1,1,95,0,,
+EDD_2-main,EDD_2.controllers,GameController,resetButton,5,1,1,101,0,EDD_2.models.Board,EDD_2.models.Board
+EDD_2-main,EDD_2.controllers,GameController,setupButton,10,1,1,107,0,,
+EDD_2-main,EDD_2.controllers,GameController,setPlayerSymbol,12,2,1,118,0,EDD_2.models.Player,EDD_2.models.Player; EDD_2.models.Board
+EDD_2-main,EDD_2.controllers,GameController,checkIfGameIsOver,15,4,0,131,0,EDD_2.models.Board,EDD_2.models.Board; EDD_2.controllers.GameController
+EDD_2-main,EDD_2.controllers,GameController,disableButtons,7,1,0,144,0,,
+EDD_2-main,EDD_2.controllers,GameController,changeFillOfButtons,7,1,0,152,0,EDD_2.controllers.GameController,EDD_2.controllers.GameController
+EDD_2-main,EDD_2.controllers,GameController,changeTextColor,3,1,1,160,0,,
+EDD_2-main,EDD_2.controllers,GameController,backHome,7,1,1,164,0,EDD_2.App,EDD_2.App
+EDD_2-main,EDD_2.controllers,GameCvCController,initialize,18,1,2,78,0,EDD_2.controllers.GameCvCController,EDD_2.controllers.GameCvCController
+EDD_2-main,EDD_2.controllers,GameCvCController,restartGame,3,1,1,107,0,,
+EDD_2-main,EDD_2.controllers,GameCvCController,switchToLauncherController,7,1,1,113,0,EDD_2.App,EDD_2.App
+EDD_2-main,EDD_2.controllers,GameCvCController,resetButton,5,1,1,122,0,EDD_2.models.Board,EDD_2.models.Board
+EDD_2-main,EDD_2.controllers,GameCvCController,ComputersMovesManager,12,2,0,130,0,EDD_2.controllers.GameCvCController,EDD_2.controllers.GameCvCController
+EDD_2-main,EDD_2.controllers,GameCvCController,computerMove,15,3,2,145,0,EDD_2.models.Computer,EDD_2.models.Computer; EDD_2.controllers.GameCvCController; EDD_2.models.Board
+EDD_2-main,EDD_2.controllers,GameCvCController,checkIfGameIsOver,15,4,0,167,0,EDD_2.models.Board,EDD_2.models.Board
+EDD_2-main,EDD_2.controllers,GameCvCController,changeFillOfButtons,11,1,0,185,0,EDD_2.controllers.GameCvCController,EDD_2.controllers.GameCvCController
+EDD_2-main,EDD_2.controllers,GameCvCController,changeTextColor,3,1,1,197,0,,
+EDD_2-main,EDD_2.controllers,GameCvCController,start,8,2,0,205,0,,
+EDD_2-main,EDD_2.controllers,GamePvCController,initialize,40,6,2,72,0,EDD_2.models.Person,EDD_2.models.Person; EDD_2.controllers.GamePvCController; EDD_2.models.Ranking
+EDD_2-main,EDD_2.controllers,GamePvCController,restartGame,4,1,1,126,0,,
+EDD_2-main,EDD_2.controllers,GamePvCController,switchToLauncherController,8,1,1,132,0,EDD_2.App,EDD_2.App; EDD_2.controllers.GamePvCController
+EDD_2-main,EDD_2.controllers,GamePvCController,recoverPerson,14,3,0,141,0,EDD_2.models.Person,EDD_2.models.Person; EDD_2.models.Ranking
+EDD_2-main,EDD_2.controllers,GamePvCController,resetButton,7,1,1,157,0,EDD_2.controllers.GamePvCController,EDD_2.controllers.GamePvCController; EDD_2.models.Board
+EDD_2-main,EDD_2.controllers,GamePvCController,setupButton,38,8,1,165,0,,
+EDD_2-main,EDD_2.controllers,GamePvCController,firstMove,7,2,0,212,0,EDD_2.controllers.GamePvCController,EDD_2.controllers.GamePvCController
+EDD_2-main,EDD_2.controllers,GamePvCController,computerMove,17,3,0,224,0,EDD_2.models.Computer,EDD_2.models.Computer; EDD_2.controllers.GamePvCController; EDD_2.models.Person; EDD_2.models.Board
+EDD_2-main,EDD_2.controllers,GamePvCController,checkIfGameIsOver,18,4,0,246,0,EDD_2.models.Board,EDD_2.models.Board; EDD_2.controllers.GamePvCController
+EDD_2-main,EDD_2.controllers,GamePvCController,disableButtons,7,1,0,266,0,,
+EDD_2-main,EDD_2.controllers,GamePvCController,changeFillOfButtons,11,1,0,274,0,EDD_2.controllers.GamePvCController,EDD_2.controllers.GamePvCController
+EDD_2-main,EDD_2.controllers,GamePvCController,changeTextColor,3,1,1,286,0,,
+EDD_2-main,EDD_2.controllers,LauncherController,initialize,6,1,2,34,0,EDD_2.controllers.LauncherController,EDD_2.controllers.LauncherController
+EDD_2-main,EDD_2.controllers,LauncherController,switchToGameController,7,1,1,43,0,EDD_2.App,EDD_2.App
+EDD_2-main,EDD_2.controllers,LauncherController,switchToSelectingController,7,1,1,48,0,EDD_2.App,EDD_2.App
+EDD_2-main,EDD_2.controllers,LauncherController,switchToRankingController,7,1,1,53,0,EDD_2.App,EDD_2.App
+EDD_2-main,EDD_2.controllers,LauncherController,effectsButtons,6,1,1,58,0,,
+EDD_2-main,EDD_2.controllers,LauncherController,CvC,7,1,1,65,0,EDD_2.App,EDD_2.App
+EDD_2-main,EDD_2.controllers,RankingController,initialize,22,3,2,50,0,EDD_2.models.Person,EDD_2.models.Person; EDD_2.controllers.RankingController; EDD_2.models.Ranking
+EDD_2-main,EDD_2.controllers,RankingController,compare,3,1,2,56,0,EDD_2.models.Person,EDD_2.models.Person
+EDD_2-main,EDD_2.controllers,RankingController,backHome,3,1,1,85,0,EDD_2.controllers.RankingController,EDD_2.controllers.RankingController
+EDD_2-main,EDD_2.controllers,RankingController,setScene,7,1,1,90,0,EDD_2.App,EDD_2.App
+EDD_2-main,EDD_2.controllers,RankingController,cambiarColorEncabezado,6,1,2,94,0,,
+EDD_2-main,EDD_2.controllers,SelectingController,initialize,6,1,2,57,0,EDD_2.controllers.SelectingController,EDD_2.controllers.SelectingController
+EDD_2-main,EDD_2.controllers,SelectingController,warningMiniWindow,13,1,1,71,0,EDD_2.controllers.SelectingController,EDD_2.controllers.SelectingController
+EDD_2-main,EDD_2.controllers,SelectingController,setStyleLabel,3,1,2,85,0,,
+EDD_2-main,EDD_2.controllers,SelectingController,createThread,16,1,1,92,0,,
+EDD_2-main,EDD_2.controllers,SelectingController,confirmSelected,19,4,1,105,0,EDD_2.controllers.SelectingController,EDD_2.controllers.SelectingController
+EDD_2-main,EDD_2.controllers,SelectingController,setPlayerName,8,2,0,125,0,,
+EDD_2-main,EDD_2.controllers,SelectingController,setForO,4,1,0,132,0,,
+EDD_2-main,EDD_2.controllers,SelectingController,setForX,4,1,0,137,0,,
+EDD_2-main,EDD_2.controllers,SelectingController,setFirstPlayer,8,3,0,141,0,,
+EDD_2-main,EDD_2.controllers,SelectingController,cancelRadioBtn,3,1,1,149,0,EDD_2.controllers.SelectingController,EDD_2.controllers.SelectingController
+EDD_2-main,EDD_2.controllers,SelectingController,setScene,7,1,1,154,0,EDD_2.App,EDD_2.App
+EDD_2-main,EDD_2.controllers,SelectingController,effectsButtons,6,1,1,158,0,,
+EDD_2-main,EDD_2.controllers,SelectingController,changeImages,11,3,0,165,0,,
+EDD_2-main,EDD_2.controllers,SelectingController,setLabelX,3,1,1,177,0,,
+EDD_2-main,EDD_2.controllers,SelectingController,setLabelO,3,1,1,182,0,,
+EDD_2-main,EDD_2.dataStructures,Tree,Tree,3,1,0,16,0,,
+EDD_2-main,EDD_2.dataStructures,Tree,Tree,3,1,1,20,0,,
+EDD_2-main,EDD_2.dataStructures,Tree,isEmpty,3,1,0,24,0,,
+EDD_2-main,EDD_2.dataStructures,Tree,getRoot,3,1,0,28,0,EDD_2.dataStructures.TreeNode,EDD_2.dataStructures.TreeNode
+EDD_2-main,EDD_2.dataStructures,Tree,getRootNode,3,1,0,32,0,,
+EDD_2-main,EDD_2.dataStructures,Tree,setRootNode,3,1,1,36,0,,
+EDD_2-main,EDD_2.dataStructures,Tree,setRoot,3,1,1,40,0,EDD_2.dataStructures.TreeNode,EDD_2.dataStructures.TreeNode
+EDD_2-main,EDD_2.dataStructures,Tree,isLeaf,3,1,0,44,0,EDD_2.dataStructures.TreeNode,EDD_2.dataStructures.TreeNode
+EDD_2-main,EDD_2.dataStructures,TreeNode,TreeNode,4,1,1,18,0,,
+EDD_2-main,EDD_2.dataStructures,TreeNode,getContent,3,1,0,23,0,,
+EDD_2-main,EDD_2.dataStructures,TreeNode,setContent,3,1,1,27,0,,
+EDD_2-main,EDD_2.dataStructures,TreeNode,getChildren,3,1,0,31,0,,
+EDD_2-main,EDD_2.dataStructures,TreeNode,setChildren,3,1,1,35,0,,
+EDD_2-main,EDD_2.models,Board,Board,3,1,0,30,0,,
+EDD_2-main,EDD_2.models,Board,Board,3,1,1,35,0,,
+EDD_2-main,EDD_2.models,Board,whoIsWinner,22,5,2,40,0,EDD_2.models.Board,EDD_2.models.Board
+EDD_2-main,EDD_2.models,Board,getMovesPlayer,10,3,1,58,0,,
+EDD_2-main,EDD_2.models,Board,setMove,3,1,2,69,0,,
+EDD_2-main,EDD_2.models,Board,clear,5,2,0,73,0,,
+EDD_2-main,EDD_2.models,Board,utility,22,5,1,79,0,EDD_2.models.Board,EDD_2.models.Board; EDD_2.models.Player
+EDD_2-main,EDD_2.models,Board,getBoard,3,1,0,102,0,,
+EDD_2-main,EDD_2.models,Board,getUtility,3,1,0,106,0,,
+EDD_2-main,EDD_2.models,Board,setBoard,3,1,1,111,0,,
+EDD_2-main,EDD_2.models,Board,setUtility,3,1,1,115,0,EDD_2.models.Board,EDD_2.models.Board
+EDD_2-main,EDD_2.models,Board,setUtility,3,1,1,120,0,,
+EDD_2-main,EDD_2.models,Board,isFull,9,3,0,124,0,,
+EDD_2-main,EDD_2.models,Computer,Computer,4,1,2,18,0,,
+EDD_2-main,EDD_2.models,Computer,getId,3,1,0,23,0,,
+EDD_2-main,EDD_2.models,Computer,calculateBestMove,5,1,3,28,0,EDD_2.models.MiniMax,EDD_2.models.MiniMax
+EDD_2-main,EDD_2.models,MiniMax,MiniMax,4,1,2,25,0,,
+EDD_2-main,EDD_2.models,MiniMax,initializeUtility,4,1,2,30,0,EDD_2.models.MiniMax,EDD_2.models.MiniMax
+EDD_2-main,EDD_2.models,MiniMax,gameTree,9,2,2,36,0,EDD_2.dataStructures.Tree,EDD_2.dataStructures.Tree; EDD_2.models.MiniMax
+EDD_2-main,EDD_2.models,MiniMax,createStates,12,3,2,47,0,EDD_2.models.MiniMax,EDD_2.models.MiniMax; EDD_2.models.Board
+EDD_2-main,EDD_2.models,MiniMax,copyArray,3,1,2,60,0,,
+EDD_2-main,EDD_2.models,MiniMax,setMin,13,3,0,65,0,EDD_2.dataStructures.Tree,EDD_2.dataStructures.Tree; EDD_2.dataStructures.TreeNode; EDD_2.models.MiniMax
+EDD_2-main,EDD_2.models,MiniMax,childrenUtilities,8,2,1,81,0,EDD_2.models.Board,EDD_2.models.Board; EDD_2.dataStructures.Tree
+EDD_2-main,EDD_2.models,MiniMax,searchMax,10,3,0,93,0,EDD_2.dataStructures.Tree,EDD_2.dataStructures.Tree; EDD_2.models.Board; EDD_2.dataStructures.TreeNode; EDD_2.models.MiniMax
+EDD_2-main,EDD_2.models,MiniMax,searchMaxMove,11,4,0,104,0,EDD_2.models.MiniMax,EDD_2.models.MiniMax; EDD_2.models.Board
+EDD_2-main,EDD_2.models,MiniMax,maxUtility,9,2,0,118,0,EDD_2.dataStructures.Tree,EDD_2.dataStructures.Tree; EDD_2.models.Board; EDD_2.dataStructures.TreeNode
+EDD_2-main,EDD_2.models,MiniMax,setCurrentBoard,3,1,1,128,0,,
+EDD_2-main,EDD_2.models,Person,Person,6,1,1,21,0,,
+EDD_2-main,EDD_2.models,Person,Person,5,1,3,28,0,,
+EDD_2-main,EDD_2.models,Person,getNickname,3,1,0,36,0,,
+EDD_2-main,EDD_2.models,Person,setNickname,3,1,1,40,0,,
+EDD_2-main,EDD_2.models,Person,getContWins,3,1,0,44,0,,
+EDD_2-main,EDD_2.models,Person,setContWins,3,1,1,48,0,,
+EDD_2-main,EDD_2.models,Person,getContDefeats,3,1,0,52,0,,
+EDD_2-main,EDD_2.models,Person,setContDefeats,3,1,1,56,0,,
+EDD_2-main,EDD_2.models,Person,getId,3,1,0,60,0,,
+EDD_2-main,EDD_2.models,Person,equals,10,3,1,65,0,,
+EDD_2-main,EDD_2.models,Player,getId,0,1,0,17,0,,
+EDD_2-main,EDD_2.models,Ranking,escribirEnArchivo,8,1,1,23,0,,
+EDD_2-main,EDD_2.models,Ranking,loadPeople,10,1,0,32,0,,

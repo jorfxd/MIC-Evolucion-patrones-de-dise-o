@@ -1,0 +1,75 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+algo-main,ejerc.proyecto.estructuras,App,start,Magic Number,The method contains a magic number: 10,35
+algo-main,ejerc.proyecto.estructuras,App,start,Magic Number,The method contains a magic number: 25,35
+algo-main,ejerc.proyecto.estructuras,App,start,Magic Number,The method contains a magic number: 10,35
+algo-main,ejerc.proyecto.estructuras,App,start,Magic Number,The method contains a magic number: 600,35
+algo-main,ejerc.proyecto.estructuras,App,start,Magic Number,The method contains a magic number: 300,35
+algo-main,ejerc.proyecto.estructuras,App,mostrarVentanaRegistro,Empty catch clause,The method has an empty catch block.,77
+algo-main,ejerc.proyecto.estructuras,App,mostrarVentanaInicioSesion,Empty catch clause,The method has an empty catch block.,85
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Complex Method,Cyclomatic complexity of the method is 22,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Long Method,The method has 164 lines of code.,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Long Statement,The length of the statement "ContactoPersona nuevoContactoPersona=new ContactoPersona(apellido`fechaCumpleanos`nombre`fotos`direcciones`emails`numeros`redes);" is 129.,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Long Statement,The length of the statement "fieldsContainer.getChildren().addAll(hboxNombre`hboxApellido`hboxNumero`hboxDireccion`hboxEmail`hboxPagina`hboxCumpleanos);" is 123.,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Magic Number,The method contains a magic number: 100,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Magic Number,The method contains a magic number: 100,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Magic Number,The method contains a magic number: 25,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Magic Number,The method contains a magic number: 10,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Magic Number,The method contains a magic number: 2,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Magic Number,The method contains a magic number: 10,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Magic Number,The method contains a magic number: 20,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Magic Number,The method contains a magic number: 20,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Magic Number,The method contains a magic number: 20,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Magic Number,The method contains a magic number: 20,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Magic Number,The method contains a magic number: 500,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,start,Magic Number,The method contains a magic number: 500,61
+algo-main,ejerc.proyecto.estructuras,CrearContacto,createField,Magic Number,The method contains a magic number: 5,277
+algo-main,ejerc.proyecto.estructuras,CrearContacto,createField,Magic Number,The method contains a magic number: 5,277
+algo-main,ejerc.proyecto.estructuras,CrearContacto,createField,Magic Number,The method contains a magic number: 10,277
+algo-main,ejerc.proyecto.estructuras,InicioSesion,start,Magic Number,The method contains a magic number: 25,28
+algo-main,ejerc.proyecto.estructuras,InicioSesion,start,Magic Number,The method contains a magic number: 10,28
+algo-main,ejerc.proyecto.estructuras,InicioSesion,start,Magic Number,The method contains a magic number: 600,28
+algo-main,ejerc.proyecto.estructuras,InicioSesion,start,Magic Number,The method contains a magic number: 250,28
+algo-main,ejerc.proyecto.estructuras,InicioSesion,mostrarVentanaMenu,Empty catch clause,The method has an empty catch block.,85
+algo-main,ejerc.proyecto.estructuras,ListadeContactos,start,Magic Number,The method contains a magic number: 25,42
+algo-main,ejerc.proyecto.estructuras,ListadeContactos,start,Magic Number,The method contains a magic number: 20,42
+algo-main,ejerc.proyecto.estructuras,ListadeContactos,start,Magic Number,The method contains a magic number: 20,42
+algo-main,ejerc.proyecto.estructuras,ListadeContactos,start,Magic Number,The method contains a magic number: 20,42
+algo-main,ejerc.proyecto.estructuras,ListadeContactos,start,Magic Number,The method contains a magic number: 20,42
+algo-main,ejerc.proyecto.estructuras,ListadeContactos,start,Magic Number,The method contains a magic number: 10,42
+algo-main,ejerc.proyecto.estructuras,ListadeContactos,start,Magic Number,The method contains a magic number: 10,42
+algo-main,ejerc.proyecto.estructuras,ListadeContactos,start,Magic Number,The method contains a magic number: 10,42
+algo-main,ejerc.proyecto.estructuras,ListadeContactos,start,Magic Number,The method contains a magic number: 500,42
+algo-main,ejerc.proyecto.estructuras,ListadeContactos,start,Magic Number,The method contains a magic number: 500,42
+algo-main,ejerc.proyecto.estructuras,Menu,start,Magic Number,The method contains a magic number: 25,20
+algo-main,ejerc.proyecto.estructuras,Menu,start,Magic Number,The method contains a magic number: 400,20
+algo-main,ejerc.proyecto.estructuras,Menu,start,Magic Number,The method contains a magic number: 300,20
+algo-main,ejerc.proyecto.estructuras,Menu,mostrarContactos,Empty catch clause,The method has an empty catch block.,52
+algo-main,ejerc.proyecto.estructuras,Registro,start,Magic Number,The method contains a magic number: 25,32
+algo-main,ejerc.proyecto.estructuras,Registro,start,Magic Number,The method contains a magic number: 10,32
+algo-main,ejerc.proyecto.estructuras,Registro,start,Magic Number,The method contains a magic number: 600,32
+algo-main,ejerc.proyecto.estructuras,Registro,start,Magic Number,The method contains a magic number: 250,32
+algo-main,ejerc.proyecto.estructuras,Registro,registrar,Empty catch clause,The method has an empty catch block.,77
+algo-main,ejerc.proyecto.estructuras,VentanaDetalles,start,Complex Method,Cyclomatic complexity of the method is 18,38
+algo-main,ejerc.proyecto.estructuras,VentanaDetalles,start,Long Method,The method has 104 lines of code.,38
+algo-main,ejerc.proyecto.estructuras,VentanaDetalles,start,Magic Number,The method contains a magic number: 100,38
+algo-main,ejerc.proyecto.estructuras,VentanaDetalles,start,Magic Number,The method contains a magic number: 100,38
+algo-main,ejerc.proyecto.estructuras,VentanaDetalles,start,Magic Number,The method contains a magic number: 600,38
+algo-main,ejerc.proyecto.estructuras,VentanaDetalles,start,Magic Number,The method contains a magic number: 250,38
+algo-main,ejerc.proyecto.estructuras,VentanaDetalles,mostrarVentanaEditar,Empty catch clause,The method has an empty catch block.,151
+algo-main,ejerc.proyecto.estructuras,VentanaEditar,start,Complex Method,Cyclomatic complexity of the method is 24,46
+algo-main,ejerc.proyecto.estructuras,VentanaEditar,start,Long Method,The method has 169 lines of code.,46
+algo-main,ejerc.proyecto.estructuras,VentanaEditar,start,Long Statement,The length of the statement "ContactoPersona nuevoContactoPersona=new ContactoPersona(apellido`fechaCumpleanos`nombre`fotos`direcciones`emails`numeros`redes);" is 129.,46
+algo-main,ejerc.proyecto.estructuras,VentanaEditar,start,Magic Number,The method contains a magic number: 100,46
+algo-main,ejerc.proyecto.estructuras,VentanaEditar,start,Magic Number,The method contains a magic number: 100,46
+algo-main,ejerc.proyecto.estructuras,VentanaEditar,start,Magic Number,The method contains a magic number: 3,46
+algo-main,ejerc.proyecto.estructuras,VentanaEditar,start,Magic Number,The method contains a magic number: 600,46
+algo-main,ejerc.proyecto.estructuras,VentanaEditar,start,Magic Number,The method contains a magic number: 250,46
+algo-main,ejerc.proyecto.estructuras,verContactos,start,Magic Number,The method contains a magic number: 600,46
+algo-main,ejerc.proyecto.estructuras,verContactos,start,Magic Number,The method contains a magic number: 250,46
+algo-main,ejerc.proyecto.estructuras,verContactos,mostrarVentanaDetalles,Empty catch clause,The method has an empty catch block.,103
+algo-main,espol.utilidades,ArrayList,crecerArreglo,Magic Number,The method contains a magic number: 2,35
+algo-main,espol.utilidades,LinkedList,insert,Complex Conditional,The conditional expression element == null || index < 0 || index >= this.size() is complex.,130
+algo-main,espol.utilidades,LinkedList,set,Complex Conditional,The conditional expression element == null || index < 0 || index >= this.size() is complex.,188
+algo-main,Objetos,Contacto,Contacto,Long Parameter List,The method has 6 parameters. ,32
+algo-main,Objetos,ContactoEmpresa,ContactoEmpresa,Long Parameter List,The method has 7 parameters. ,18
+algo-main,Objetos,ContactoPersona,ContactoPersona,Long Parameter List,The method has 8 parameters. ,19

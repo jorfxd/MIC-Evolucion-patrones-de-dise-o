@@ -1,0 +1,26 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,App,start,Magic Number,The method contains a magic number: 640,20
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,App,start,Magic Number,The method contains a magic number: 480,20
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,Contacto,Contacto,Long Parameter List,The method has 10 parameters. ,34
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,Contacto,Contacto,Long Parameter List,The method has 9 parameters. ,50
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,Contacto,Contacto,Long Parameter List,The method has 8 parameters. ,67
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,Contacto,actualizarContacto,Long Statement,The length of the statement "if (contactos.get(i).getNombres().equals(contactoModificado.getNombres()) && contactos.get(i).getApellidos().equals(contactoModificado.getApellidos())) {" is 153.,243
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,ContactoEmpresa,ContactoEmpresa,Long Parameter List,The method has 7 parameters. ,16
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,ContactoEmpresa,ContactoEmpresa,Long Parameter List,The method has 8 parameters. ,19
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,CrearEmpresaController,createContact,Long Statement,The length of the statement "ContactoEmpresa contactoAgregar=new ContactoEmpresa(nametext.getText()`numbertext.getText()`correosAgregar`fotos`direccionAgregar`recordatorios`contAsoc);" is 154.,84
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,CrearUsuarioController,createContact,Long Statement,The length of the statement "Contacto contactoAgregar=new Contacto(nametext.getText()`lastnametext.getText()`numbertext.getText()`correosAgregar`fotos`direccionAgregar`recordatorios`contAsoc);" is 163.,93
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,EditContactController,SaveContact,Long Statement,The length of the statement "ContactoEmpresa contactoAgregar=new ContactoEmpresa(nametext.getText()`numbertext.getText()`correosAgregar`fotos`direccionAgregar`recordatorios`contAsoc);" is 154.,91
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,rowHandler,removeRow,Long Statement,The length of the statement "double newPrefHeight=gridPane.getChildren().stream().mapToDouble(node -> GridPane.getRowIndex(node) == null ? 0 : GridPane.getRowIndex(node)).max().orElse(0) * 25 + 40;" is 168.,20
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,rowHandler,removeRow,Magic Number,The method contains a magic number: 25,20
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,rowHandler,removeRow,Magic Number,The method contains a magic number: 40,20
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,SecondaryController,initialize,Long Statement,The length of the statement "Contacto contacto1=new Contacto("Juan"`"Perez"`"123456789"`correosJuan`lfotosc1`new MyArrayList<>()`new MyArrayList<>()`null);" is 126.,45
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,SecondaryController,initialize,Long Statement,The length of the statement "Contacto contacto2=new Contacto("Maria"`"Lopez"`"987654321"`new MyArrayList<>()`lfotosc2`new MyArrayList<>()`new MyArrayList<>()`null);" is 135.,45
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,VerContactoController,show,Complex Method,Cyclomatic complexity of the method is 21,130
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,VerContactoController,show,Long Method,The method has 106 lines of code.,130
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,VerContactoController,show,Long Statement,The length of the statement "labelContact.setText(c.getNombres() != null && c.getApellidos() != null ? c.getNombres() + " " + c.getApellidos() : "N/A");" is 123.,130
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,VerContactoController,show,Magic Number,The method contains a magic number: 2,130
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,VerContactoController,show,Magic Number,The method contains a magic number: 2,130
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,VerContactoController,show,Magic Number,The method contains a magic number: 2,130
+Proyecto_EDD-main,ec.edu.espol.proyecto_edd,VerContactoController,show,Magic Number,The method contains a magic number: 2,130
+Proyecto_EDD-main,TDA,MyArrayList,addCapacity,Magic Number,The method contains a magic number: 2,86
+Proyecto_EDD-main,TDA,MyArrayList,addCapacity,Magic Number,The method contains a magic number: 2,86
