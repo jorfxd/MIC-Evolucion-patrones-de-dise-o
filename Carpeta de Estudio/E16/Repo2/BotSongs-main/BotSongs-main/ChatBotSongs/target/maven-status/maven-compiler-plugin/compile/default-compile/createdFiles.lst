@@ -1,4 +1,5 @@
 com\mycompany\chatbotsongs\WhatsappController.class
 com\mycompany\chatbotsongs\App.class
+com\mycompany\chatbotsongs\ManejoArchivos.class
 module-info.class
 com\mycompany\chatbotsongs\PantallaPrincipalController.class

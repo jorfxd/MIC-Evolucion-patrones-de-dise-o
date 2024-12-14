@@ -1,3 +1,0 @@
-DesigniteJava Enterprise. Version 2.5.9.0
-Copyright (C) 2024 Designite. All rights reserved.
-13-12-2024 10:55:45: Parsing the source code ...

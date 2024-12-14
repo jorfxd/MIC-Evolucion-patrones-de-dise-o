@@ -1,0 +1,6 @@
+projectKey=E09-R1
+serverUrl=http://localhost:9000
+serverVersion=24.12.0.100206
+dashboardUrl=http://localhost:9000/dashboard?id=E09-R1
+ceTaskId=e8224e51-2382-4f6c-9bf8-9d231ccce215
+ceTaskUrl=http://localhost:9000/api/ce/task?id=e8224e51-2382-4f6c-9bf8-9d231ccce215
