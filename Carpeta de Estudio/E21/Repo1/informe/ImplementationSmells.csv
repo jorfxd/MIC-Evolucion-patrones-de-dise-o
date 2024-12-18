@@ -1,0 +1,11 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Proyecto-1-Poo-master,com.cristian.proyecto1,Boletos,menu,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@650ae78c,9
+Proyecto-1-Poo-master,com.cristian.proyecto1,Horarios,menu,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@7d7cac8,9
+Proyecto-1-Poo-master,com.cristian.proyecto1,IniciarSesion,menu,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@6fc6deb7,22
+Proyecto-1-Poo-master,com.cristian.proyecto1,Menu,Menu,Complex Method,Cyclomatic complexity of the method is 8,16
+Proyecto-1-Poo-master,com.cristian.proyecto1,Menu,Menu,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@367f0121,16
+Proyecto-1-Poo-master,com.cristian.proyecto1,Peliculas,menu,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@7da39774,9
+Proyecto-1-Poo-master,com.cristian.proyecto1,Principal,main,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@441b8382,7
+Proyecto-1-Poo-master,com.cristian.proyecto1,Reservas,menu,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@1df1ced0,9
+Proyecto-1-Poo-master,com.cristian.proyecto1,Salas,menu,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5349b246,9
+Proyecto-1-Poo-master,com.cristian.proyecto1,Usuarios,menu,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@32b0876c,20

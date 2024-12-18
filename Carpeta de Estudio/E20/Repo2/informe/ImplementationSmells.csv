@@ -1,0 +1,18 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Grupo_10,ec.edu.espol.controllers,DashboardController,initialize,Magic Number,The method contains a magic number: 0.03,116
+Grupo_10,ec.edu.espol.controllers,DashboardController,initialize,Magic Number,The method contains a magic number: 2,116
+Grupo_10,ec.edu.espol.controllers,DashboardController,fnPlay,Magic Number,The method contains a magic number: 0.03,168
+Grupo_10,ec.edu.espol.controllers,DashboardController,fnPlayAgain,Long Statement,The length of the statement "if (Util.generarAlertaConfirmacion("EMPEZAR A JUGAR"`"¿De verdad? ¡Asegúrate de haber ingresado el número correcto!")) {" is 124.,186
+Grupo_10,ec.edu.espol.controllers,DashboardController,fnPlayAgain,Long Statement,The length of the statement "Util.generarAlertaError("DEMASIADAS PREGUNTAS"`"¡Nunca terminaríamos de jugar si escoges un número tan grande! " + mensaje);" is 127.,186
+Grupo_10,ec.edu.espol.controllers,DashboardController,fnPlayAgain,Magic Number,The method contains a magic number: 0.03,186
+Grupo_10,ec.edu.espol.controllers,DashboardController,acabarjuego,Long Statement,The length of the statement "Util.generarAlertaInfo("¡No he llegado a una única respuesta :c!"`"Creo que podría ser uno de estos animales: " + resultado);" is 128.,240
+Grupo_10,ec.edu.espol.controllers,DashboardController,fnMachinePlay,Long Statement,The length of the statement "if (Util.generarAlertaConfirmacion("¿Asustado` Potter?"`"Es tu última oportunidad para escapar` ¿en verdad quieres retarme?")) {" is 131.,277
+Grupo_10,ec.edu.espol.controllers,DashboardController,fnMachineGame,Magic Number,The method contains a magic number: 0.03,295
+Grupo_10,ec.edu.espol.controllers,DashboardController,fnReturn,Magic Number,The method contains a magic number: 0.03,338
+Grupo_10,ec.edu.espol.controllers,DashboardController,clear,Magic Number,The method contains a magic number: 2,360
+Grupo_10,ec.edu.espol.grupo_10_iiparcial,App,start,Magic Number,The method contains a magic number: 700,25
+Grupo_10,ec.edu.espol.grupo_10_iiparcial,App,start,Magic Number,The method contains a magic number: 600,25
+Grupo_10,ec.edu.espol.grupo_10_iiparcial,ArbolBinario,respuestasPorRecorrido,Complex Method,Cyclomatic complexity of the method is 10,97
+Grupo_10,ec.edu.espol.grupo_10_iiparcial,CrearArbol,leerPreguntas,Empty catch clause,The method has an empty catch block.,60
+Grupo_10,ec.edu.espol.grupo_10_iiparcial,CrearArbol,leerRespuestas,Empty catch clause,The method has an empty catch block.,73
+Grupo_10,ec.edu.espol.util,Util,mostrarImagen,Long Statement,The length of the statement "String rutaProyecto=System.getProperty("user.dir") + File.separator + "src"+ File.separator+ "main"+ File.separator+ "resources";" is 129.,22

@@ -1,0 +1,259 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,initialize,3,1,2,148,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,crearContacto,23,3,1,161,0,Modelo.Contacto,Modelo.Contacto; ec.edu.espol.proyectocontactos.AgregarContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,Favorito,8,2,0,186,0,Modelo.Contacto,Modelo.Contacto
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,guardarContacto,16,3,0,194,0,Modelo.Usuario,Modelo.Usuario; ec.edu.espol.proyectocontactos.ContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,addFoto,14,2,0,212,0,Modelo.Contacto,Modelo.Contacto; ec.edu.espol.proyectocontactos.AgregarContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,addFecha,11,3,1,241,0,Modelo.Contacto,Modelo.Contacto; ec.edu.espol.proyectocontactos.AgregarContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,addRelacion,20,7,1,253,0,Modelo.Usuario,Modelo.Usuario; Modelo.Contacto; ec.edu.espol.proyectocontactos.AgregarContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,addEmail,10,3,1,277,0,Modelo.Contacto,Modelo.Contacto; ec.edu.espol.proyectocontactos.AgregarContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,addDireccion,10,3,1,288,0,ec.edu.espol.proyectocontactos.AgregarContactosController,ec.edu.espol.proyectocontactos.AgregarContactosController; Modelo.Contacto
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,addTelefono,10,3,1,299,0,Modelo.Contacto,Modelo.Contacto; ec.edu.espol.proyectocontactos.AgregarContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,addRed,10,3,1,310,0,Modelo.Contacto,Modelo.Contacto; ec.edu.espol.proyectocontactos.AgregarContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,setContactosController,3,1,1,321,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,AlertaCampos,6,1,0,325,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,AgregarContactosController,AlertaAdd,6,1,0,332,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,App,start,9,1,1,20,0,ec.edu.espol.proyectocontactos.App,ec.edu.espol.proyectocontactos.App
+ProyectoContactos,ec.edu.espol.proyectocontactos,App,setRoot,3,1,1,32,0,ec.edu.espol.proyectocontactos.App,ec.edu.espol.proyectocontactos.App
+ProyectoContactos,ec.edu.espol.proyectocontactos,App,loadFXML,4,1,1,36,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,App,main,3,1,1,41,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,initialize,41,5,2,78,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,AgregarContacto,16,1,1,127,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,setUsuario,3,1,1,149,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,setContacto,3,1,1,153,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,setLoginController,3,1,1,157,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,navigateNext,6,2,0,161,0,Modelo.Usuario,Modelo.Usuario; ec.edu.espol.proyectocontactos.ContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,navigatePrevious,6,2,0,169,0,Modelo.Usuario,Modelo.Usuario; ec.edu.espol.proyectocontactos.ContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,actualizarListView,19,3,0,176,0,Modelo.Usuario,Modelo.Usuario; Modelo.Contacto
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,actualizarListViewAdmin,16,4,0,195,0,Modelo.Usuario,Modelo.Usuario; Modelo.Contacto
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,removerContacto,19,5,1,212,0,Modelo.Usuario,Modelo.Usuario; Modelo.Contacto; ec.edu.espol.proyectocontactos.ContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,ordenarPorFavorito,16,5,0,234,0,Modelo.Usuario,Modelo.Usuario; Modelo.Contacto
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,ordenarPorEmpresa,16,5,0,254,0,Modelo.Usuario,Modelo.Usuario; Modelo.Contacto
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,ordenarPorPersonaNatural,16,5,0,273,0,Modelo.Usuario,Modelo.Usuario; Modelo.Contacto
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,desactivarBotones,6,1,0,292,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,ContactosController,ordenarLista,16,6,1,299,0,ec.edu.espol.proyectocontactos.ContactosController,ec.edu.espol.proyectocontactos.ContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,LoginController,initialize,3,1,2,52,0,ec.edu.espol.proyectocontactos.LoginController,ec.edu.espol.proyectocontactos.LoginController
+ProyectoContactos,ec.edu.espol.proyectocontactos,LoginController,formatosTextField,3,1,0,62,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,LoginController,signIn,46,6,1,67,0,Modelo.Usuario,Modelo.Usuario; ec.edu.espol.proyectocontactos.ContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,LoginController,signUp,8,1,1,122,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,initialize,49,3,2,171,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,mostrarImagenesEnHBox,37,5,1,227,0,Modelo.Contacto,Modelo.Contacto; ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,cargarImagenEnImageView,7,1,2,273,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,next,22,7,1,282,0,Modelo.Usuario,Modelo.Usuario; Modelo.Contacto; ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,before,22,7,1,308,0,Modelo.Usuario,Modelo.Usuario; Modelo.Contacto; ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,agregarInformacionContacto,31,11,2,335,0,Modelo.Contacto,Modelo.Contacto; Modelo.Usuario
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,removerInformacionContacto,37,11,2,364,0,Modelo.Contacto,Modelo.Contacto; Modelo.Usuario
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,addDireccion,10,3,1,399,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,addEmail,10,3,1,410,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,addTelefono,10,3,1,422,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,addRed,10,3,1,433,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,addFecha,11,3,1,445,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,addRelacion,26,8,1,458,0,Modelo.Usuario,Modelo.Usuario; Modelo.Contacto; ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,addFoto,23,6,0,519,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController; Modelo.Usuario; Modelo.Contacto
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,removeLeftPhoto,19,5,1,551,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController; Modelo.Usuario; Modelo.Contacto
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,removeTelefono,5,1,1,572,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,removeEmail,5,1,1,580,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,removeDireccion,5,1,1,588,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,removeRed,5,1,1,596,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,removeFecha,5,1,1,604,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,removeRelacion,5,1,1,612,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,setContactosController,4,1,1,620,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,initializeContacto,46,13,0,625,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController; Modelo.Contacto; Modelo.Usuario
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,cambiarNombre,18,6,1,677,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController; Modelo.Usuario; Modelo.Contacto; ec.edu.espol.proyectocontactos.ContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,cambiarApellido,18,6,1,700,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController; Modelo.Contacto; Modelo.Usuario; ec.edu.espol.proyectocontactos.ContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,cambiarEmpresa,18,6,1,722,0,ec.edu.espol.proyectocontactos.MostrarContactoController,ec.edu.espol.proyectocontactos.MostrarContactoController; Modelo.Usuario; Modelo.Contacto; ec.edu.espol.proyectocontactos.ContactosController
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,AlertaRelacionNoExiste,6,1,0,744,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,AlertaCampos,6,1,0,751,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,AlertaAdd,6,1,0,758,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,AlertaAtributoCambiado,6,1,0,765,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,circularFotos,2,1,0,772,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,MostrarContactoController,setContacto,3,1,1,800,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,SignUpController,initialize,4,1,2,70,0,ec.edu.espol.proyectocontactos.SignUpController,ec.edu.espol.proyectocontactos.SignUpController
+ProyectoContactos,ec.edu.espol.proyectocontactos,SignUpController,formatosTextField,3,1,0,80,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,SignUpController,mostrarConfigAdmin,22,2,2,84,0,,
+ProyectoContactos,ec.edu.espol.proyectocontactos,SignUpController,registrar,33,5,1,106,0,ec.edu.espol.proyectocontactos.SignUpController,ec.edu.espol.proyectocontactos.SignUpController; Modelo.Usuario
+ProyectoContactos,ec.edu.espol.proyectocontactos,SignUpController,regresar,8,1,1,147,0,,
+ProyectoContactos,Modelo,ArrayList,ArrayList,4,1,0,26,0,,
+ProyectoContactos,Modelo,ArrayList,addCapacidad,8,2,0,31,0,,
+ProyectoContactos,Modelo,ArrayList,size,3,1,0,40,0,,
+ProyectoContactos,Modelo,ArrayList,isEmpty,3,1,0,45,0,,
+ProyectoContactos,Modelo,ArrayList,clear,3,1,0,50,0,,
+ProyectoContactos,Modelo,ArrayList,add,19,6,2,55,0,Modelo.ArrayList,Modelo.ArrayList
+ProyectoContactos,Modelo,ArrayList,addFirst,18,5,1,74,0,Modelo.ArrayList,Modelo.ArrayList
+ProyectoContactos,Modelo,ArrayList,addLast,16,4,1,91,0,Modelo.ArrayList,Modelo.ArrayList
+ProyectoContactos,Modelo,ArrayList,remove,14,3,1,106,0,Modelo.ArrayList,Modelo.ArrayList
+ProyectoContactos,Modelo,ArrayList,removeFirst,3,1,0,121,0,Modelo.ArrayList,Modelo.ArrayList
+ProyectoContactos,Modelo,ArrayList,removeLast,3,1,0,125,0,Modelo.ArrayList,Modelo.ArrayList
+ProyectoContactos,Modelo,ArrayList,get,8,2,1,129,0,,
+ProyectoContactos,Modelo,ArrayList,set,8,2,2,138,0,,
+ProyectoContactos,Modelo,ArrayList,toString,13,3,0,148,0,Modelo.ArrayList,Modelo.ArrayList
+ProyectoContactos,Modelo,ArrayList,contains,8,3,1,163,0,,
+ProyectoContactos,Modelo,ArrayList,indexOf,8,3,1,173,0,,
+ProyectoContactos,Modelo,ArrayList,iterator,18,3,0,183,0,Modelo.ArrayList,Modelo.ArrayList
+ProyectoContactos,Modelo,ArrayList,hasNext,3,1,0,191,0,,
+ProyectoContactos,Modelo,ArrayList,next,6,2,0,196,0,,
+ProyectoContactos,Modelo,ArrayList,toArray,3,1,0,208,0,,
+ProyectoContactos,Modelo,ArrayList,toArray,3,1,1,213,0,,
+ProyectoContactos,Modelo,ArrayList,add,3,1,1,218,0,,
+ProyectoContactos,Modelo,ArrayList,remove,3,1,1,223,0,,
+ProyectoContactos,Modelo,ArrayList,containsAll,3,1,1,228,0,,
+ProyectoContactos,Modelo,ArrayList,addAll,3,1,1,233,0,,
+ProyectoContactos,Modelo,ArrayList,addAll,3,1,2,238,0,,
+ProyectoContactos,Modelo,ArrayList,removeAll,3,1,1,243,0,,
+ProyectoContactos,Modelo,ArrayList,retainAll,3,1,1,248,0,,
+ProyectoContactos,Modelo,ArrayList,lastIndexOf,3,1,1,253,0,,
+ProyectoContactos,Modelo,ArrayList,listIterator,3,1,0,258,0,,
+ProyectoContactos,Modelo,ArrayList,listIterator,3,1,1,263,0,,
+ProyectoContactos,Modelo,ArrayList,subList,3,1,2,268,0,,
+ProyectoContactos,Modelo,CircularNodeList,CircularNodeList,3,1,1,20,0,,
+ProyectoContactos,Modelo,CircularNodeList,CircularNodeList,2,1,0,25,0,,
+ProyectoContactos,Modelo,CircularNodeList,getContent,3,1,0,29,0,,
+ProyectoContactos,Modelo,CircularNodeList,getSig,3,1,0,33,0,,
+ProyectoContactos,Modelo,CircularNodeList,getPrev,3,1,0,37,0,,
+ProyectoContactos,Modelo,CircularNodeList,setContent,3,1,1,41,0,,
+ProyectoContactos,Modelo,CircularNodeList,setSig,3,1,1,45,0,,
+ProyectoContactos,Modelo,CircularNodeList,setPrev,3,1,1,49,0,,
+ProyectoContactos,Modelo,Contacto,Contacto,13,1,4,35,0,,
+ProyectoContactos,Modelo,Contacto,Contacto,13,1,0,49,0,,
+ProyectoContactos,Modelo,Contacto,getNombre,3,1,0,64,0,,
+ProyectoContactos,Modelo,Contacto,getFotos,3,1,0,68,0,,
+ProyectoContactos,Modelo,Contacto,setFotos,3,1,1,72,0,,
+ProyectoContactos,Modelo,Contacto,setNombre,3,1,1,76,0,,
+ProyectoContactos,Modelo,Contacto,getApellido,3,1,0,80,0,,
+ProyectoContactos,Modelo,Contacto,setApellido,3,1,1,84,0,,
+ProyectoContactos,Modelo,Contacto,getDirecciones,3,1,0,88,0,,
+ProyectoContactos,Modelo,Contacto,setDirecciones,3,1,1,92,0,,
+ProyectoContactos,Modelo,Contacto,getContactosRelacionados,3,1,0,96,0,,
+ProyectoContactos,Modelo,Contacto,setContactosRelacionados,3,1,1,100,0,,
+ProyectoContactos,Modelo,Contacto,getFechasInteres,3,1,0,104,0,,
+ProyectoContactos,Modelo,Contacto,setFechasInteres,3,1,1,108,0,,
+ProyectoContactos,Modelo,Contacto,isEsFavorito,3,1,0,112,0,,
+ProyectoContactos,Modelo,Contacto,setEsFavorito,3,1,1,116,0,,
+ProyectoContactos,Modelo,Contacto,getTipoContacto,3,1,0,120,0,,
+ProyectoContactos,Modelo,Contacto,setTipoContacto,3,1,1,124,0,,
+ProyectoContactos,Modelo,Contacto,getEmails,3,1,0,128,0,,
+ProyectoContactos,Modelo,Contacto,setEmails,3,1,1,132,0,,
+ProyectoContactos,Modelo,Contacto,getNumerosTelefono,3,1,0,136,0,,
+ProyectoContactos,Modelo,Contacto,setNumerosTelefono,3,1,1,140,0,,
+ProyectoContactos,Modelo,Contacto,getRedesSociales,3,1,0,144,0,,
+ProyectoContactos,Modelo,Contacto,setRedesSociales,3,1,1,148,0,,
+ProyectoContactos,Modelo,Contacto,saveListToFileSerContactos,7,1,1,152,0,,
+ProyectoContactos,Modelo,Contacto,readListFromFileSerContactos,13,1,0,160,0,,
+ProyectoContactos,Modelo,Contacto,toString,3,1,0,172,0,,
+ProyectoContactos,Modelo,Contacto,toStringInformacion,3,1,0,177,0,,
+ProyectoContactos,Modelo,Contacto,toStringEmpresa,3,1,0,189,0,,
+ProyectoContactos,Modelo,Contacto,equals,16,5,1,200,0,,
+ProyectoContactos,Modelo,Direccion,Direccion,4,1,2,18,0,,
+ProyectoContactos,Modelo,Direccion,getTipoDireccion,3,1,0,23,0,,
+ProyectoContactos,Modelo,Direccion,setTipoDireccion,3,1,1,27,0,,
+ProyectoContactos,Modelo,Direccion,getDireccion,3,1,0,31,0,,
+ProyectoContactos,Modelo,Direccion,setDireccion,3,1,1,35,0,,
+ProyectoContactos,Modelo,Direccion,toString,3,1,0,39,0,,
+ProyectoContactos,Modelo,Direccion,hashCode,4,1,0,44,0,,
+ProyectoContactos,Modelo,Direccion,equals,16,5,1,50,0,,
+ProyectoContactos,Modelo,DoubleCircleLinkedList,getLast,3,1,0,39,0,,
+ProyectoContactos,Modelo,DoubleCircleLinkedList,getFirst,3,1,0,43,0,,
+ProyectoContactos,Modelo,DoubleCircleLinkedList,DoubleCircleLinkedList,4,1,0,47,0,,
+ProyectoContactos,Modelo,DoubleCircleLinkedList,add,18,2,1,52,0,Modelo.DoubleCircleLinkedList,Modelo.DoubleCircleLinkedList
+ProyectoContactos,Modelo,DoubleCircleLinkedList,add,24,5,2,70,0,Modelo.DoubleCircleLinkedList,Modelo.DoubleCircleLinkedList
+ProyectoContactos,Modelo,DoubleCircleLinkedList,get,10,3,1,96,0,,
+ProyectoContactos,Modelo,DoubleCircleLinkedList,isEmpty,3,1,0,107,0,,
+ProyectoContactos,Modelo,DoubleCircleLinkedList,size,3,1,0,111,0,,
+ProyectoContactos,Modelo,DoubleCircleLinkedList,remove,33,7,1,115,0,Modelo.DoubleCircleLinkedList,Modelo.DoubleCircleLinkedList
+ProyectoContactos,Modelo,DoubleCircleLinkedList,toString,16,4,0,148,0,Modelo.DoubleCircleLinkedList,Modelo.DoubleCircleLinkedList
+ProyectoContactos,Modelo,DoubleCircleLinkedList,iteracionCircular,10,3,1,165,0,Modelo.DoubleCircleLinkedList,Modelo.DoubleCircleLinkedList
+ProyectoContactos,Modelo,DoubleCircleLinkedList,iteracionCircular2,8,2,0,175,0,Modelo.DoubleCircleLinkedList,Modelo.DoubleCircleLinkedList
+ProyectoContactos,Modelo,DoubleCircleLinkedList,indexOf,21,6,1,185,0,Modelo.DoubleCircleLinkedList,Modelo.DoubleCircleLinkedList
+ProyectoContactos,Modelo,DoubleCircleLinkedList,moveToNext,5,2,0,209,0,Modelo.DoubleCircleLinkedList,Modelo.DoubleCircleLinkedList
+ProyectoContactos,Modelo,DoubleCircleLinkedList,moveToPrevious,5,2,0,215,0,Modelo.DoubleCircleLinkedList,Modelo.DoubleCircleLinkedList
+ProyectoContactos,Modelo,DoubleCircleLinkedList,iterator,19,2,0,221,0,Modelo.DoubleCircleLinkedList,Modelo.DoubleCircleLinkedList
+ProyectoContactos,Modelo,DoubleCircleLinkedList,hasNext,3,1,0,227,0,Modelo.DoubleCircleLinkedList,Modelo.DoubleCircleLinkedList
+ProyectoContactos,Modelo,DoubleCircleLinkedList,next,9,2,0,232,0,,
+ProyectoContactos,Modelo,DoubleCircleLinkedList,findAndNext,10,3,2,246,0,,
+ProyectoContactos,Modelo,DoubleCircleLinkedList,findAndBefore,10,3,2,257,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,setLast,16,4,1,14,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,clear,4,1,0,30,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,addFirst,19,3,1,35,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,addLast,20,3,1,54,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,removeFirst,10,2,0,73,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,removeLast,18,4,0,84,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,getFirst,3,1,0,103,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,getLast,3,1,0,107,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,insert,26,6,2,111,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,contains,14,4,1,135,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,get,18,4,1,149,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,indexOf,18,4,1,167,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,isEmpty,3,1,0,185,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,remove,33,6,1,189,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,remove,18,3,2,219,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,set,19,4,2,238,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,size,3,1,0,258,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,listIterator,43,3,0,262,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,hasNext,3,1,0,265,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,next,8,2,0,270,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,hasPrevious,3,1,0,280,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,previous,8,2,0,285,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,nextIndex,3,1,0,295,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,previousIndex,3,1,0,300,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,remove,3,1,0,305,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,set,3,1,1,310,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,add,3,1,1,315,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,iterator,19,2,0,322,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,hasNext,3,1,0,327,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,DoublyCircularLInkedList,next,9,2,0,332,0,,
+ProyectoContactos,Modelo,DoublyCircularLInkedList,toString,0,5,0,346,0,Modelo.DoublyCircularLInkedList,Modelo.DoublyCircularLInkedList
+ProyectoContactos,Modelo,Email,Email,4,1,2,18,0,,
+ProyectoContactos,Modelo,Email,getTipoEmail,3,1,0,23,0,,
+ProyectoContactos,Modelo,Email,setTipoEmail,3,1,1,27,0,,
+ProyectoContactos,Modelo,Email,getEmail,3,1,0,31,0,,
+ProyectoContactos,Modelo,Email,setEmail,3,1,1,35,0,,
+ProyectoContactos,Modelo,Email,toString,3,1,0,39,0,,
+ProyectoContactos,Modelo,Email,hashCode,4,1,0,44,0,,
+ProyectoContactos,Modelo,Email,equals,16,5,1,50,0,,
+ProyectoContactos,Modelo,FechaInteres,FechaInteres,4,1,2,20,0,,
+ProyectoContactos,Modelo,FechaInteres,toString,3,1,0,25,0,,
+ProyectoContactos,Modelo,FechaInteres,hashCode,4,1,0,30,0,,
+ProyectoContactos,Modelo,FechaInteres,equals,16,5,1,36,0,,
+ProyectoContactos,Modelo,redSocial,redSocial,4,1,2,18,0,,
+ProyectoContactos,Modelo,redSocial,getTipoRedSocial,3,1,0,23,0,,
+ProyectoContactos,Modelo,redSocial,setTipoRedSocial,3,1,1,27,0,,
+ProyectoContactos,Modelo,redSocial,getRedID,3,1,0,31,0,,
+ProyectoContactos,Modelo,redSocial,setRedID,3,1,1,35,0,,
+ProyectoContactos,Modelo,redSocial,toString,3,1,0,39,0,,
+ProyectoContactos,Modelo,redSocial,hashCode,4,1,0,44,0,,
+ProyectoContactos,Modelo,redSocial,equals,16,5,1,50,0,,
+ProyectoContactos,Modelo,Relacion,Relacion,4,1,2,19,0,,
+ProyectoContactos,Modelo,Relacion,getTipoRelacion,3,1,0,24,0,,
+ProyectoContactos,Modelo,Relacion,setTipoRelacion,3,1,1,28,0,,
+ProyectoContactos,Modelo,Relacion,getContacto,3,1,0,32,0,,
+ProyectoContactos,Modelo,Relacion,setContacto,3,1,1,36,0,,
+ProyectoContactos,Modelo,Relacion,toString,3,1,0,42,0,Modelo.Contacto,Modelo.Contacto
+ProyectoContactos,Modelo,Relacion,hashCode,4,1,0,47,0,,
+ProyectoContactos,Modelo,Relacion,equals,16,5,1,53,0,,
+ProyectoContactos,Modelo,Telefono,Telefono,4,1,2,18,0,,
+ProyectoContactos,Modelo,Telefono,getTipoTelefono,3,1,0,23,0,,
+ProyectoContactos,Modelo,Telefono,setTipoTelefono,3,1,1,27,0,,
+ProyectoContactos,Modelo,Telefono,getTelefono,3,1,0,31,0,,
+ProyectoContactos,Modelo,Telefono,setTelefono,3,1,1,35,0,,
+ProyectoContactos,Modelo,Telefono,toString,3,1,0,39,0,,
+ProyectoContactos,Modelo,Telefono,hashCode,4,1,0,44,0,,
+ProyectoContactos,Modelo,Telefono,equals,16,5,1,50,0,,
+ProyectoContactos,Modelo,Usuario,Usuario,10,1,2,28,0,,
+ProyectoContactos,Modelo,Usuario,readListFromFileSerUsuarios,13,1,0,35,0,,
+ProyectoContactos,Modelo,Usuario,saveListToFileSerUsuarios,8,1,1,48,0,,
+ProyectoContactos,Modelo,Usuario,hashCode,5,1,0,56,0,,
+ProyectoContactos,Modelo,Usuario,equals,13,4,1,63,0,,
+ProyectoContactos,Modelo,Usuario,getNombreUsuario,3,1,0,79,0,,
+ProyectoContactos,Modelo,Usuario,setNombreUsuario,3,1,1,83,0,,
+ProyectoContactos,Modelo,Usuario,a,3,1,0,87,0,,
+ProyectoContactos,Modelo,Usuario,a,2,1,1,91,0,,
+ProyectoContactos,Modelo,Usuario,getTipoUsuario,3,1,0,95,0,,
+ProyectoContactos,Modelo,Usuario,setTipoUsuario,3,1,1,99,0,,
+ProyectoContactos,Modelo,Usuario,getContactos,3,1,0,103,0,,
+ProyectoContactos,Modelo,Usuario,setContactos,3,1,1,107,0,,
+ProyectoContactos,Modelo,Usuario,toString,3,1,0,111,0,,
+ProyectoContactos,util,Utilitario,mensajeAlertaConfirmacion,6,1,2,17,0,,
+ProyectoContactos,util,Utilitario,mensajeAlertaAdvertencia,6,1,2,24,0,,
+ProyectoContactos,util,Utilitario,mensajeAlertaError,6,1,2,31,0,,
+ProyectoContactos,util,Utilitario,mensajeAlertaInfo,6,1,2,38,0,,
+ProyectoContactos,util,Utilitario,soloNumerosYLetras,13,2,1,45,0,,

@@ -1,0 +1,30 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Taller01-snake-main,com.espol.taller01.snake,GameController,GameController,Magic Number,The method contains a magic number: 150,45
+Taller01-snake-main,com.espol.taller01.snake,GameController,stopGame,Magic Number,The method contains a magic number: 100,116
+Taller01-snake-main,com.espol.taller01.snake,GameView,GameView,Magic Number,The method contains a magic number: 40,32
+Taller01-snake-main,com.espol.taller01.snake,GameView,paintComponent,Magic Number,The method contains a magic number: 14,83
+Taller01-snake-main,com.espol.taller01.snake,GameView,paintComponent,Magic Number,The method contains a magic number: 10,83
+Taller01-snake-main,com.espol.taller01.snake,GameView,paintComponent,Magic Number,The method contains a magic number: 20,83
+Taller01-snake-main,com.espol.taller01.snake,GameView,paintComponent,Magic Number,The method contains a magic number: 24,83
+Taller01-snake-main,com.espol.taller01.snake,GameView,paintComponent,Magic Number,The method contains a magic number: 50,83
+Taller01-snake-main,com.espol.taller01.snake,GameView,paintComponent,Magic Number,The method contains a magic number: 50,83
+Taller01-snake-main,com.espol.taller01.snake,GoldModel,GoldModel,Magic Number,The method contains a magic number: 2,92
+Taller01-snake-main,com.espol.taller01.snake,GoldModel,GoldModel,Magic Number,The method contains a magic number: 2,92
+Taller01-snake-main,com.espol.taller01.snake,GoldModel,updateDirection,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@60b1ff3b,143
+Taller01-snake-main,com.espol.taller01.snake,GoldModel,getNextCollectorPos,Long Statement,The length of the statement "return new Position(this.collectorPos.getX() + this.direction.getXDelta()`this.collectorPos.getY() + this.direction.getYDelta());" is 129.,168
+Taller01-snake-main,com.espol.taller01.snake,GoldModel,gameUpdate,Magic Number,The method contains a magic number: 5,177
+Taller01-snake-main,com.espol.taller01.snake,GoldModel,isOutOfBounds,Long Statement,The length of the statement "return pos.getX() < 0 || pos.getX() >= getGameboardSize().width || pos.getY() < 0 || pos.getY() >= getGameboardSize().height;" is 125.,219
+Taller01-snake-main,com.espol.taller01.snake,Position,hashCode,Magic Number,The method contains a magic number: 23456789,35
+Taller01-snake-main,com.espol.taller01.snake,Position,hashCode,Magic Number,The method contains a magic number: 56789123,35
+Taller01-snake-main,com.espol.taller01.snake,RoundTile,draw,Magic Number,The method contains a magic number: 2.0,83
+Taller01-snake-main,com.espol.taller01.snake,RoundTile,draw,Magic Number,The method contains a magic number: 2.0,83
+Taller01-snake-main,com.espol.taller01.snake,RoundTile,draw,Magic Number,The method contains a magic number: 2,83
+Taller01-snake-main,com.espol.taller01.snake,RoundTile,draw,Magic Number,The method contains a magic number: 2,83
+Taller01-snake-main,com.espol.taller01.snake,RoundTile,draw,Magic Number,The method contains a magic number: 2,83
+Taller01-snake-main,com.espol.taller01.snake,RoundTile,draw,Magic Number,The method contains a magic number: 2,83
+Taller01-snake-main,com.espol.taller01.snake,SnakeModel,SnakeModel,Magic Number,The method contains a magic number: 2,93
+Taller01-snake-main,com.espol.taller01.snake,SnakeModel,SnakeModel,Magic Number,The method contains a magic number: 2,93
+Taller01-snake-main,com.espol.taller01.snake,SnakeModel,updateDirection,Complex Method,Cyclomatic complexity of the method is 9,157
+Taller01-snake-main,com.espol.taller01.snake,SnakeModel,updateDirection,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@60807fd9,157
+Taller01-snake-main,com.espol.taller01.snake,SnakeModel,getNextSnakePos,Long Statement,The length of the statement "return new Position(this.snakePos.getX() + this.direction.getXDelta()`this.snakePos.getY() + this.direction.getYDelta());" is 121.,216
+Taller01-snake-main,com.espol.taller01.snake,SnakeModel,isOutOfBounds,Long Statement,The length of the statement "return pos.getX() < 0 || pos.getX() >= getGameboardSize().width || pos.getY() < 0 || pos.getY() >= getGameboardSize().height;" is 125.,289

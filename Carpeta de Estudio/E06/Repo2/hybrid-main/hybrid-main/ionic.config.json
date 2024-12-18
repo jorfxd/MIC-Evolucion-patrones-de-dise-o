@@ -1,7 +1,0 @@
-{
-  "name": "hybrid",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular-standalone"
-}

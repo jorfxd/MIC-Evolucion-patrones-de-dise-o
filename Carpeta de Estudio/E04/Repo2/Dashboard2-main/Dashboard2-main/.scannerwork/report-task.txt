@@ -1,6 +1,0 @@
-projectKey=E04-R2
-serverUrl=http://localhost:9000
-serverVersion=24.12.0.100206
-dashboardUrl=http://localhost:9000/dashboard?id=E04-R2
-ceTaskId=e9d94ffd-1f5e-4051-92db-6dd1fb99bd92
-ceTaskUrl=http://localhost:9000/api/ce/task?id=e9d94ffd-1f5e-4051-92db-6dd1fb99bd92

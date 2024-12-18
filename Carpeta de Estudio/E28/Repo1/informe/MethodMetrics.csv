@@ -1,0 +1,308 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+ProyectoEstructuras-main,Clases,Contacto,Contacto,8,1,6,37,0,,
+ProyectoEstructuras-main,Clases,Contacto,Contacto,7,1,5,46,0,,
+ProyectoEstructuras-main,Clases,Contacto,getRutaTxt,3,1,0,59,0,,
+ProyectoEstructuras-main,Clases,Contacto,setRutaTxt,3,1,1,63,0,,
+ProyectoEstructuras-main,Clases,Contacto,getPer,3,1,0,68,0,,
+ProyectoEstructuras-main,Clases,Contacto,setPer,3,1,1,72,0,,
+ProyectoEstructuras-main,Clases,Contacto,getNombre,3,1,0,76,0,,
+ProyectoEstructuras-main,Clases,Contacto,setNombre,3,1,1,80,0,,
+ProyectoEstructuras-main,Clases,Contacto,getApellido,3,1,0,84,0,,
+ProyectoEstructuras-main,Clases,Contacto,setApellido,3,1,1,88,0,,
+ProyectoEstructuras-main,Clases,Contacto,getTlf,3,1,0,92,0,,
+ProyectoEstructuras-main,Clases,Contacto,setTlf,3,1,1,96,0,,
+ProyectoEstructuras-main,Clases,Contacto,getDir,3,1,0,100,0,,
+ProyectoEstructuras-main,Clases,Contacto,setDir,3,1,1,104,0,,
+ProyectoEstructuras-main,Clases,Contacto,getEmail,3,1,0,108,0,,
+ProyectoEstructuras-main,Clases,Contacto,setEmail,3,1,1,112,0,,
+ProyectoEstructuras-main,Clases,Contacto,getFecha,3,1,0,116,0,,
+ProyectoEstructuras-main,Clases,Contacto,setFecha,3,1,1,120,0,,
+ProyectoEstructuras-main,Clases,Contacto,getRedSocial,3,1,0,124,0,,
+ProyectoEstructuras-main,Clases,Contacto,setRedSocial,3,1,1,128,0,,
+ProyectoEstructuras-main,Clases,Contacto,getEmpresa,3,1,0,132,0,,
+ProyectoEstructuras-main,Clases,Contacto,setEmpresa,3,1,1,136,0,,
+ProyectoEstructuras-main,Clases,Contacto,compareTo,3,1,1,140,0,Clases.Contacto,Clases.Contacto
+ProyectoEstructuras-main,Clases,Contacto,toString,3,1,0,146,0,,
+ProyectoEstructuras-main,Clases,Contacto,equals,15,4,1,152,0,,
+ProyectoEstructuras-main,Clases,Direccion,Direccion,4,1,2,15,0,,
+ProyectoEstructuras-main,Clases,Direccion,toString,3,1,0,20,0,,
+ProyectoEstructuras-main,Clases,Direccion,getTipoDireccion,3,1,0,26,0,,
+ProyectoEstructuras-main,Clases,Direccion,getUbicacion,3,1,0,30,0,,
+ProyectoEstructuras-main,Clases,Direccion,setTipoDireccion,3,1,1,34,0,,
+ProyectoEstructuras-main,Clases,Direccion,setUbicacion,3,1,1,38,0,,
+ProyectoEstructuras-main,Clases,Email,Email,4,1,2,16,0,,
+ProyectoEstructuras-main,Clases,Email,toString,3,1,0,21,0,,
+ProyectoEstructuras-main,Clases,Email,getTipo,3,1,0,26,0,,
+ProyectoEstructuras-main,Clases,Email,getCorreo,3,1,0,30,0,,
+ProyectoEstructuras-main,Clases,Email,setTipo,3,1,1,34,0,,
+ProyectoEstructuras-main,Clases,Email,setCorreo,3,1,1,38,0,,
+ProyectoEstructuras-main,Clases,Fecha,Fecha,4,1,2,19,0,,
+ProyectoEstructuras-main,Clases,Fecha,toString,3,1,0,26,0,,
+ProyectoEstructuras-main,Clases,Fecha,getTipoFecha,3,1,0,31,0,,
+ProyectoEstructuras-main,Clases,Fecha,setTipoFecha,3,1,1,35,0,,
+ProyectoEstructuras-main,Clases,Fecha,getFecha,3,1,0,39,0,,
+ProyectoEstructuras-main,Clases,Fecha,setFecha,3,1,1,43,0,,
+ProyectoEstructuras-main,Clases,Foto,getListaImagenesAsociadas,3,1,0,19,0,,
+ProyectoEstructuras-main,Clases,Foto,setListaImagenesAsociadas,3,1,1,23,0,,
+ProyectoEstructuras-main,Clases,Foto,Foto,5,1,3,27,0,,
+ProyectoEstructuras-main,Clases,Foto,Foto,5,1,3,33,0,,
+ProyectoEstructuras-main,Clases,Foto,getNombre,3,1,0,39,0,,
+ProyectoEstructuras-main,Clases,Foto,setNombre,3,1,1,43,0,,
+ProyectoEstructuras-main,Clases,Foto,getApellido,3,1,0,47,0,,
+ProyectoEstructuras-main,Clases,Foto,setApellido,3,1,1,51,0,,
+ProyectoEstructuras-main,Clases,Foto,getImagen,3,1,0,55,0,,
+ProyectoEstructuras-main,Clases,Foto,setImagen,3,1,1,59,0,,
+ProyectoEstructuras-main,Clases,Foto,toString,3,1,0,63,0,,
+ProyectoEstructuras-main,Clases,PersonaAdicional,PersonaAdicional,4,1,2,15,0,,
+ProyectoEstructuras-main,Clases,PersonaAdicional,getPersona,3,1,0,20,0,,
+ProyectoEstructuras-main,Clases,PersonaAdicional,setPersona,3,1,1,24,0,,
+ProyectoEstructuras-main,Clases,PersonaAdicional,getTipoPersona,3,1,0,28,0,,
+ProyectoEstructuras-main,Clases,PersonaAdicional,setTipoPersona,3,1,1,32,0,,
+ProyectoEstructuras-main,Clases,PersonaAdicional,toString,3,1,0,36,0,,
+ProyectoEstructuras-main,Clases,RedSocial,RedSocial,4,1,2,15,0,,
+ProyectoEstructuras-main,Clases,RedSocial,toString,3,1,0,20,0,,
+ProyectoEstructuras-main,Clases,RedSocial,getTipoRedSocial,3,1,0,25,0,,
+ProyectoEstructuras-main,Clases,RedSocial,getUsername,3,1,0,29,0,,
+ProyectoEstructuras-main,Clases,RedSocial,setTipoRedSocial,3,1,1,33,0,,
+ProyectoEstructuras-main,Clases,RedSocial,setUsername,3,1,1,37,0,,
+ProyectoEstructuras-main,Clases,Telefono,Telefono,4,1,2,15,0,,
+ProyectoEstructuras-main,Clases,Telefono,toString,3,1,0,20,0,,
+ProyectoEstructuras-main,Clases,Telefono,getTipoTlf,3,1,0,25,0,,
+ProyectoEstructuras-main,Clases,Telefono,getTlf,3,1,0,29,0,,
+ProyectoEstructuras-main,Clases,Telefono,setTipoTlf,3,1,1,33,0,,
+ProyectoEstructuras-main,Clases,Telefono,setTlf,3,1,1,37,0,,
+ProyectoEstructuras-main,Controller,App,start,7,1,1,24,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,App,setRoot,3,1,1,34,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,App,loadFXML,4,1,1,38,0,,
+ProyectoEstructuras-main,Controller,App,main,3,1,1,43,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,initialize,22,3,2,140,0,ListTDA.ArrayG9,ListTDA.ArrayG9; Controller.CreacionContactosController
+ProyectoEstructuras-main,Controller,CreacionContactosController,enviarListaContactos,48,1,1,177,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,guardarEmpresa,45,1,1,235,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,ventanaContactos,3,1,1,295,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,CreacionContactosController,camposAdicionales,17,1,0,300,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,cargarEtiquetas,45,1,0,321,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,cargarCombobox,58,23,0,365,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,ocultarCampos,5,1,1,432,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,EscribirArchivoContactos,17,1,0,439,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,EscribirEmpresaContactosTxt,17,1,0,459,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,EscribirArchivoCamposAdicionales,33,4,0,479,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,EscribirEmpresaCamposAdicionalesTxt,15,1,0,512,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,escribirArchivosImagenes,13,1,1,530,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,agregarAlArchivoImagenesAsociadas,13,1,1,545,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,escribirEmpresaFotosPerfilTxt,13,1,1,561,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,escribirEmpresaImagenesAsociadasTxt,13,1,1,577,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,changeImage,11,1,2,593,0,,
+ProyectoEstructuras-main,Controller,CreacionContactosController,elegirImagen,3,1,1,610,0,Controller.CreacionContactosController,Controller.CreacionContactosController
+ProyectoEstructuras-main,Controller,CreacionContactosController,elegirImagenEmpresa,3,1,1,615,0,Controller.CreacionContactosController,Controller.CreacionContactosController
+ProyectoEstructuras-main,Controller,CreacionContactosController,elegirImagenPerfil,13,2,1,625,0,Controller.CreacionContactosController,Controller.CreacionContactosController
+ProyectoEstructuras-main,Controller,EditarContactoController,initialize,9,2,2,97,0,Controller.EditarContactoController,Controller.EditarContactoController
+ProyectoEstructuras-main,Controller,EditarContactoController,mostrarInfor,18,1,0,114,0,Clases.Email,Clases.Email; Clases.Telefono; Controller.EditarContactoController; Clases.Direccion; Clases.Contacto; Clases.Fecha
+ProyectoEstructuras-main,Controller,EditarContactoController,anadirComboBox,8,1,0,134,0,,
+ProyectoEstructuras-main,Controller,EditarContactoController,ponerimagenAsociada,13,3,0,143,0,Clases.Foto,Clases.Foto; Clases.Contacto
+ProyectoEstructuras-main,Controller,EditarContactoController,changeImage,11,1,1,158,0,,
+ProyectoEstructuras-main,Controller,EditarContactoController,CambiarImagen,14,2,1,173,0,Controller.EditarContactoController,Controller.EditarContactoController
+ProyectoEstructuras-main,Controller,EditarContactoController,deleteFromFileEditContact,22,3,3,199,0,,
+ProyectoEstructuras-main,Controller,EditarContactoController,guardarNewCambios,59,9,1,231,0,Controller.EditarContactoController,Controller.EditarContactoController; Controller.App; Clases.Contacto; Clases.Foto
+ProyectoEstructuras-main,Controller,EditarContactoController,escribirArchivoImagenAsociada,24,4,2,323,0,Clases.Contacto,Clases.Contacto; ListTDA.LLDouble
+ProyectoEstructuras-main,Controller,EditarContactoController,EscribirArchivoContactosEditados,17,1,0,349,0,Clases.Email,Clases.Email; Clases.Telefono; Clases.Contacto; Clases.Direccion; Clases.Fecha
+ProyectoEstructuras-main,Controller,EditarContactoController,EscribirArchivoCamposAdicionalesEditados,33,4,0,367,0,Clases.Contacto,Clases.Contacto; Clases.RedSocial
+ProyectoEstructuras-main,Controller,EditarContactoController,escribirArchivosImagenesPersonEdit,13,1,1,399,0,Clases.Contacto,Clases.Contacto
+ProyectoEstructuras-main,Controller,EditarContactoController,volver,3,1,1,414,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,EditarEmpresaController,initialize,9,2,2,96,0,Controller.EditarEmpresaController,Controller.EditarEmpresaController
+ProyectoEstructuras-main,Controller,EditarEmpresaController,ponerimagenAsociadaEmpresa,13,3,0,114,0,Clases.Foto,Clases.Foto; Clases.Contacto
+ProyectoEstructuras-main,Controller,EditarEmpresaController,mostrarInformacion,16,1,0,132,0,Clases.Email,Clases.Email; Clases.Telefono; Clases.Direccion; Clases.Contacto; Clases.Fecha; Controller.EditarEmpresaController
+ProyectoEstructuras-main,Controller,EditarEmpresaController,llenarComboBox,8,1,0,152,0,,
+ProyectoEstructuras-main,Controller,EditarEmpresaController,changeImageEmpresa,11,1,1,162,0,,
+ProyectoEstructuras-main,Controller,EditarEmpresaController,cambiarImagenEmpresa,14,2,1,178,0,Controller.EditarEmpresaController,Controller.EditarEmpresaController
+ProyectoEstructuras-main,Controller,EditarEmpresaController,deleteInfoFromFile,22,3,3,206,0,,
+ProyectoEstructuras-main,Controller,EditarEmpresaController,volverHome,3,1,1,237,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,EditarEmpresaController,guardarEmpresaEditada,59,9,1,242,0,Controller.EditarContactoController,Controller.EditarContactoController; Controller.App; Controller.EditarEmpresaController; Clases.Contacto; Clases.Foto
+ProyectoEstructuras-main,Controller,EditarEmpresaController,escribirArchivoImagenEmpresaAsociada,24,3,2,337,0,Clases.Contacto,Clases.Contacto; ListTDA.LLDouble
+ProyectoEstructuras-main,Controller,EditarEmpresaController,escribirArchivosImagenesPersonaEditada,13,1,1,364,0,Clases.Contacto,Clases.Contacto
+ProyectoEstructuras-main,Controller,EditarEmpresaController,escribirArchivoContactosEditado,17,1,0,379,0,Clases.Email,Clases.Email; Clases.Telefono; Clases.Contacto; Clases.Direccion; Clases.Fecha
+ProyectoEstructuras-main,Controller,EditarEmpresaController,EscribirArchivoCamposAdEditados,27,3,0,398,0,Clases.Contacto,Clases.Contacto; Clases.RedSocial
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,initialize,4,1,2,53,0,Controller.ImagenesAsociadasController,Controller.ImagenesAsociadasController
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,volverPerfilContacto,3,1,1,62,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,eliminarFoto,20,5,1,67,0,ListTDA.LLDouble,ListTDA.LLDouble; Controller.ImagenesAsociadasController; Clases.Foto
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,mostrarAnterior,12,3,1,96,0,ListTDA.LLDouble,ListTDA.LLDouble; Controller.ImagenesAsociadasController; Clases.Foto
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,mostrarSiguiente,12,3,1,112,0,ListTDA.LLDouble,ListTDA.LLDouble; Controller.ImagenesAsociadasController; Clases.Foto
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,llenarListaFotosAsociadas,21,3,0,127,0,,
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,presentarImagen,13,3,1,153,0,Clases.Contacto,Clases.Contacto; Clases.Foto; ListTDA.LLDouble; Controller.ImagenesAsociadasController
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,mostrarImagen,9,1,1,173,0,,
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,agregarFotoAsociada,3,1,1,184,0,Controller.ImagenesAsociadasController,Controller.ImagenesAsociadasController
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,agregarFoto,17,2,0,192,0,Clases.Foto,Clases.Foto; Controller.ImagenesAsociadasController
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,agregarAlArchivo,27,3,3,216,0,,
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,updateArchive,31,4,3,254,0,,
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,conseguirFotosAsociadas,21,4,2,296,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,initialize,40,5,2,118,0,Controller.ListaContactosController,Controller.ListaContactosController; ListTDA.LLDouble; ListTDA.ArrayG9
+ProyectoEstructuras-main,Controller,ListaContactosController,filtrarContactos,20,4,1,174,0,Controller.ListaContactosController,Controller.ListaContactosController
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListView,12,4,0,194,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaCrear,4,1,1,209,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,ListaContactosController,limpiarTxtBuscador,3,1,1,217,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,visualizarInfo,3,1,1,222,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,30,2,0,227,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarlistaCamposAdicionales,37,3,0,262,0,Controller.ListaContactosController,Controller.ListaContactosController
+ProyectoEstructuras-main,Controller,ListaContactosController,obtenerDato,4,1,2,307,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,actualizarlistaContactos,23,2,0,314,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,run,16,2,0,318,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,listContactosSettings,30,6,1,340,0,Clases.Contacto,Clases.Contacto; Controller.ListaContactosController; Clases.RedSocial
+ProyectoEstructuras-main,Controller,ListaContactosController,listContactosCopiaSettings,34,7,1,377,0,Clases.Contacto,Clases.Contacto; Controller.ListaContactosController; Clases.RedSocial
+ProyectoEstructuras-main,Controller,ListaContactosController,mostrarVentanaEmergente,59,2,1,419,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,20,2,1,430,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,10,1,1,458,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarfotoPerfiles,16,2,0,494,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,ventanaBusqueda,40,1,1,512,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,10,1,1,522,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,4,1,1,536,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,buscarPorApellido,12,2,1,562,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,buscarPorDireccion,12,2,1,576,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,buscarPorContactoAsociado,12,2,1,589,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,buscarPorEtiquetas,16,3,1,603,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,ocultarBusqueda,7,1,1,623,0,Controller.ListaContactosController,Controller.ListaContactosController
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,198,8,1,634,0,Controller.ListaContactosController,Controller.ListaContactosController; Clases.Contacto
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,31,2,1,670,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,31,2,1,702,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,31,2,1,734,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,31,2,1,766,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,19,4,1,812,0,Controller.ListaContactosController,Controller.ListaContactosController; Clases.Contacto
+ProyectoEstructuras-main,Controller,ListaContactosController,escribirArchivoEtiquetas,11,1,3,836,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarMapaEtiquetas,14,2,0,848,0,,
+ProyectoEstructuras-main,Controller,ListaContactosController,realizarBusquedaPersonalizada,0,6,1,865,0,Controller.ListaContactosController,Controller.ListaContactosController
+ProyectoEstructuras-main,Controller,ListaContactosController,filtrarPorApellido,18,5,1,894,0,Clases.Contacto,Clases.Contacto
+ProyectoEstructuras-main,Controller,ListaContactosController,filtrarPorDireccion,18,5,1,922,0,Clases.Direccion,Clases.Direccion; Clases.Contacto
+ProyectoEstructuras-main,Controller,ListaContactosController,filtrarPorContactoAsociado,22,7,1,949,0,Clases.Contacto,Clases.Contacto
+ProyectoEstructuras-main,Controller,ListaContactosController,filtrarPorEtiquetas,25,7,1,979,0,Clases.Contacto,Clases.Contacto
+ProyectoEstructuras-main,Controller,LoginController,initialize,10,2,2,45,0,Controller.LoginController,Controller.LoginController
+ProyectoEstructuras-main,Controller,LoginController,abrirVentanaPrincipal,16,6,1,60,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,LoginController,abrirVentanaRegistrer,3,1,1,77,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,LoginController,cargarMapaUsuarios,14,2,0,82,0,,
+ProyectoEstructuras-main,Controller,PatronContraseniaController,initialize,15,1,2,57,0,Controller.PatronContraseniaController,Controller.PatronContraseniaController
+ProyectoEstructuras-main,Controller,PatronContraseniaController,escrbir1,7,1,0,78,0,,
+ProyectoEstructuras-main,Controller,PatronContraseniaController,escrbir2,7,1,0,84,0,,
+ProyectoEstructuras-main,Controller,PatronContraseniaController,escrbir3,7,1,0,90,0,,
+ProyectoEstructuras-main,Controller,PatronContraseniaController,escrbir4,7,1,0,96,0,,
+ProyectoEstructuras-main,Controller,PatronContraseniaController,escrbir5,7,1,0,102,0,,
+ProyectoEstructuras-main,Controller,PatronContraseniaController,escrbir6,7,1,0,108,0,,
+ProyectoEstructuras-main,Controller,PatronContraseniaController,escrbir7,7,1,0,114,0,,
+ProyectoEstructuras-main,Controller,PatronContraseniaController,escrbir8,7,1,0,120,0,,
+ProyectoEstructuras-main,Controller,PatronContraseniaController,escrbir9,7,1,0,126,0,,
+ProyectoEstructuras-main,Controller,PatronContraseniaController,escrbir0,7,1,0,132,0,,
+ProyectoEstructuras-main,Controller,PatronContraseniaController,borrardigito,10,2,0,138,0,,
+ProyectoEstructuras-main,Controller,PatronContraseniaController,aceptar,16,2,0,149,0,,
+ProyectoEstructuras-main,Controller,PerfilContactoController,initialize,6,2,2,117,0,ListTDA.LLDouble,ListTDA.LLDouble; Controller.PerfilContactoController
+ProyectoEstructuras-main,Controller,PerfilContactoController,mostrarAnterior,12,3,1,128,0,ListTDA.LLDouble,ListTDA.LLDouble; Controller.PerfilContactoController
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaInicio,3,1,1,142,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,PerfilContactoController,mostrarSiguiente,12,3,1,147,0,ListTDA.LLDouble,ListTDA.LLDouble; Controller.PerfilContactoController
+ProyectoEstructuras-main,Controller,PerfilContactoController,mostrarPersonaActual,55,6,0,163,0,Clases.Email,Clases.Email; Clases.Direccion; Clases.Contacto; Clases.Foto; Controller.PerfilContactoController; Clases.Fecha; ListTDA.LLDouble; Clases.Telefono; Clases.RedSocial
+ProyectoEstructuras-main,Controller,PerfilContactoController,cargarListaPerfiles,20,3,2,235,0,,
+ProyectoEstructuras-main,Controller,PerfilContactoController,cargarListaPerfiles,19,2,0,257,0,,
+ProyectoEstructuras-main,Controller,PerfilContactoController,seleccionImagen,10,1,1,278,0,,
+ProyectoEstructuras-main,Controller,PerfilContactoController,deleteFromFile,22,3,3,290,0,,
+ProyectoEstructuras-main,Controller,PerfilContactoController,delete,20,2,1,320,0,Controller.App,Controller.App; Clases.Contacto; Controller.PerfilContactoController
+ProyectoEstructuras-main,Controller,PerfilContactoController,importarContacto,3,1,1,353,0,Controller.PerfilContactoController,Controller.PerfilContactoController
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,122,8,0,358,0,,
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,31,2,1,394,0,,
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,24,4,1,426,0,,
+ProyectoEstructuras-main,Controller,PerfilContactoController,mostrarAlerta,7,1,2,488,0,,
+ProyectoEstructuras-main,Controller,PerfilContactoController,ArchivoContactoExportado,16,1,1,496,0,,
+ProyectoEstructuras-main,Controller,PerfilContactoController,ventanaVisualizarFotos,3,1,1,513,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,PerfilContactoController,mostrarContactoAsociado,3,1,1,518,0,Controller.PerfilContactoController,Controller.PerfilContactoController
+ProyectoEstructuras-main,Controller,PerfilContactoController,showInfo,48,12,1,524,0,Clases.Contacto,Clases.Contacto; Controller.App; Clases.RedSocial; Controller.PerfilContactoController
+ProyectoEstructuras-main,Controller,PrimaryController,switchToSecondary,3,1,0,13,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,initialize,3,1,2,51,0,,
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,registrarUsuario,10,2,1,59,0,Controller.App,Controller.App; Controller.RegistroUsuarioController
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillasUsuarioLlena,20,2,1,70,0,,
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillasContraLlena,20,2,1,89,0,,
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillaUltimaLlena,20,2,1,108,0,,
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,escribirEnArchivoLogin,13,1,0,127,0,,
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,initialize,3,1,2,88,0,Controller.VistaContactoIndividualController,Controller.VistaContactoIndividualController
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,volverListaContactos,12,1,1,96,0,Controller.App,Controller.App
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,mostrarInfo,22,3,0,108,0,Clases.Foto,Clases.Foto; Clases.Email; Clases.Telefono; Clases.Direccion; Clases.Contacto; Clases.Fecha
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,MostrarOpcionesExportado,3,1,1,134,0,Controller.VistaContactoIndividualController,Controller.VistaContactoIndividualController
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,122,8,0,138,0,,
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,31,2,1,173,0,,
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,24,4,1,206,0,,
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,mostrarAlerta,7,1,2,269,0,,
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,ArchivoContactoExportado,16,1,1,277,0,,
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,showInfoContactAdicional,3,1,1,294,0,Controller.PerfilContactoController,Controller.PerfilContactoController
+ProyectoEstructuras-main,ListTDA,ArrayG9,ArrayG9,4,1,0,20,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,isFull,3,1,0,25,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,addCapacity,8,2,0,29,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,size,3,1,0,38,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,isEmpty,3,1,0,43,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,clear,3,1,0,48,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,addFirst,18,5,1,53,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ArrayG9,add,16,4,1,71,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ArrayG9,removeFirst,3,1,0,87,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ArrayG9,removeLast,3,1,0,92,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ArrayG9,add,20,6,2,97,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ArrayG9,remove,14,3,1,118,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ArrayG9,get,8,2,1,133,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,set,8,2,2,142,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,swap,14,3,2,153,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ArrayG9,toString,13,3,0,177,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ArrayG9,subList,10,3,2,192,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ArrayG9,removeFirstNElements,10,3,1,203,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,reverse,13,4,0,216,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ArrayG9,addAll,18,5,1,234,0,ListTDA.ArrayG9,ListTDA.ArrayG9; ListTDA.ListGroup9
+ProyectoEstructuras-main,ListTDA,ArrayG9,contains,8,3,1,252,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,contains,8,3,2,262,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,indexOf,8,3,1,271,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,iterator,18,3,0,281,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ArrayG9,hasNext,3,1,0,287,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,next,6,2,0,292,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,nthIterator,20,3,1,304,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ArrayG9,hasNext,3,1,0,309,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,next,8,2,0,314,0,,
+ProyectoEstructuras-main,ListTDA,ArrayG9,remove,12,4,1,326,0,ListTDA.ArrayG9,ListTDA.ArrayG9
+ProyectoEstructuras-main,ListTDA,ListGroup9,addFirst,0,1,1,9,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,add,0,1,1,11,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,removeFirst,0,1,0,13,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,removeLast,0,1,0,15,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,size,0,1,0,17,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,isEmpty,0,1,0,19,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,clear,0,1,0,21,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,contains,0,1,1,23,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,add,0,1,2,25,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,remove,0,1,1,27,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,get,0,1,1,29,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,set,0,1,2,31,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,indexOf,0,1,1,33,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,remove,0,1,1,35,0,,
+ProyectoEstructuras-main,ListTDA,ListGroup9,toString,0,1,0,37,0,,
+ProyectoEstructuras-main,ListTDA,LLDouble,LLDouble,4,1,0,12,0,,
+ProyectoEstructuras-main,ListTDA,LLDouble,getFirst,3,1,0,17,0,,
+ProyectoEstructuras-main,ListTDA,LLDouble,setFirst,3,1,1,21,0,,
+ProyectoEstructuras-main,ListTDA,LLDouble,getLast,3,1,0,25,0,,
+ProyectoEstructuras-main,ListTDA,LLDouble,setLast,3,1,1,29,0,,
+ProyectoEstructuras-main,ListTDA,LLDouble,addFirst,12,3,1,33,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,add,14,3,1,48,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,removeFirst,12,3,0,65,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,removeLast,20,5,0,79,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,size,10,3,0,103,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,isEmpty,3,1,0,115,0,,
+ProyectoEstructuras-main,ListTDA,LLDouble,clear,5,2,0,120,0,ListTDA.LLDouble,ListTDA.LLDouble
+ProyectoEstructuras-main,ListTDA,LLDouble,add,24,5,2,127,0,ListTDA.NodeList,ListTDA.NodeList; ListTDA.LLDouble
+ProyectoEstructuras-main,ListTDA,LLDouble,remove,22,5,1,151,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,get,11,3,1,174,0,ListTDA.NodeList,ListTDA.NodeList; ListTDA.LLDouble
+ProyectoEstructuras-main,ListTDA,LLDouble,set,13,3,2,187,0,ListTDA.NodeList,ListTDA.NodeList; ListTDA.LLDouble
+ProyectoEstructuras-main,ListTDA,LLDouble,toString,16,4,0,202,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,swap,34,9,2,226,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,reverse,16,3,0,273,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,iterator,18,3,0,294,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,hasNext,3,1,0,300,0,,
+ProyectoEstructuras-main,ListTDA,LLDouble,next,8,2,0,306,0,ListTDA.NodeList,ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,contains,9,4,1,319,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,indexOf,13,6,1,330,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,reverseIterator,25,4,0,349,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,hasNext,3,1,0,364,0,,
+ProyectoEstructuras-main,ListTDA,LLDouble,next,8,2,0,369,0,ListTDA.NodeList,ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,nthIterator,24,4,1,381,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,hasNext,3,1,0,386,0,,
+ProyectoEstructuras-main,ListTDA,LLDouble,next,11,3,0,390,0,ListTDA.NodeList,ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,LLDouble,remove,23,6,1,407,0,ListTDA.LLDouble,ListTDA.LLDouble; ListTDA.NodeList
+ProyectoEstructuras-main,ListTDA,NodeList,NodeList,3,1,1,17,0,,
+ProyectoEstructuras-main,ListTDA,NodeList,getContenido,3,1,0,21,0,,
+ProyectoEstructuras-main,ListTDA,NodeList,setContenido,3,1,1,25,0,,
+ProyectoEstructuras-main,ListTDA,NodeList,getSiguiente,3,1,0,29,0,,
+ProyectoEstructuras-main,ListTDA,NodeList,setSiguiente,3,1,1,33,0,,

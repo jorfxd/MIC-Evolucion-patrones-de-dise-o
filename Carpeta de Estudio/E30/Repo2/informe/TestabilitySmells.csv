@@ -1,0 +1,2 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+G3_Proyecto1_EDD-main,g3.g3_proyecto_contactos,App,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: path (17)

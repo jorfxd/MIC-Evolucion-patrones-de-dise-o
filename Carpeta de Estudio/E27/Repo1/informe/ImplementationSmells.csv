@@ -1,0 +1,119 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+Proyecto2P,ec.edu.espol.proyecto2p,App,start,Magic Number,The method contains a magic number: 640,18
+Proyecto2P,ec.edu.espol.proyecto2p,App,start,Magic Number,The method contains a magic number: 480,18
+Proyecto2P,ec.edu.espol.proyectog4,Auto,Auto,Long Parameter List,The method has 6 parameters. ,20
+Proyecto2P,ec.edu.espol.proyectog4,Auto,ingresarAuto,Long Statement,The length of the statement "Auto auto=new Auto(vehiculo.getId()`vehiculo.getPlaca()`vehiculo.getMarca()`vehiculo.getModelo()`vehiculo.getTipo_motor()`vehiculo.getA√=o()`vehiculo.getRecorrido()`vehiculo.getColor()`vehiculo.getTipo_comb()`vehiculo.getPrecio()`vehiculo.getVendedor()`vidrios`transmision);" is 274.,26
+Proyecto2P,ec.edu.espol.proyectog4,Auto,saveArchivo,Long Statement,The length of the statement "pw.println(super.getId() + "|" + super.getVendedor().getId()+ "|"+ super.getPlaca()+ "|"+ super.getMarca()+ "|"+ super.getModelo()+ "|"+ super.getTipo_motor()+ "|"+ super.getA√(o() + "|" + super.getRecorrido()+ "|"+ this.getColor()+ "|"+ super.getTipo_comb()+ "|"+ super.getPrecio()+ "|"+ this.transmision+ "|"+ this.vidrios));" is 327.,36
+Proyecto2P,ec.edu.espol.proyectog4,Camioneta,Camioneta,Long Parameter List,The method has 7 parameters. ,18
+Proyecto2P,ec.edu.espol.proyectog4,Camioneta,ingresarCamioneta,Long Statement,The length of the statement "Camioneta camioneta=new Camioneta(traccion`vehiculo.getId()`vehiculo.getPlaca()`vehiculo.getMarca()`vehiculo.getModelo()`vehiculo.getTipo_motor()`vehiculo.getA√=o()`vehiculo.getRecorrido()`vehiculo.getColor()`vehiculo.getTipo_comb()`vehiculo.getPrecio()`vehiculo.getVendedor());" is 278.,22
+Proyecto2P,ec.edu.espol.proyectog4,Camioneta,saveArchivo,Long Statement,The length of the statement "pw.println(super.getId() + "|" + super.getVendedor().getId()+ "|"+ super.getPlaca()+ "|"+ super.getMarca()+ "|"+ super.getModelo()+ "|"+ super.getTipo_motor()+ "|"+ super.getA√(o() + "|" + super.getRecorrido()+ "|"+ this.getColor()+ "|"+ super.getTipo_comb()+ "|"+ super.getPrecio()+ "|"+ this.traccion));" is 305.,29
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,Comprador,Long Parameter List,The method has 6 parameters. ,27
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,readFileCorreos,Magic Number,The method contains a magic number: 4,84
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,readFileClaves,Magic Number,The method contains a magic number: 5,99
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Complex Method,Cyclomatic complexity of the method is 8,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Long Statement,The length of the statement "Vehiculo moto=new Vehiculo(Integer.parseInt(tokens[0])`tokens[2]`tokens[3]`tokens[4]`tokens[5]`Integer.parseInt(tokens[6])`Integer.parseInt(tokens[7])`tokens[8]`tokens[9]`Integer.parseInt(tokens[10])`v);" is 203.,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Long Statement,The length of the statement "Vehiculo camioneta=new Camioneta(tokens[11]`Integer.parseInt(tokens[0])`tokens[2]`tokens[3]`tokens[4]`tokens[5]`Integer.parseInt(tokens[6])`Integer.parseInt(tokens[7])`tokens[8]`tokens[9]`Integer.parseInt(tokens[10])`v);" is 220.,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Long Statement,The length of the statement "Vehiculo auto=new Auto(Integer.parseInt(tokens[0])`tokens[2]`tokens[3]`tokens[4]`tokens[5]`Integer.parseInt(tokens[6])`Integer.parseInt(tokens[7])`tokens[8]`tokens[9]`Integer.parseInt(tokens[10])`v`tokens[11]`tokens[12]);" is 221.,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 11,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 2,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 3,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 4,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 5,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 6,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 7,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 8,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 9,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 10,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 12,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 11,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 2,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 3,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 4,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 5,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 6,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 7,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 8,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 9,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 10,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 13,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 2,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 3,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 4,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 5,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 6,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 7,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 8,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 9,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 10,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 11,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarTipo,Magic Number,The method contains a magic number: 12,174
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarRango,Complex Conditional,The conditional expression v.getRecorrido() >= recMin && v.getRecorrido() <= recMax && v.getA√(o() >= anioMin && v.getA√(o() <= anioMax && v.getPrecio() >= preMin && v.getPrecio() <= preMax)) is complex.,213
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarRango,Long Parameter List,The method has 9 parameters. ,213
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,identificarRango,Long Statement,The length of the statement "if (v.getRecorrido() >= recMin && v.getRecorrido() <= recMax && v.getA√(o() >= anioMin && v.getA√(o() <= anioMax && v.getPrecio() >= preMin && v.getPrecio() <= preMax))) ;" is 171.,213
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,ofertarVehiculo,Complex Method,Cyclomatic complexity of the method is 22,224
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,ofertarVehiculo,Long Method,The method has 141 lines of code.,224
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,ofertarVehiculo,Long Statement,The length of the statement "ArrayList<Vehiculo> listaSel=identificarRango(nfile`tipoS`fileVendedores`recorridoMin`recorridoMax`anioMin`anioMax`precioMin`precioMax);" is 136.,224
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,ofertarVehiculo,Long Statement,The length of the statement "System.out.println("Ingrese el n√∫mero de la opci√≥n que desea: \n 1.Realizar oferta \n 2.Ver siguiente vehiculo \n 9.Salir");" is 126.,224
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,ofertarVehiculo,Long Statement,The length of the statement "System.out.println("Ingrese el n√∫mero de la opci√≥n que desea: \n 1.Realizar oferta \n 2.Ver siguiente vehiculo \n 3.Ver anterior vehiculo \n 9.Salir");" is 153.,224
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,ofertarVehiculo,Long Statement,The length of the statement "System.out.println("Ingrese el n√∫mero de la opci√≥n que desea: \n 1.Realizar oferta \n 2.Ver anterior vehiculo \n 9.Salir");" is 125.,224
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,ofertarVehiculo,Magic Number,The method contains a magic number: 2,224
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,ofertarVehiculo,Magic Number,The method contains a magic number: 3,224
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,ofertarVehiculo,Magic Number,The method contains a magic number: 3,224
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,ofertarVehiculo,Magic Number,The method contains a magic number: 9,224
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,ofertarVehiculo,Magic Number,The method contains a magic number: 2,224
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,eliminarOferta,Complex Method,Cyclomatic complexity of the method is 21,379
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,eliminarOferta,Long Statement,The length of the statement "System.out.println("Ingrese el n√∫mero de la opci√≥n que desea: \n 1. Eliminar oferta \n 2.Siguiente oferta \n 3. Anteior oferta");" is 131.,379
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,eliminarOferta,Magic Number,The method contains a magic number: 2,379
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,eliminarOferta,Magic Number,The method contains a magic number: 3,379
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,eliminarOferta,Magic Number,The method contains a magic number: 9,379
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,eliminarOferta,Magic Number,The method contains a magic number: 2,379
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,eliminarOferta,Magic Number,The method contains a magic number: 3,379
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,eliminarOferta,Magic Number,The method contains a magic number: 9,379
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,eliminarOferta,Magic Number,The method contains a magic number: 2,379
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,eliminarOferta,Magic Number,The method contains a magic number: 3,379
+Proyecto2P,ec.edu.espol.proyectog4,Comprador,eliminarOferta,Magic Number,The method contains a magic number: 9,379
+Proyecto2P,ec.edu.espol.proyectog4,Menu,medotosVendedor,Magic Number,The method contains a magic number: 4,15
+Proyecto2P,ec.edu.espol.proyectog4,Menu,medotosVendedor,Magic Number,The method contains a magic number: 2,15
+Proyecto2P,ec.edu.espol.proyectog4,Menu,medotosVendedor,Magic Number,The method contains a magic number: 3,15
+Proyecto2P,ec.edu.espol.proyectog4,Menu,metodosComprador,Magic Number,The method contains a magic number: 4,40
+Proyecto2P,ec.edu.espol.proyectog4,Menu,metodosComprador,Magic Number,The method contains a magic number: 2,40
+Proyecto2P,ec.edu.espol.proyectog4,Menu,metodosComprador,Magic Number,The method contains a magic number: 3,40
+Proyecto2P,ec.edu.espol.proyectog4,Oferta,readFileOfertas,Magic Number,The method contains a magic number: 2,83
+Proyecto2P,ec.edu.espol.proyectog4,ProyectoG4,main,Magic Number,The method contains a magic number: 3,16
+Proyecto2P,ec.edu.espol.proyectog4,ProyectoG4,main,Magic Number,The method contains a magic number: 2,16
+Proyecto2P,ec.edu.espol.proyectog4,ProyectoG4,main,Magic Number,The method contains a magic number: 3,16
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,Vehiculo,Long Parameter List,The method has 6 parameters. ,31
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,saveArchivo,Long Statement,The length of the statement "pw.println(this.id + "|" + this.vendedor.getId()+ "|"+ this.placa+ "|"+ this.marca+ "|"+ this.modelo+ "|"+ this.tipo_motor+ "|"+ this.a√(o + "|" + this.recorrido+ "|"+ this.color+ "|"+ this.tipo_comb+ "|"+ this.precio));" is 220.,133
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,searchPosByPlaca,Magic Number,The method contains a magic number: 2,149
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,readFilePlacas,Magic Number,The method contains a magic number: 2,168
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,readFileVehiculos,Magic Number,The method contains a magic number: 6,193
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,readFileVehiculos,Magic Number,The method contains a magic number: 7,193
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,readFileVehiculos,Magic Number,The method contains a magic number: 10,193
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,readFileVehiculos,Magic Number,The method contains a magic number: 2,193
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,readFileVehiculos,Magic Number,The method contains a magic number: 3,193
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,readFileVehiculos,Magic Number,The method contains a magic number: 4,193
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,readFileVehiculos,Magic Number,The method contains a magic number: 5,193
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,readFileVehiculos,Magic Number,The method contains a magic number: 8,193
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,readFileVehiculos,Magic Number,The method contains a magic number: 9,193
+Proyecto2P,ec.edu.espol.proyectog4,Vehiculo,toString,Long Statement,The length of the statement "return "id= " + id + "\n placa="+ placa+ "\n marca="+ marca+ "\n modelo="+ modelo+ "\n tipo_motor="+ tipo_motor+ "\n a√±o="+ a√::o+ "\n recorrido="+ recorrido+ "\n color="+ color+ "\n tipo_comb="+ tipo_comb+ "\n precio="+ precio;" is 229.,222
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,Vendedor,Long Parameter List,The method has 6 parameters. ,28
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,saveArchivo,Long Statement,The length of the statement "pw.println(this.id + "|" + this.nombres+ "|"+ this.apellidos+ "|"+ this.organizacion+ "|"+ this.correo_electronico+ "|"+ this.clave);" is 133.,85
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,saveArchivo,Long Statement,The length of the statement "for ( Vendedor x : vendedores) pw.println(x.id + "|" + x.nombres+ "|"+ x.apellidos+ "|"+ x.organizacion+ "|"+ x.correo_electronico+ "|"+ x.clave);" is 146.,94
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,toString,Long Statement,The length of the statement "return "Vendedor{" + "id=" + id + "` nombres="+ nombres+ "` apellidos="+ apellidos+ "` organizacion="+ organizacion+ "` correo_electronico="+ correo_electronico+ "` clave="+ clave;" is 180.,103
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,readFileCorreos,Magic Number,The method contains a magic number: 4,108
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,readFileVendedores,Magic Number,The method contains a magic number: 2,123
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,readFileVendedores,Magic Number,The method contains a magic number: 3,123
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,readFileVendedores,Magic Number,The method contains a magic number: 4,123
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,readFileVendedores,Magic Number,The method contains a magic number: 5,123
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,readFileClaves,Magic Number,The method contains a magic number: 5,139
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,searchByID,Magic Number,The method contains a magic number: 2,203
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,searchByID,Magic Number,The method contains a magic number: 3,203
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,searchByID,Magic Number,The method contains a magic number: 4,203
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,searchByID,Magic Number,The method contains a magic number: 5,203
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,registrarVehiculo,Magic Number,The method contains a magic number: 2,255
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,registrarVehiculo,Magic Number,The method contains a magic number: 3,255
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,aceptarOferta,Complex Method,Cyclomatic complexity of the method is 10,291
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,aceptarOferta,Long Statement,The length of the statement "System.out.println("Ingrese el n√∫mero de la opci√≥n que desea: \n 0.Aceptar oferta \n 1.Siguiente oferta \n 2. Anteior oferta");" is 129.,291
+Proyecto2P,ec.edu.espol.proyectog4,Vendedor,aceptarOferta,Magic Number,The method contains a magic number: 2,291
+Proyecto2P,ec.edu.espol.util,Util,toHexString,Magic Number,The method contains a magic number: 16,57
+Proyecto2P,ec.edu.espol.util,Util,toHexString,Magic Number,The method contains a magic number: 64,57

@@ -1,7 +1,0 @@
-{
-  "name": "RECIPES",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular-standalone"
-}

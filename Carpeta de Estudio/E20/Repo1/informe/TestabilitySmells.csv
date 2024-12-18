@@ -1,0 +1,3 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+Patrones-de-Dise-o-main,abstractFactory,Main,Hard-wired Dependency,The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: abstractFactory.TransportFactory
+Patrones-de-Dise-o-main,factoryMethod,Main,Hard-wired Dependency,The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: factoryMethod.DocumentFactory

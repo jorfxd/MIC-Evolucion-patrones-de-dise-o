@@ -1,0 +1,29 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+ProyectoGrupo8,concurso,Concurso,Concurso,Long Parameter List,The method has 11 parameters. ,39
+ProyectoGrupo8,concurso,Premio,toString,Long Statement,The length of the statement "return ">> " + lugar + ": "+ descripcion+ "` "+ auspiciante.getNombre()+ "` "+ "mascota ganadora: "+ mascotaGanadora.getNombre();" is 129.,61
+ProyectoGrupo8,dise√,Mascota,toString,Long Statement,The length of the statement "return "Mascota{" + "nombre =" + nombre + "` tipo ="+ tipo+ "` raza ="+ raza+ "` fecha nacimiento ="+ fechaNacimiento+ "` id ="+ idMascota+ "` due√±o ="+ due√::o+ '}';" is 167.,109
+ProyectoGrupo8,person,Auspiciante,Auspiciante,Long Parameter List,The method has 6 parameters. ,24
+ProyectoGrupo8,person,Due√,o,Long Parameter List,The method has 7 parameters. ,25
+ProyectoGrupo8,person,Persona,Persona,Long Parameter List,The method has 5 parameters. ,24
+ProyectoGrupo8,person,Persona,toString,Long Statement,The length of the statement "return "Persona{" + "nombre=" + nombre + "` direccion="+ direccion+ "` telefono="+ telefono+ "` ciudad="+ ciudad.toString()+ "` email="+ email+ '}';" is 148.,33
+ProyectoGrupo8,system,Sistema,main,Complex Method,Cyclomatic complexity of the method is 19,41
+ProyectoGrupo8,system,Sistema,main,Long Method,The method has 127 lines of code.,41
+ProyectoGrupo8,system,Sistema,main,Magic Number,The method contains a magic number: 2,41
+ProyectoGrupo8,system,Sistema,main,Magic Number,The method contains a magic number: 2,41
+ProyectoGrupo8,system,Sistema,main,Magic Number,The method contains a magic number: 3,41
+ProyectoGrupo8,system,Sistema,main,Magic Number,The method contains a magic number: 3,41
+ProyectoGrupo8,system,Sistema,main,Magic Number,The method contains a magic number: 2,41
+ProyectoGrupo8,system,Sistema,main,Magic Number,The method contains a magic number: 3,41
+ProyectoGrupo8,system,Sistema,main,Magic Number,The method contains a magic number: 4,41
+ProyectoGrupo8,system,Sistema,adminConcursos,Magic Number,The method contains a magic number: 2,190
+ProyectoGrupo8,system,Sistema,adminConcursos,Magic Number,The method contains a magic number: 3,190
+ProyectoGrupo8,system,Sistema,adminConcursos,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@1c33e528,190
+ProyectoGrupo8,system,Sistema,menuAdminConcursos,Magic Number,The method contains a magic number: 3,210
+ProyectoGrupo8,system,Sistema,crearConcurso,Long Statement,The length of the statement "Concurso nuevoConcurso=new Concurso(nombre`LocalDate.parse(fechaEvento`formatter)`horaEvento`LocalDate.parse(fechaInicioIns`formatter)`LocalDate.parse(fechaCierreIns`formatter)`ciudad`premios`auspiciantes`tipo`estado`mascotas);" is 227.,231
+ProyectoGrupo8,system,Sistema,inscribirParticipante,Complex Method,Cyclomatic complexity of the method is 16,281
+ProyectoGrupo8,system,Sistema,inscribirParticipante,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5df63359,281
+ProyectoGrupo8,system,Sistema,cargarDatos,Long Statement,The length of the statement "Auspiciante ausp1=new Auspiciante("Dog Chow"`"Urdesa Central"`"0942578812"`ciudad1`"dogchow@gmail.com"`"https://www.purina-latam.com/ec/dogchow");" is 146.,351
+ProyectoGrupo8,system,Sistema,cargarDatos,Long Statement,The length of the statement "Auspiciante ausp2=new Auspiciante("Pro-can"`"Cumbay√°"`"0967731564"`ciudad2`"procan@gmail.com"`"https://www.procan.com.ec/");" is 125.,351
+ProyectoGrupo8,system,Sistema,cargarDatos,Long Statement,The length of the statement "Auspiciante ausp3=new Auspiciante("Agripac"`"Totoracocha"`"0930696638"`ciudad3`"agripac@gmail.com"`"https://agripac.com.ec/");" is 126.,351
+ProyectoGrupo8,system,Sistema,cargarDatos,Long Statement,The length of the statement "Concurso concursoVigente1=new Concurso("Expo Pet 2021"`LocalDate.parse("30/11/2021"`formatter)`"15:00:00"`LocalDate.parse("05/11/2021"`formatter)`LocalDate.parse("10/11/2021"`formatter)`ciudad1`premios`auspiciantes`TipoConcursante.PERRO`EstadoConcurso.VIGENTE`mascotas);" is 270.,351
+ProyectoGrupo8,system,Sistema,cargarDatos,Long Statement,The length of the statement "Concurso concursoPasado=new Concurso("Insta Pet"`LocalDate.parse("25/07/2019"`formatter)`"12:00:00"`LocalDate.parse("15/06/2021"`formatter)`LocalDate.parse("22/07/2021"`formatter)`ciudad2`premios`auspiciantes`TipoConcursante.AMBOS`EstadoConcurso.PASADO`listaMascotas);" is 268.,351

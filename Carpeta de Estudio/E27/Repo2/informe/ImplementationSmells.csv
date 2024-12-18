@@ -1,0 +1,55 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+20Preguntas,ec.edu.espol.ventanas,App,start,Magic Number,The method contains a magic number: 800,15
+20Preguntas,ec.edu.espol.ventanas,App,start,Magic Number,The method contains a magic number: 600,15
+20Preguntas,ec.edu.espol.ventanas,VAgregarAnimalController,regresar,Magic Number,The method contains a magic number: 800,136
+20Preguntas,ec.edu.espol.ventanas,VAgregarAnimalController,regresar,Magic Number,The method contains a magic number: 600,136
+20Preguntas,ec.edu.espol.ventanas,VAgregarAnimalController,escogerImg,Long Statement,The length of the statement "FileChooser.ExtensionFilter imageFilter=new FileChooser.ExtensionFilter("Archivos de Imagen"`"*.png"`"*.jpg"`"*.jpeg"`"*.gif");" is 127.,194
+20Preguntas,ec.edu.espol.ventanas,VBienvenidaController,initialize,Magic Number,The method contains a magic number: 4,39
+20Preguntas,ec.edu.espol.ventanas,VBienvenidaController,home,Magic Number,The method contains a magic number: 4,64
+20Preguntas,ec.edu.espol.ventanas,VBienvenidaController,abrirJuegoRapido,Magic Number,The method contains a magic number: 800,90
+20Preguntas,ec.edu.espol.ventanas,VBienvenidaController,abrirJuegoRapido,Magic Number,The method contains a magic number: 600,90
+20Preguntas,ec.edu.espol.ventanas,VBienvenidaController,iniciarJuegoM,Magic Number,The method contains a magic number: 800,103
+20Preguntas,ec.edu.espol.ventanas,VBienvenidaController,iniciarJuegoM,Magic Number,The method contains a magic number: 600,103
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,vEmpezarJuego,Magic Number,The method contains a magic number: 800,110
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,vEmpezarJuego,Magic Number,The method contains a magic number: 600,110
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,regresar,Magic Number,The method contains a magic number: 800,129
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,regresar,Magic Number,The method contains a magic number: 600,129
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,emergencia,Magic Number,The method contains a magic number: 60,142
+20Preguntas,ec.edu.espol.ventanas,VMenuController,iniciarJuegoM,Magic Number,The method contains a magic number: 800,114
+20Preguntas,ec.edu.espol.ventanas,VMenuController,iniciarJuegoM,Magic Number,The method contains a magic number: 600,114
+20Preguntas,ec.edu.espol.ventanas,VMenuController,regresarBienvenida,Magic Number,The method contains a magic number: 800,129
+20Preguntas,ec.edu.espol.ventanas,VMenuController,regresarBienvenida,Magic Number,The method contains a magic number: 600,129
+20Preguntas,ec.edu.espol.ventanas,VMenuController,vCargarArchivo,Magic Number,The method contains a magic number: 800,143
+20Preguntas,ec.edu.espol.ventanas,VMenuController,vCargarArchivo,Magic Number,The method contains a magic number: 600,143
+20Preguntas,ec.edu.espol.ventanas,VMenuController,vMostrarAnimales,Magic Number,The method contains a magic number: 800,157
+20Preguntas,ec.edu.espol.ventanas,VMenuController,vMostrarAnimales,Magic Number,The method contains a magic number: 600,157
+20Preguntas,ec.edu.espol.ventanas,VMostrarAnimalesController,regresar,Magic Number,The method contains a magic number: 800,79
+20Preguntas,ec.edu.espol.ventanas,VMostrarAnimalesController,regresar,Magic Number,The method contains a magic number: 600,79
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,home,Magic Number,The method contains a magic number: 600,77
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarNodo,Complex Method,Cyclomatic complexity of the method is 9,101
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarNodo,Magic Number,The method contains a magic number: 100.0f,101
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarNodo,Magic Number,The method contains a magic number: 100.0f,101
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarNodo,Magic Number,The method contains a magic number: 100,101
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarNodoInfinito,Magic Number,The method contains a magic number: 100.0f,143
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarNodoInfinito,Magic Number,The method contains a magic number: 100.0f,143
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarNodoInfinito,Magic Number,The method contains a magic number: 100,143
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarPreguntaJuegoRapido,Complex Method,Cyclomatic complexity of the method is 14,237
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarHoja,Empty catch clause,The method has an empty catch block.,309
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,regresar,Magic Number,The method contains a magic number: 800,412
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,regresar,Magic Number,The method contains a magic number: 600,412
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,ventanaMostrarRespuesta,Magic Number,The method contains a magic number: 800,439
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,ventanaMostrarRespuesta,Magic Number,The method contains a magic number: 600,439
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,home,Long Parameter List,The method has 5 parameters. ,57
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,regresar,Magic Number,The method contains a magic number: 800,78
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,regresar,Magic Number,The method contains a magic number: 600,78
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,reescribirArchivo,Magic Number,The method contains a magic number: 800,155
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,reescribirArchivo,Magic Number,The method contains a magic number: 600,155
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,ventanaEmpezarJuego,Long Statement,The length of the statement "muestraAlerta("Empezando el juego"`"Se usará la información del juego ya que no se seleccionó ningún archivo de texto");" is 124.,96
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,ventanaEmpezarJuego,Magic Number,The method contains a magic number: 800,96
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,ventanaEmpezarJuego,Magic Number,The method contains a magic number: 600,96
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,regresar,Magic Number,The method contains a magic number: 800,181
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,regresar,Magic Number,The method contains a magic number: 600,181
+20Preguntas,GameLogic,TreeBuilder,addAnimals,Complex Method,Cyclomatic complexity of the method is 12,75
+20Preguntas,GameLogic,TreeBuilder,calculateYesEntropy,Magic Number,The method contains a magic number: 2,192
+20Preguntas,GameLogic,TreeBuilder,calculateNoEntropy,Magic Number,The method contains a magic number: 2,209
+20Preguntas,TDAs,Reader,dbs,Magic Number,The method contains a magic number: 1024,129

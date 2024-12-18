@@ -1,0 +1,28 @@
+16-12-2024 22:44:19: Detecting code smells...
+16-12-2024 22:44:20: Detecting cyclic dependency...
+16-12-2024 22:44:20: Detecting architecture smells...
+16-12-2024 22:44:23: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:23: Exception while reading config file. C:\Program Files\Extension Designite\DesignitePro\.config (El sistema no puede encontrar el archivo especificado)
+16-12-2024 22:44:23: Exporting analysis results...
+16-12-2024 22:44:26: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:26: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:26: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:27: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:27: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:27: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:28: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:28: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:29: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:29: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:29: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:30: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:30: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:30: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:31: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:31: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:32: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:32: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:32: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:33: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:44:33: Done.
+16-12-2024 22:44:33: Total time (sec): 29

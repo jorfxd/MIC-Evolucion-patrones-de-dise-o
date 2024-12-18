@@ -1,0 +1,31 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+Patrones-de-Dise-o-main,abstractFactory,Bike,ride,0,1,0,13,0,,
+Patrones-de-Dise-o-main,abstractFactory,Car,drive,0,1,0,13,0,,
+Patrones-de-Dise-o-main,abstractFactory,Family1TransportFactory,createCar,3,1,0,14,0,,
+Patrones-de-Dise-o-main,abstractFactory,Family1TransportFactory,createBike,3,1,0,19,0,,
+Patrones-de-Dise-o-main,abstractFactory,Family2TransportFactory,createCar,3,1,0,15,0,,
+Patrones-de-Dise-o-main,abstractFactory,Family2TransportFactory,createBike,3,1,0,20,0,,
+Patrones-de-Dise-o-main,abstractFactory,Main,main,12,1,1,14,0,abstractFactory.Bike,abstractFactory.Bike; abstractFactory.TransportFactory; abstractFactory.Car
+Patrones-de-Dise-o-main,abstractFactory,MountainBike,ride,3,1,0,13,0,,
+Patrones-de-Dise-o-main,abstractFactory,RoadBike,ride,3,1,0,13,0,,
+Patrones-de-Dise-o-main,abstractFactory,Sedan,drive,3,1,0,13,0,,
+Patrones-de-Dise-o-main,abstractFactory,SUV,drive,3,1,0,13,0,,
+Patrones-de-Dise-o-main,abstractFactory,TransportFactory,createCar,0,1,0,13,0,,
+Patrones-de-Dise-o-main,abstractFactory,TransportFactory,createBike,0,1,0,14,0,,
+Patrones-de-Dise-o-main,builder,Computer,Computer,2,1,0,15,0,,
+Patrones-de-Dise-o-main,builder,Computer,setCpu,3,1,1,17,0,,
+Patrones-de-Dise-o-main,builder,Computer,setRam,3,1,1,21,0,,
+Patrones-de-Dise-o-main,builder,Computer,setStorage,3,1,1,25,0,,
+Patrones-de-Dise-o-main,builder,Computer,showComputer,3,1,0,29,0,,
+Patrones-de-Dise-o-main,builder,Main,main,5,1,1,15,0,builder.Computer,builder.Computer
+Patrones-de-Dise-o-main,factoryMethod,Document,create,0,1,0,13,0,,
+Patrones-de-Dise-o-main,factoryMethod,DocumentFactory,createDocument,0,1,0,14,0,,
+Patrones-de-Dise-o-main,factoryMethod,Main,main,8,1,1,13,0,factoryMethod.Document,factoryMethod.Document; factoryMethod.DocumentFactory
+Patrones-de-Dise-o-main,factoryMethod,PdfDocument,create,3,1,0,13,0,,
+Patrones-de-Dise-o-main,factoryMethod,PdfDocumentFactory,createDocument,3,1,0,15,0,,
+Patrones-de-Dise-o-main,factoryMethod,TextDocument,create,3,1,0,13,0,,
+Patrones-de-Dise-o-main,factoryMethod,TextDocumentFactory,createDocument,3,1,0,13,0,,
+Patrones-de-Dise-o-main,singleton,Logger,Logger,2,1,0,14,0,,
+Patrones-de-Dise-o-main,singleton,Logger,getInstance,6,2,0,18,0,,
+Patrones-de-Dise-o-main,singleton,Logger,log,3,1,1,25,0,,
+Patrones-de-Dise-o-main,singleton,Main,main,6,1,1,14,0,singleton.Logger,singleton.Logger

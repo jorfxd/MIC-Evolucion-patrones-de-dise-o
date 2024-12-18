@@ -1,0 +1,9 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+Meteor-main,dev.pixelib.meteor.benchmarks,ScoresWithMaps.ScoreboardImplementation,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Meteor-main,dev.pixelib.meteor.benchmarks,SimpleIncrement.ScoreboardImplementation,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Meteor-main,dev.pixelib.meteor.sender,ScoreboardExample.ScoreboardImplementation,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Meteor-main,dev.pixelib.meteor.sender,SendingUpdateMethod.MathFunctionsImpl,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Meteor-main,dev.pixelib.meteor.sender,SendingUpdateMethodRedis.MathFunctionsImpl,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Meteor-main,dev.pixelib.meteor.base.defaults,GsonSerializer,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: GSON (8)
+Meteor-main,dev.pixelib.meteor.core.trackers,IncomingInvocationTrackerTest.TestMathFunctions,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+Meteor-main,dev.pixelib.meteor.core.transport,TransportHandler,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8

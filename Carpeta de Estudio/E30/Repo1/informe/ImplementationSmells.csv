@@ -1,0 +1,72 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+POO-P3-G05-master,com.mycompany.proyectofinal,App,start,Magic Number,The method contains a magic number: 755,20
+POO-P3-G05-master,com.mycompany.proyectofinal,App,start,Magic Number,The method contains a magic number: 690,20
+POO-P3-G05-master,com.mycompany.proyectofinal,Datos4Controller,guardarOrden,Long Statement,The length of the statement "Orden nuevao=new Orden(cod`cli.getCodigo()`fecha`cli.getNombre()`total`tipov`tfPlaca.getText()`s.getCodigo()`cant`s.getNombre()`u.getNombre()`s.getPrecio());" is 157.,89
+POO-P3-G05-master,com.mycompany.proyectofinal,DatosController,guardarCliente,Long Statement,The length of the statement "Cliente c=new Cliente(txtCedula.getText()`txtNombre.getText()`txtDireccion.getText()`txtTelefono.getText()`TipoCliente.valueOf(tipo));" is 134.,63
+POO-P3-G05-master,com.mycompany.proyectofinal,IngresoPorServiciosController,generarReporte,Magic Number,The method contains a magic number: 3,53
+POO-P3-G05-master,com.mycompany.proyectofinal,IngresoPorServiciosController,generarReporte,Magic Number,The method contains a magic number: 5,53
+POO-P3-G05-master,com.mycompany.proyectofinal,IngresoPorServiciosController,generarReporte,Magic Number,The method contains a magic number: 6,53
+POO-P3-G05-master,com.mycompany.proyectofinal,IngresoPorTecnicoController,generarReporte,Magic Number,The method contains a magic number: 3,50
+POO-P3-G05-master,com.mycompany.proyectofinal,IngresoPorTecnicoController,generarReporte,Magic Number,The method contains a magic number: 5,50
+POO-P3-G05-master,com.mycompany.proyectofinal,IngresoPorTecnicoController,generarReporte,Magic Number,The method contains a magic number: 6,50
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,flip,Magic Number,The method contains a magic number: 700,156
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Complex Conditional,The conditional expression seg != 59 && seg != 0 && min == 0 is complex.,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Complex Conditional,The conditional expression seg != 59 && seg != 0 && min != 0 is complex.,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Complex Method,Cyclomatic complexity of the method is 20,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Long Method,The method has 151 lines of code.,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 6,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 1000,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 59,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 10,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 59,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 10,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 59,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 10,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 59,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 10,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 10,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 59,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 10,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,iniciarTemporizador,Magic Number,The method contains a magic number: 10,279
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Complex Conditional,The conditional expression seg != 59 && seg != 0 && min == 0 is complex.,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Complex Conditional,The conditional expression seg != 59 && seg != 0 && min != 0 is complex.,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Complex Method,Cyclomatic complexity of the method is 20,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Long Method,The method has 145 lines of code.,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 6,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 1000,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 59,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 10,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 59,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 10,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 59,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 10,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 59,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 10,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 10,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 59,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 10,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,run,Magic Number,The method contains a magic number: 10,281
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,guardarResultados,Magic Number,The method contains a magic number: 2,438
+POO-P3-G05-master,com.mycompany.proyectofinal,MemoriaController,guardarResultados,Magic Number,The method contains a magic number: 60,438
+POO-P3-G05-master,com.mycompany.proyectofinal,NuevFactController,generarFactura,Complex Conditional,The conditional expression cumpleCodigo && cumpleAnio && cumpleMes is complex.,61
+POO-P3-G05-master,com.mycompany.proyectofinal,NuevFactController,generarFactura,Magic Number,The method contains a magic number: 50.0,61
+POO-P3-G05-master,com.mycompany.proyectofinal,NuevFactController,generarFactura,Magic Number,The method contains a magic number: 6,61
+POO-P3-G05-master,com.mycompany.proyectofinal,NuevFactController,generarFactura,Magic Number,The method contains a magic number: 3,61
+POO-P3-G05-master,com.mycompany.proyectofinal,NuevFactController,generarFactura,Magic Number,The method contains a magic number: 5,61
+POO-P3-G05-master,com.mycompany.proyectofinal,NuevFactController,mesennum,Complex Method,Cyclomatic complexity of the method is 13,161
+POO-P3-G05-master,com.mycompany.proyectofinal,NuevFactController,mesennum,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@4700064f,161
+POO-P3-G05-master,com.mycompany.proyectofinal,TertiaryController,llenarTabla,Complex Method,Cyclomatic complexity of the method is 19,180
+POO-P3-G05-master,com.mycompany.proyectofinal,TertiaryController,llenarTabla,Long Method,The method has 117 lines of code.,180
+POO-P3-G05-master,modelo,Cliente,Cliente,Long Parameter List,The method has 5 parameters. ,30
+POO-P3-G05-master,modelo,ClienteJuego,ClienteJuego,Long Parameter List,The method has 5 parameters. ,35
+POO-P3-G05-master,usuario,Cobranza,toStringMeses,Complex Method,Cyclomatic complexity of the method is 13,150
+POO-P3-G05-master,usuario,Cobranza,toStringMeses,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@77d0a492,150
+POO-P3-G05-master,usuario,Usuario,cargarUsuarios,Magic Number,The method contains a magic number: 3,53
+POO-P3-G05-master,usuario,Usuario,cargarUsuarios,Magic Number,The method contains a magic number: 2,53
+POO-P3-G05-master,usuario,Usuario,cargarUsuarios,Magic Number,The method contains a magic number: 3,53
+POO-P3-G05-master,usuario,Usuario,cargarUsuarios,Magic Number,The method contains a magic number: 2,53
+POO-P3-G05-master,usuario,Usuario,cargarUsuarios,Magic Number,The method contains a magic number: 3,53
+POO-P3-G05-master,usuario,Usuario,cargarUsuarios,Magic Number,The method contains a magic number: 2,53
+POO-P3-G05-master,Utilidad,Orden,Orden,Long Parameter List,The method has 12 parameters. ,45
+POO-P3-G05-master,Utilidad,Servicio,hashCode,Magic Number,The method contains a magic number: 7,64
+POO-P3-G05-master,Utilidad,Servicio,hashCode,Magic Number,The method contains a magic number: 97,64

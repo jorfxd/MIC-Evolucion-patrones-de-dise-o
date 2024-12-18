@@ -1,0 +1,38 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+TicTacToe-main,com.espol.tictactoe,App,start,Magic Number,The method contains a magic number: 1024,19
+TicTacToe-main,com.espol.tictactoe,App,start,Magic Number,The method contains a magic number: 768,19
+TicTacToe-main,com.espol.tictactoe.controller,StartConfiguration,initializeGameModes,Magic Number,The method contains a magic number: 3,69
+TicTacToe-main,com.espol.tictactoe.controller,StartConfiguration,initializeGameModes,Magic Number,The method contains a magic number: 2,69
+TicTacToe-main,com.espol.tictactoe.model,Bot,makeDecition,Magic Number,The method contains a magic number: 8,27
+TicTacToe-main,com.espol.tictactoe.model,Game,win,Complex Conditional,The conditional expression (m.getPlay()[i][0].equals(s) && m.getPlay()[i][1].equals(s) && m.getPlay()[i][2].equals(s)) || (m.getPlay()[0][i].equals(s) && m.getPlay()[1][i].equals(s) && m.getPlay()[2][i].equals(s)) is complex.,65
+TicTacToe-main,com.espol.tictactoe.model,Game,win,Long Statement,The length of the statement "if ((m.getPlay()[i][0].equals(s) && m.getPlay()[i][1].equals(s) && m.getPlay()[i][2].equals(s)) || (m.getPlay()[0][i].equals(s) && m.getPlay()[1][i].equals(s) && m.getPlay()[2][i].equals(s))) {" is 193.,65
+TicTacToe-main,com.espol.tictactoe.model,Game,win,Long Statement,The length of the statement "return (m.getPlay()[0][0].equals(s) && m.getPlay()[1][1].equals(s) && m.getPlay()[2][2].equals(s)) || (m.getPlay()[0][2].equals(s) && m.getPlay()[1][1].equals(s) && m.getPlay()[2][0].equals(s));" is 194.,65
+TicTacToe-main,com.espol.tictactoe.model,Game,win,Magic Number,The method contains a magic number: 3,65
+TicTacToe-main,com.espol.tictactoe.model,Game,win,Magic Number,The method contains a magic number: 2,65
+TicTacToe-main,com.espol.tictactoe.model,Game,win,Magic Number,The method contains a magic number: 2,65
+TicTacToe-main,com.espol.tictactoe.model,Game,win,Magic Number,The method contains a magic number: 2,65
+TicTacToe-main,com.espol.tictactoe.model,Game,win,Magic Number,The method contains a magic number: 2,65
+TicTacToe-main,com.espol.tictactoe.model,Game,win,Magic Number,The method contains a magic number: 2,65
+TicTacToe-main,com.espol.tictactoe.model,Game,win,Magic Number,The method contains a magic number: 2,65
+TicTacToe-main,com.espol.tictactoe.model,Game,recomendacion,Magic Number,The method contains a magic number: 2,79
+TicTacToe-main,com.espol.tictactoe.model,Game,toString,Long Statement,The length of the statement "return "GameData{" + "gameMode=" + gameMode + "` playerOne="+ playerOne+ "` playerTwo="+ playerTwo+ "` startingSymbol="+ startingSymbol+ "` tree="+ tree+ '}';" is 158.,95
+TicTacToe-main,com.espol.tictactoe.model,Matrix,Matrix,Magic Number,The method contains a magic number: 3,9
+TicTacToe-main,com.espol.tictactoe.model,Matrix,Matrix,Magic Number,The method contains a magic number: 3,9
+TicTacToe-main,com.espol.tictactoe.model,Matrix,Matrix,Magic Number,The method contains a magic number: 3,9
+TicTacToe-main,com.espol.tictactoe.model,Matrix,Matrix,Magic Number,The method contains a magic number: 3,9
+TicTacToe-main,com.espol.tictactoe.model,Matrix,countWaysToWin,Complex Conditional,The conditional expression play[i][0] != opponent && play[i][1] != opponent && play[i][2] != opponent is complex.,22
+TicTacToe-main,com.espol.tictactoe.model,Matrix,countWaysToWin,Complex Conditional,The conditional expression play[0][j] != opponent && play[1][j] != opponent && play[2][j] != opponent is complex.,22
+TicTacToe-main,com.espol.tictactoe.model,Matrix,countWaysToWin,Complex Conditional,The conditional expression play[0][0] != opponent && play[1][1] != opponent && play[2][2] != opponent is complex.,22
+TicTacToe-main,com.espol.tictactoe.model,Matrix,countWaysToWin,Complex Conditional,The conditional expression play[0][2] != opponent && play[1][1] != opponent && play[2][0] != opponent is complex.,22
+TicTacToe-main,com.espol.tictactoe.model,Matrix,countWaysToWin,Magic Number,The method contains a magic number: 3,22
+TicTacToe-main,com.espol.tictactoe.model,Matrix,countWaysToWin,Magic Number,The method contains a magic number: 2,22
+TicTacToe-main,com.espol.tictactoe.model,Matrix,countWaysToWin,Magic Number,The method contains a magic number: 3,22
+TicTacToe-main,com.espol.tictactoe.model,Matrix,countWaysToWin,Magic Number,The method contains a magic number: 2,22
+TicTacToe-main,com.espol.tictactoe.model,Matrix,countWaysToWin,Magic Number,The method contains a magic number: 2,22
+TicTacToe-main,com.espol.tictactoe.model,Matrix,countWaysToWin,Magic Number,The method contains a magic number: 2,22
+TicTacToe-main,com.espol.tictactoe.model,Matrix,countWaysToWin,Magic Number,The method contains a magic number: 2,22
+TicTacToe-main,com.espol.tictactoe.model,Matrix,countWaysToWin,Magic Number,The method contains a magic number: 2,22
+TicTacToe-main,com.espol.tictactoe.model,Matrix,copy,Magic Number,The method contains a magic number: 3,52
+TicTacToe-main,com.espol.tictactoe.model,Matrix,copy,Magic Number,The method contains a magic number: 3,52
+TicTacToe-main,com.espol.tictactoe.model,Matrix,toString,Magic Number,The method contains a magic number: 3,60
+TicTacToe-main,com.espol.tictactoe.model,Matrix,toString,Magic Number,The method contains a magic number: 3,60

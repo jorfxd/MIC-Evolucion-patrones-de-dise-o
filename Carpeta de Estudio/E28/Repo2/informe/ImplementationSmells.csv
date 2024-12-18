@@ -1,0 +1,441 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+SistemaUrbanizacion-main,proyecto.clases,Colaborador,Colaborador,Long Parameter List,The method has 8 parameters. ,42
+SistemaUrbanizacion-main,proyecto.clases,Colaborador,Colaborador,Long Parameter List,The method has 9 parameters. ,62
+SistemaUrbanizacion-main,proyecto.clases,Colaborador,Colaborador,Empty catch clause,The method has an empty catch block.,81
+SistemaUrbanizacion-main,proyecto.clases,Colaborador,Colaborador,Magic Number,The method contains a magic number: 5,81
+SistemaUrbanizacion-main,proyecto.clases,Colaborador,Colaborador,Magic Number,The method contains a magic number: 6,81
+SistemaUrbanizacion-main,proyecto.clases,Colaborador,Colaborador,Magic Number,The method contains a magic number: 7,81
+SistemaUrbanizacion-main,proyecto.clases,Colaborador,Colaborador,Magic Number,The method contains a magic number: 8,81
+SistemaUrbanizacion-main,proyecto.clases,Colaborador,toString,Empty catch clause,The method has an empty catch block.,173
+SistemaUrbanizacion-main,proyecto.clases,Colaborador,toString,Empty catch clause,The method has an empty catch block.,173
+SistemaUrbanizacion-main,proyecto.clases,Colaborador,toString,Empty catch clause,The method has an empty catch block.,173
+SistemaUrbanizacion-main,proyecto.clases,Permiso,Permiso,Long Parameter List,The method has 6 parameters. ,46
+SistemaUrbanizacion-main,proyecto.clases,Permiso,crearCodigoUnico,Long Statement,The length of the statement "this.codigoUnico=(residente.getNombre().substring(0`2) + fechaCreacion.format(java.time.format.DateTimeFormatter.BASIC_ISO_DATE) + "-"+ visitante.getNombre().substring(0`2)+ fechaCreacion.getHour()+ fechaCreacion.getMinute()).toUpperCase();" is 240.,270
+SistemaUrbanizacion-main,proyecto.clases,Permiso,crearCodigoUnico,Magic Number,The method contains a magic number: 2,270
+SistemaUrbanizacion-main,proyecto.clases,Permiso,crearCodigoUnico,Magic Number,The method contains a magic number: 2,270
+SistemaUrbanizacion-main,proyecto.clases,Permiso,toString,Long Statement,The length of the statement "String mensaje=String.format("Permiso: %s\nEstado: %s\nAutorizado por: %s\nVisitante: %s\nFecha de Creación: %s\nFecha de Visita: %s\nDuración Estimada: %s"`codigoUnico`estado`residente.getNombre()`visitante.getNombre()`fechaCreacion`fechaVisita`duracion);" is 258.,285
+SistemaUrbanizacion-main,proyecto.clases,Permiso,toString,Long Statement,The length of the statement "if (estado.equals(EstadoPermiso.USADO)) return mensaje + String.format("\nRevisado por: %s\nEntrada: %s\nObservaciones: %s"`guardia.getNombre()`guardia.getPuestoTrabajo()`observacion);" is 184.,285
+SistemaUrbanizacion-main,proyecto.clases,Persona,Persona,Long Parameter List,The method has 5 parameters. ,47
+SistemaUrbanizacion-main,proyecto.clases,Persona,Persona,Empty catch clause,The method has an empty catch block.,64
+SistemaUrbanizacion-main,proyecto.clases,Persona,Persona,Magic Number,The method contains a magic number: 2,64
+SistemaUrbanizacion-main,proyecto.clases,Persona,Persona,Magic Number,The method contains a magic number: 3,64
+SistemaUrbanizacion-main,proyecto.clases,Persona,Persona,Magic Number,The method contains a magic number: 4,64
+SistemaUrbanizacion-main,proyecto.clases,Persona,toString,Empty catch clause,The method has an empty catch block.,159
+SistemaUrbanizacion-main,proyecto.clases,Residente,toString,Long Statement,The length of the statement "return super.toString() + ";" + String.join(";"`String.valueOf(manzana)`String.valueOf(villa)`String.valueOf(habitantesWithRes));" is 129.,41
+SistemaUrbanizacion-main,proyecto.clases,Residente,Residente,Long Parameter List,The method has 9 parameters. ,50
+SistemaUrbanizacion-main,proyecto.clases,Residente,Residente,Empty catch clause,The method has an empty catch block.,71
+SistemaUrbanizacion-main,proyecto.clases,Residente,Residente,Empty catch clause,The method has an empty catch block.,71
+SistemaUrbanizacion-main,proyecto.clases,Residente,Residente,Empty catch clause,The method has an empty catch block.,71
+SistemaUrbanizacion-main,proyecto.clases,Residente,Residente,Magic Number,The method contains a magic number: 5,71
+SistemaUrbanizacion-main,proyecto.clases,Residente,Residente,Magic Number,The method contains a magic number: 6,71
+SistemaUrbanizacion-main,proyecto.clases,Residente,Residente,Magic Number,The method contains a magic number: 7,71
+SistemaUrbanizacion-main,proyecto.clases,Sistema,start,Magic Number,The method contains a magic number: 985,94
+SistemaUrbanizacion-main,proyecto.clases,Sistema,start,Magic Number,The method contains a magic number: 410,94
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadUrbanizacion,Long Statement,The length of the statement "urbanizacion=new Urbanizacion("Bella Vista"`"Lagarto"`colaboradores.get(0).getEmail()`"Cerca de UCSG"`"Vergara & Asociados"`colaboradores.get(0));" is 146.,165
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Long Statement,The length of the statement "permisos.add(new Permiso(EstadoPermiso.CADUCADO`LocalDateTime.of(2022`Month.NOVEMBER`27`20`0)`residentes.get(0)`visitantes.get(0)`LocalDateTime.of(2022`11`28`17`30)`LocalTime.of(2`30)));" is 186.,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Long Statement,The length of the statement "permisos.add(new Permiso(EstadoPermiso.ACTIVO`LocalDateTime.now().minusMinutes(20).withNano(0).withSecond(0)`residentes.get(0)`visitantes.get(1)`LocalDateTime.now().withNano(0).withSecond(0)`LocalTime.of(0`30)));" is 212.,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Long Statement,The length of the statement "permisos.add(new Permiso(EstadoPermiso.ACTIVO`LocalDateTime.now().minusMinutes(20).withNano(0).withSecond(0)`residentes.get(4)`visitantes.get(3)`LocalDateTime.now().withNano(0).withSecond(0)`LocalTime.of(0`30)));" is 212.,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Long Statement,The length of the statement "permisos.add(new Permiso(EstadoPermiso.ACTIVO`LocalDateTime.now().minusMinutes(30).withNano(0).withSecond(0)`residentes.get(1)`visitantes.get(0)`LocalDateTime.now().withNano(0).withSecond(0).plusMinutes(50)`LocalTime.of(1`50)));" is 228.,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Long Statement,The length of the statement "permisos.add(new Permiso(EstadoPermiso.INACTIVO`LocalDateTime.now().minusMinutes(10).withNano(0).withSecond(0)`residentes.get(0)`visitantes.get(1)`LocalDateTime.now().withNano(0).withSecond(0).plusMinutes(50)`LocalTime.of(1`35)));" is 230.,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Long Statement,The length of the statement "permisos.add(new Permiso(EstadoPermiso.USADO`LocalDateTime.now().minusMinutes(55).withNano(0).withSecond(0)`residentes.get(1)`visitantes.get(0)`LocalDateTime.now().withNano(0).withSecond(0).minusMinutes(20)`LocalTime.of(2`45)));" is 228.,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 2022,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 27,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 20,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 2022,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 11,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 28,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 17,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 30,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 2,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 30,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 20,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 30,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 20,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 4,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 3,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 30,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 30,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 50,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 50,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 10,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 50,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 35,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 55,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 20,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 2,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 45,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 5,246
+SistemaUrbanizacion-main,proyecto.clases,Sistema,loadPermisos,Magic Number,The method contains a magic number: 5,246
+SistemaUrbanizacion-main,proyecto.clases,Urbanizacion,Urbanizacion,Long Parameter List,The method has 6 parameters. ,40
+SistemaUrbanizacion-main,proyecto.clases,Urbanizacion,toString,Long Statement,The length of the statement "return "Urbanizacion " + nombre + "\nEtapa: "+ etapa+ "\nContacto Administración: "+ emailAdmin+ "\nDireccion: "+ direccion+ "\nConstructora: "+ constructora+ "\nAdministrador: "+ admin.getNombre();" is 199.,60
+SistemaUrbanizacion-main,proyecto.clases,Urbanizacion,toString,Long Statement,The length of the statement "return "Urbanizacion " + nombre + "\nEtapa: "+ etapa+ "\nContacto Administración: No Disponible\nDireccion: "+ direccion+ "\nConstructora: "+ constructora+ "\nAdministrador: No Disponible";" is 190.,60
+SistemaUrbanizacion-main,proyecto.clases,Visitante,Visitante,Long Parameter List,The method has 6 parameters. ,46
+SistemaUrbanizacion-main,proyecto.clases,Visitante,Visitante,Long Parameter List,The method has 7 parameters. ,61
+SistemaUrbanizacion-main,proyecto.clases,Visitante,Visitante,Magic Number,The method contains a magic number: 5,77
+SistemaUrbanizacion-main,proyecto.clases,Visitante,Visitante,Magic Number,The method contains a magic number: 6,77
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Empty catch clause,The method has an empty catch block.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoUrbanizacion.png")`25`25`false`false));" is 125.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoColaborador.png")`25`25`false`false));" is 124.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoResidente.png")`25`25`false`false));" is 122.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoVisitante.png")`25`25`false`false));" is 122.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoRevision.png")`25`25`false`false));" is 121.,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 14,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 7,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 14,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 7,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 14,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 7,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 14,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 7,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 14,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 7,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 14,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 7,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 14,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 7,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 25,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 14,51
+SistemaUrbanizacion-main,proyecto.controllers,ColaboradoresController,initialize,Magic Number,The method contains a magic number: 7,51
+SistemaUrbanizacion-main,proyecto.controllers,MainViewController,initialize,Magic Number,The method contains a magic number: 985,30
+SistemaUrbanizacion-main,proyecto.controllers,MainViewController,initialize,Magic Number,The method contains a magic number: 410,30
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Complex Method,Cyclomatic complexity of the method is 8,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Empty catch clause,The method has an empty catch block.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Empty catch clause,The method has an empty catch block.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Empty catch clause,The method has an empty catch block.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Empty catch clause,The method has an empty catch block.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Empty catch clause,The method has an empty catch block.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Empty catch clause,The method has an empty catch block.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Empty catch clause,The method has an empty catch block.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Empty catch clause,The method has an empty catch block.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Empty catch clause,The method has an empty catch block.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Long Method,The method has 105 lines of code.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Long Statement,The length of the statement "String[] header=("Código Único;Creado por;Visitante;Estado;Fecha de Creación;Fecha de Visita;Duración;Revisado por;Observación").split(";");" is 145.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Long Statement,The length of the statement "String[] cellValues=("codigoUnico;residenteNombre;visitanteNombre;estado;fechaCreacion;fechaVisita;duracion;guardiaNombre;observacion").split(";");" is 147.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Long Statement,The length of the statement "txtHoraVisita.setTooltip(new Tooltip("Disponibilidad\nDesde " + permiso.getFechaCreacion().plusMinutes(15).toLocalTime() + "\nhasta 23:59"));" is 141.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Long Statement,The length of the statement "txtHoraVisita.setTooltip(new Tooltip("Disponibilidad\nDesde 00:01 hasta " + permiso.getFechaCreacion().toLocalTime() + " del día de mañana"));" is 144.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoUrbanizacion.png")`25`25`false`false));" is 125.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoColaborador.png")`25`25`false`false));" is 124.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoResidente.png")`25`25`false`false));" is 122.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoVisitante.png")`25`25`false`false));" is 122.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoRevision.png")`25`25`false`false));" is 121.,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 15,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 328,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 175,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 14,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 96,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 14,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 7,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 14,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 7,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 14,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 7,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 14,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 7,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 14,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 7,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 14,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 7,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 14,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 7,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 25,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 14,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,initialize,Magic Number,The method contains a magic number: 7,92
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,crearPermiso,Long Statement,The length of the statement "final Visitante visitante=Sistema.visitantes.get(Sistema.visitantes.indexOf(new Visitante(comboVisitantes.getValue().split(":")[1].strip())));" is 142.,234
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,crearPermiso,Long Statement,The length of the statement "alert.setContentText("Historial de Sanciones del visitante:\n" + visitante.getSanciones() + "\n¿Deseas registrar el permiso?");" is 128.,234
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,crearPermiso,Long Statement,The length of the statement "final Residente residente=Sistema.residentes.get(Sistema.residentes.indexOf(new Residente(comboResidentes.getValue().split(":")[1].strip())));" is 142.,234
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,crearPermiso,Long Statement,The length of the statement "permiso.setFechaVisita(LocalDateTime.of(comboFecha.getValue()`LocalTime.of(Integer.parseInt(hora[0])`Integer.parseInt(hora[1]))).minusMinutes(15));" is 147.,234
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,crearPermiso,Long Statement,The length of the statement "alert=new Alert(Alert.AlertType.INFORMATION`"Código Único Generado:\n" + permiso.getCodigoUnico() + "\nAsegúrate de que el visitante reciba esta información."`copiar`ButtonType.OK);" is 185.,234
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,crearPermiso,Magic Number,The method contains a magic number: 15,234
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,crearPermiso,Magic Number,The method contains a magic number: 15,234
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,isHora,Complex Conditional,The conditional expression comboFecha.getValue().equals(fechaHoy.toLocalDate()) && hhmm.isAfter(permiso.getFechaCreacion().plusMinutes(14).toLocalTime()) && hhmm.isBefore(LocalTime.of(23`59)) is complex.,275
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,isHora,Complex Conditional,The conditional expression comboFecha.getValue().equals(fechaManana.toLocalDate()) && hhmm.isAfter(LocalTime.of(0`1).minusMinutes(1)) && hhmm.isBefore(permiso.getFechaCreacion().toLocalTime()) is complex.,275
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,isHora,Long Statement,The length of the statement "LocalTime hhmm=LocalTime.of(Integer.parseInt(txtHoraVisita.getText().split(":")[0])`Integer.parseInt(txtHoraVisita.getText().split(":")[1]));" is 141.,275
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,isHora,Long Statement,The length of the statement "if (comboFecha.getValue().equals(fechaHoy.toLocalDate()) && hhmm.isAfter(permiso.getFechaCreacion().plusMinutes(14).toLocalTime()) && hhmm.isBefore(LocalTime.of(23`59))) {" is 171.,275
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,isHora,Long Statement,The length of the statement "else if (comboFecha.getValue().equals(fechaManana.toLocalDate()) && hhmm.isAfter(LocalTime.of(0`1).minusMinutes(1)) && hhmm.isBefore(permiso.getFechaCreacion().toLocalTime())) {" is 177.,275
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,isHora,Magic Number,The method contains a magic number: 14,275
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,isHora,Magic Number,The method contains a magic number: 23,275
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,isHora,Magic Number,The method contains a magic number: 59,275
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,fechas,Long Statement,The length of the statement "txtHoraVisita.setTooltip(new Tooltip("Disponibilidad\nDesde " + permiso.getFechaCreacion().plusMinutes(15).toLocalTime() + "\nhasta 23:59"));" is 141.,311
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,fechas,Long Statement,The length of the statement "txtHoraVisita.setTooltip(new Tooltip("Disponibilidad\nDesde 00:01 hasta " + permiso.getFechaCreacion().toLocalTime() + " del día de mañana"));" is 144.,311
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,fechas,Magic Number,The method contains a magic number: 15,311
+SistemaUrbanizacion-main,proyecto.controllers,PermisosController,buscarPermiso,Long Statement,The length of the statement "Alert alert=new Alert(Alert.AlertType.INFORMATION`"No se permite eliminar permisos en estado " + permiso.getEstado().toString());" is 129.,333
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Empty catch clause,The method has an empty catch block.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Empty catch clause,The method has an empty catch block.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Empty catch clause,The method has an empty catch block.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Empty catch clause,The method has an empty catch block.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Empty catch clause,The method has an empty catch block.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Empty catch clause,The method has an empty catch block.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Empty catch clause,The method has an empty catch block.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Empty catch clause,The method has an empty catch block.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoUrbanizacion.png")`25`25`false`false));" is 125.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoColaborador.png")`25`25`false`false));" is 124.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoResidente.png")`25`25`false`false));" is 122.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoVisitante.png")`25`25`false`false));" is 122.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoRevision.png")`25`25`false`false));" is 121.,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 14,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 7,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 14,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 7,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 14,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 7,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 14,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 7,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 14,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 7,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 14,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 7,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 14,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 7,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 25,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 14,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,initialize,Magic Number,The method contains a magic number: 7,97
+SistemaUrbanizacion-main,proyecto.controllers,ReportesController,generar,Long Statement,The length of the statement "Residente residente=Sistema.residentes.get(Sistema.residentes.indexOf(new Residente(residentesBox.getValue().split(":")[1].strip())));" is 134.,290
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Empty catch clause,The method has an empty catch block.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Empty catch clause,The method has an empty catch block.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Empty catch clause,The method has an empty catch block.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Empty catch clause,The method has an empty catch block.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Empty catch clause,The method has an empty catch block.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Empty catch clause,The method has an empty catch block.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Empty catch clause,The method has an empty catch block.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Empty catch clause,The method has an empty catch block.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoUrbanizacion.png")`25`25`false`false));" is 125.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoColaborador.png")`25`25`false`false));" is 124.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoResidente.png")`25`25`false`false));" is 122.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoVisitante.png")`25`25`false`false));" is 122.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoRevision.png")`25`25`false`false));" is 121.,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 14,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 7,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 14,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 7,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 14,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 7,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 14,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 7,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 14,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 7,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 14,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 7,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 14,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 7,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 25,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 14,49
+SistemaUrbanizacion-main,proyecto.controllers,ResidentesController,initialize,Magic Number,The method contains a magic number: 7,49
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Empty catch clause,The method has an empty catch block.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Empty catch clause,The method has an empty catch block.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Empty catch clause,The method has an empty catch block.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Empty catch clause,The method has an empty catch block.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Empty catch clause,The method has an empty catch block.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Empty catch clause,The method has an empty catch block.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Empty catch clause,The method has an empty catch block.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Empty catch clause,The method has an empty catch block.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoUrbanizacion.png")`25`25`false`false));" is 125.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoColaborador.png")`25`25`false`false));" is 124.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoResidente.png")`25`25`false`false));" is 122.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoVisitante.png")`25`25`false`false));" is 122.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoRevision.png")`25`25`false`false));" is 121.,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 14,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 7,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 14,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 7,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 14,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 7,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 14,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 7,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 14,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 7,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 14,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 7,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 14,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 7,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 25,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 14,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,initialize,Magic Number,The method contains a magic number: 7,90
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,autorizarVisita,Long Statement,The length of the statement "if (colaborador.toFilterByInformation(TipoEmpleo.GUARDIA) != null) guardiasBox.getItems().add(colaborador.toFilterByInformation(TipoEmpleo.GUARDIA));" is 149.,232
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,autorizarVisita,Long Statement,The length of the statement "Alert alert=new Alert(Alert.AlertType.INFORMATION`"Identifícate e ingresa observaciones importantes sobre la visita\nSi no tienes ninguna solo da clic en \"Finalizar Registro\"");" is 180.,232
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,finalizarRevision,Long Statement,The length of the statement "Alert alert=new Alert(Alert.AlertType.WARNING`"Por favor agregue en el historial de sanciones el motivo por el cual no se autorizó la visita.");" is 145.,262
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,finalizarRegistro,Long Statement,The length of the statement "permiso.getVisitante().setSanciones(permiso.getVisitante().getSanciones() + " | " + observacionesAdicionales.getText().strip());" is 128.,277
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,finalizarRegistro,Long Statement,The length of the statement "Colaborador guardia=Sistema.colaboradores.get(Sistema.colaboradores.indexOf(new Colaborador(guardiasBox.getValue().split(":")[1].strip())));" is 140.,277
+SistemaUrbanizacion-main,proyecto.controllers,RevisionController,finalizarRegistro,Long Statement,The length of the statement "Alert alert=new Alert(Alert.AlertType.INFORMATION`"La urbanización " + Sistema.urbanizacion.getNombre() + " está encantada de recibir una nueva visita");" is 155.,277
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Empty catch clause,The method has an empty catch block.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Empty catch clause,The method has an empty catch block.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Empty catch clause,The method has an empty catch block.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Empty catch clause,The method has an empty catch block.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Empty catch clause,The method has an empty catch block.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Empty catch clause,The method has an empty catch block.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Empty catch clause,The method has an empty catch block.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Empty catch clause,The method has an empty catch block.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Empty catch clause,The method has an empty catch block.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Long Statement,The length of the statement "if (colaborador.toFilterByInformation(TipoEmpleo.ADMINISTRADOR) != null) adminList.getItems().add(colaborador.toFilterByInformation(TipoEmpleo.ADMINISTRADOR));" is 159.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoUrbanizacion.png")`25`25`false`false));" is 125.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoColaborador.png")`25`25`false`false));" is 124.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoResidente.png")`25`25`false`false));" is 122.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoVisitante.png")`25`25`false`false));" is 122.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoRevision.png")`25`25`false`false));" is 121.,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 14,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 7,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 14,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 7,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 14,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 7,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 14,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 7,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 14,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 7,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 14,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 7,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 14,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 7,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 25,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 14,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,initialize,Magic Number,The method contains a magic number: 7,71
+SistemaUrbanizacion-main,proyecto.controllers,UrbanizacionController,isCorreo,Magic Number,The method contains a magic number: 2,224
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Empty catch clause,The method has an empty catch block.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Empty catch clause,The method has an empty catch block.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Empty catch clause,The method has an empty catch block.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Empty catch clause,The method has an empty catch block.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Empty catch clause,The method has an empty catch block.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Empty catch clause,The method has an empty catch block.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Empty catch clause,The method has an empty catch block.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Empty catch clause,The method has an empty catch block.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoUrbanizacion.png")`25`25`false`false));" is 125.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoColaborador.png")`25`25`false`false));" is 124.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoResidente.png")`25`25`false`false));" is 122.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoVisitante.png")`25`25`false`false));" is 122.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Long Statement,The length of the statement "imagen=new ImageView(new Image(new FileInputStream("storage\\images\\background\\iconoRevision.png")`25`25`false`false));" is 121.,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 14,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 7,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 14,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 7,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 14,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 7,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 14,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 7,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 14,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 7,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 14,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 7,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 14,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 7,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 25,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 14,48
+SistemaUrbanizacion-main,proyecto.controllers,VisitantesController,initialize,Magic Number,The method contains a magic number: 7,48

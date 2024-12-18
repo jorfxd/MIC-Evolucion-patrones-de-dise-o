@@ -1,6 +1,0 @@
-projectKey=E12-R2
-serverUrl=http://localhost:9000
-serverVersion=24.12.0.100206
-dashboardUrl=http://localhost:9000/dashboard?id=E12-R2
-ceTaskId=46bad70f-407b-4c5f-80cd-20e275dcb311
-ceTaskUrl=http://localhost:9000/api/ce/task?id=46bad70f-407b-4c5f-80cd-20e275dcb311

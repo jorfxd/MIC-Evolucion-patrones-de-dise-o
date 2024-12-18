@@ -1,2 +1,0 @@
-# EDD1_PROY1P_LUNA_VIVAS_TENESACA
-Proyecto Emoji Builder

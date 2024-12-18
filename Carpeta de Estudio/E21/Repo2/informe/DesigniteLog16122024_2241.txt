@@ -1,0 +1,19 @@
+16-12-2024 22:41:19: Detecting code smells...
+16-12-2024 22:41:20: Detecting cyclic dependency...
+16-12-2024 22:41:20: Detecting architecture smells...
+16-12-2024 22:41:22: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:41:23: Exception while reading config file. C:\Program Files\Extension Designite\DesignitePro\.config (El sistema no puede encontrar el archivo especificado)
+16-12-2024 22:41:23: Exporting analysis results...
+16-12-2024 22:41:24: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:41:24: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:41:24: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:41:25: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:41:25: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:41:25: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:41:26: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:41:26: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:41:26: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:41:27: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:41:27: Exception while creating config file. C:\Program Files\Extension Designite\DesignitePro\.config (Acceso denegado)
+16-12-2024 22:41:28: Done.
+16-12-2024 22:41:28: Total time (sec): 21

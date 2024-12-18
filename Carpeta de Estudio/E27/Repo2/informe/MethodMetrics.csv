@@ -1,0 +1,120 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+20Preguntas,ec.edu.espol.ventanas,App,start,8,1,1,15,0,ec.edu.espol.ventanas.App,ec.edu.espol.ventanas.App
+20Preguntas,ec.edu.espol.ventanas,App,setRoot,3,1,1,26,0,ec.edu.espol.ventanas.App,ec.edu.espol.ventanas.App
+20Preguntas,ec.edu.espol.ventanas,App,loadFXML,4,1,1,30,0,,
+20Preguntas,ec.edu.espol.ventanas,App,main,3,1,1,35,0,,
+20Preguntas,ec.edu.espol.ventanas,VAgregarAnimalController,initialize,2,1,2,60,0,,
+20Preguntas,ec.edu.espol.ventanas,VAgregarAnimalController,home,34,2,2,64,0,ec.edu.espol.ventanas.VAgregarAnimalController,ec.edu.espol.ventanas.VAgregarAnimalController
+20Preguntas,ec.edu.espol.ventanas,VAgregarAnimalController,limpiarRespuestas,28,5,0,94,0,TDAs.TreeG4,TDAs.TreeG4
+20Preguntas,ec.edu.espol.ventanas,VAgregarAnimalController,muestraAlerta,7,1,2,128,0,,
+20Preguntas,ec.edu.espol.ventanas,VAgregarAnimalController,regresar,11,1,1,136,0,ec.edu.espol.ventanas.VMenuController,ec.edu.espol.ventanas.VMenuController
+20Preguntas,ec.edu.espol.ventanas,VAgregarAnimalController,generarArbol,11,1,1,149,0,GameLogic.TreeBuilder,GameLogic.TreeBuilder; GameLogic.Game
+20Preguntas,ec.edu.espol.ventanas,VAgregarAnimalController,escribirAnimalTxt,23,4,1,163,0,ec.edu.espol.ventanas.VAgregarAnimalController,ec.edu.espol.ventanas.VAgregarAnimalController
+20Preguntas,ec.edu.espol.ventanas,VAgregarAnimalController,escogerImg,20,2,1,194,0,,
+20Preguntas,ec.edu.espol.ventanas,VBienvenidaController,initialize,25,2,2,39,0,,
+20Preguntas,ec.edu.espol.ventanas,VBienvenidaController,home,26,2,1,64,0,,
+20Preguntas,ec.edu.espol.ventanas,VBienvenidaController,abrirJuegoRapido,11,1,1,90,0,ec.edu.espol.ventanas.VPreguntasController,ec.edu.espol.ventanas.VPreguntasController
+20Preguntas,ec.edu.espol.ventanas,VBienvenidaController,iniciarJuegoM,15,1,1,103,0,,
+20Preguntas,ec.edu.espol.ventanas,VBienvenidaController,muestraAlerta,7,1,2,121,0,,
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,initialize,2,1,2,51,0,,
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,home,29,2,1,55,0,,
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,validarNPreguntas,12,3,1,86,0,ec.edu.espol.ventanas.VCantidadPreguntasController,ec.edu.espol.ventanas.VCantidadPreguntasController; TDAs.Reader
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,muestraAlerta,7,1,2,102,0,,
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,vEmpezarJuego,13,1,1,110,0,ec.edu.espol.ventanas.VCantidadPreguntasController,ec.edu.espol.ventanas.VCantidadPreguntasController; ec.edu.espol.ventanas.VPreguntasController; GameLogic.Game
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,regresar,11,1,1,129,0,ec.edu.espol.ventanas.VMenuController,ec.edu.espol.ventanas.VMenuController
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,emergencia,18,1,0,142,0,TDAs.Reader,TDAs.Reader
+20Preguntas,ec.edu.espol.ventanas,VCantidadPreguntasController,generarArbol,7,1,1,162,0,GameLogic.Game,GameLogic.Game
+20Preguntas,ec.edu.espol.ventanas,VMenuController,initialize,38,1,2,39,0,,
+20Preguntas,ec.edu.espol.ventanas,VMenuController,home,39,1,1,79,0,,
+20Preguntas,ec.edu.espol.ventanas,VMenuController,iniciarJuegoM,11,1,1,114,0,ec.edu.espol.ventanas.VCantidadPreguntasController,ec.edu.espol.ventanas.VCantidadPreguntasController
+20Preguntas,ec.edu.espol.ventanas,VMenuController,regresarBienvenida,11,1,1,129,0,ec.edu.espol.ventanas.VBienvenidaController,ec.edu.espol.ventanas.VBienvenidaController
+20Preguntas,ec.edu.espol.ventanas,VMenuController,vCargarArchivo,11,1,1,143,0,ec.edu.espol.ventanas.VSubirArchivoController,ec.edu.espol.ventanas.VSubirArchivoController
+20Preguntas,ec.edu.espol.ventanas,VMenuController,vMostrarAnimales,11,1,1,157,0,ec.edu.espol.ventanas.VMostrarAnimalesController,ec.edu.espol.ventanas.VMostrarAnimalesController
+20Preguntas,ec.edu.espol.ventanas,VMostrarAnimalesController,initialize,2,1,2,50,0,,
+20Preguntas,ec.edu.espol.ventanas,VMostrarAnimalesController,home,19,2,1,55,0,ec.edu.espol.ventanas.VMostrarAnimalesController,ec.edu.espol.ventanas.VMostrarAnimalesController
+20Preguntas,ec.edu.espol.ventanas,VMostrarAnimalesController,regresar,11,1,1,79,0,ec.edu.espol.ventanas.VMenuController,ec.edu.espol.ventanas.VMenuController
+20Preguntas,ec.edu.espol.ventanas,VMostrarAnimalesController,guardarAnimales,4,2,0,92,0,TDAs.Reader,TDAs.Reader
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,initialize,2,1,2,73,0,,
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,home,9,1,4,77,0,ec.edu.espol.ventanas.VPreguntasController,ec.edu.espol.ventanas.VPreguntasController
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,empezarJuego,12,2,1,88,0,ec.edu.espol.ventanas.VPreguntasController,ec.edu.espol.ventanas.VPreguntasController
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarNodo,36,9,0,101,0,ec.edu.espol.ventanas.VPreguntasController,ec.edu.espol.ventanas.VPreguntasController; TDAs.TreeG4
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarNodoInfinito,21,5,0,143,0,ec.edu.espol.ventanas.VPreguntasController,ec.edu.espol.ventanas.VPreguntasController; TDAs.TreeG4
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,prepararJuegoRapido,9,1,0,175,0,GameLogic.TreeBuilder,GameLogic.TreeBuilder
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,modoJuegoRapido,41,5,2,187,0,ec.edu.espol.ventanas.VPreguntasController,ec.edu.espol.ventanas.VPreguntasController; GameLogic.Question
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarPreguntaJuegoRapido,47,14,2,237,0,GameLogic.Question,GameLogic.Question
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,calcularProbabilidad,9,2,1,296,0,ec.edu.espol.ventanas.VPreguntasController,ec.edu.espol.ventanas.VPreguntasController
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarHoja,13,2,1,309,0,ec.edu.espol.ventanas.VPreguntasController,ec.edu.espol.ventanas.VPreguntasController; TDAs.TreeG4
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,cargarLConjuntoAnimales,10,3,1,324,0,TDAs.TreeG4,TDAs.TreeG4
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,cargarTodosAnimales,10,3,0,336,0,TDAs.TreeG4,TDAs.TreeG4
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,procesarPregunta,29,2,2,348,0,,
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,continuar,9,3,2,376,0,ec.edu.espol.ventanas.VPreguntasController,ec.edu.espol.ventanas.VPreguntasController
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,respuestaSi,5,1,1,385,0,,
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,respuestaNo,5,1,1,391,0,,
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,respuestaDes,5,1,1,397,0,,
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,muestraAlerta,7,1,2,404,0,,
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,regresar,11,1,1,412,0,ec.edu.espol.ventanas.VCantidadPreguntasController,ec.edu.espol.ventanas.VCantidadPreguntasController
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,retrocederPregunta,10,4,0,426,0,TDAs.TreeG4,TDAs.TreeG4
+20Preguntas,ec.edu.espol.ventanas,VPreguntasController,ventanaMostrarRespuesta,16,1,3,439,0,ec.edu.espol.ventanas.VResultadoController,ec.edu.espol.ventanas.VResultadoController
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,initialize,2,1,2,49,0,,
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,home,20,3,5,57,0,ec.edu.espol.ventanas.VResultadoController,ec.edu.espol.ventanas.VResultadoController
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,regresar,11,1,1,78,0,ec.edu.espol.ventanas.VMenuController,ec.edu.espol.ventanas.VMenuController
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,mostrarRespueta,26,6,2,91,0,ec.edu.espol.ventanas.VResultadoController,ec.edu.espol.ventanas.VResultadoController
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,mostrarImagen,12,1,1,117,0,,
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,muestraAlerta,7,1,2,129,0,,
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,alertar,16,2,3,137,0,,
+20Preguntas,ec.edu.espol.ventanas,VResultadoController,reescribirArchivo,16,1,2,155,0,ec.edu.espol.ventanas.VAgregarAnimalController,ec.edu.espol.ventanas.VAgregarAnimalController
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,initialize,2,1,2,55,0,,
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,home,12,1,0,59,0,ec.edu.espol.ventanas.VSubirArchivoController,ec.edu.espol.ventanas.VSubirArchivoController
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,handleCargarArchivo,19,3,2,70,0,ec.edu.espol.ventanas.VSubirArchivoController,ec.edu.espol.ventanas.VSubirArchivoController
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,ventanaEmpezarJuego,15,2,1,96,0,ec.edu.espol.ventanas.VPreguntasController,ec.edu.espol.ventanas.VPreguntasController; GameLogic.Game; ec.edu.espol.ventanas.VSubirArchivoController
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,generarArbol,7,1,1,118,0,GameLogic.Game,GameLogic.Game
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,getArchivoSeleccionado,3,1,0,127,0,,
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,subirArchivoPreguntas,3,1,1,131,0,ec.edu.espol.ventanas.VSubirArchivoController,ec.edu.espol.ventanas.VSubirArchivoController
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,subirArchivoRespuestas,3,1,1,135,0,ec.edu.espol.ventanas.VSubirArchivoController,ec.edu.espol.ventanas.VSubirArchivoController
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,configBtnArchivos,47,4,0,139,0,,
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,regresar,11,1,1,181,0,ec.edu.espol.ventanas.VMenuController,ec.edu.espol.ventanas.VMenuController
+20Preguntas,ec.edu.espol.ventanas,VSubirArchivoController,muestraAlerta,7,1,2,194,0,,
+20Preguntas,GameLogic,Game,buildDecisionsTree,8,1,1,18,0,GameLogic.TreeBuilder,GameLogic.TreeBuilder
+20Preguntas,GameLogic,Game,getTree,3,1,0,27,0,,
+20Preguntas,GameLogic,Game,getPreguntasTxt,3,1,0,31,0,,
+20Preguntas,GameLogic,Game,testDemo,24,5,0,37,0,TDAs.TreeG4,TDAs.TreeG4
+20Preguntas,GameLogic,Question,Question,4,1,1,12,0,,
+20Preguntas,GameLogic,Question,getStatement,3,1,0,17,0,,
+20Preguntas,GameLogic,Question,getEntropy,3,1,0,21,0,,
+20Preguntas,GameLogic,Question,setEntropy,3,1,1,25,0,,
+20Preguntas,GameLogic,Question,toString,3,1,0,29,0,,
+20Preguntas,GameLogic,TreeBuilder,TreeBuilder,4,1,1,24,0,GameLogic.TreeBuilder,GameLogic.TreeBuilder
+20Preguntas,GameLogic,TreeBuilder,reset,4,1,0,29,0,,
+20Preguntas,GameLogic,TreeBuilder,setAnimals,4,2,0,35,0,TDAs.Reader,TDAs.Reader
+20Preguntas,GameLogic,TreeBuilder,setQuestions,13,3,0,41,0,TDAs.Reader,TDAs.Reader; GameLogic.TreeBuilder; GameLogic.Question
+20Preguntas,GameLogic,TreeBuilder,addQuestions,9,3,0,59,0,GameLogic.Question,GameLogic.Question; GameLogic.TreeBuilder
+20Preguntas,GameLogic,TreeBuilder,addAnimals,45,12,0,75,0,TDAs.TreeG4,TDAs.TreeG4; TDAs.Reader
+20Preguntas,GameLogic,TreeBuilder,getProduct,3,1,0,123,0,,
+20Preguntas,GameLogic,TreeBuilder,addSubQuestions,17,6,2,128,0,TDAs.TreeG4,TDAs.TreeG4; GameLogic.Question; GameLogic.TreeBuilder
+20Preguntas,GameLogic,TreeBuilder,calculateEntropy,14,2,1,151,0,GameLogic.TreeBuilder,GameLogic.TreeBuilder
+20Preguntas,GameLogic,TreeBuilder,getYes,9,2,1,171,0,,
+20Preguntas,GameLogic,TreeBuilder,getNo,7,3,1,182,0,,
+20Preguntas,GameLogic,TreeBuilder,calculateYesEntropy,11,2,1,192,0,GameLogic.TreeBuilder,GameLogic.TreeBuilder
+20Preguntas,GameLogic,TreeBuilder,calculateNoEntropy,11,2,1,209,0,GameLogic.TreeBuilder,GameLogic.TreeBuilder
+20Preguntas,GameLogic,TreeBuilder,getAnimals,3,1,0,226,0,,
+20Preguntas,GameLogic,TreeBuilder,getQuestions,4,1,0,230,0,,
+20Preguntas,GameLogic,TreeBuilder,getListQuestions,3,1,0,235,0,,
+20Preguntas,TDAs,Reader,read,20,3,0,18,0,,
+20Preguntas,TDAs,Reader,readerToHashMap,31,6,1,38,0,,
+20Preguntas,TDAs,Reader,rbl,15,2,0,74,0,,
+20Preguntas,TDAs,Reader,readToList,22,3,1,95,0,,
+20Preguntas,TDAs,Reader,createSampleFile,12,1,1,117,0,,
+20Preguntas,TDAs,Reader,dbs,10,2,1,129,0,,
+20Preguntas,TDAs,TreeG4,TreeG4,3,1,0,25,0,,
+20Preguntas,TDAs,TreeG4,TreeG4,3,1,1,29,0,,
+20Preguntas,TDAs,TreeG4,addLeft,4,2,1,33,0,,
+20Preguntas,TDAs,TreeG4,addRight,4,2,1,38,0,,
+20Preguntas,TDAs,TreeG4,isEmpty,3,1,0,43,0,,
+20Preguntas,TDAs,TreeG4,height,8,4,0,47,0,TDAs.TreeG4,TDAs.TreeG4
+20Preguntas,TDAs,TreeG4,isLeaf,3,1,0,57,0,,
+20Preguntas,TDAs,TreeG4,setRoot,3,1,1,62,0,,
+20Preguntas,TDAs,TreeG4,getYesBranch,3,1,0,66,0,,
+20Preguntas,TDAs,TreeG4,getNoBranch,3,1,0,70,0,,
+20Preguntas,TDAs,TreeG4,getContent,3,1,0,74,0,,
+20Preguntas,TDAs,TreeG4,recorridoPreOrden,8,4,0,78,0,TDAs.TreeG4,TDAs.TreeG4
+20Preguntas,TDAs,TreeG4,recorridoPorNiveles,17,5,0,88,0,TDAs.TreeG4,TDAs.TreeG4

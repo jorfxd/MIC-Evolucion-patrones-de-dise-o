@@ -1,0 +1,318 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+ProyectoEstructuras-main,Clases,Contacto,Contacto,Long Parameter List,The method has 6 parameters. ,37
+ProyectoEstructuras-main,Clases,Contacto,Contacto,Long Parameter List,The method has 5 parameters. ,46
+ProyectoEstructuras-main,Controller,App,start,Magic Number,The method contains a magic number: 462,24
+ProyectoEstructuras-main,Controller,App,start,Magic Number,The method contains a magic number: 600,24
+ProyectoEstructuras-main,Controller,CreacionContactosController,initialize,Complex Conditional,The conditional expression etiqueta1.isEmpty() && etiqueta2.isEmpty() && etiqueta3.isEmpty()&& etiqueta3.isEmpty()&& etiqueta4.isEmpty()&& etiqueta5.isEmpty()&& etiqueta6.isEmpty()&& etiqueta7.isEmpty()&& etiqueta8.isEmpty()&& etiqueta9.isEmpty()&& etiqueta10.isEmpty()&& etiqueta11.isEmpty() is complex.,140
+ProyectoEstructuras-main,Controller,CreacionContactosController,initialize,Complex Conditional,The conditional expression cbdireccion.getItems().isEmpty() && cbemail.getItems().isEmpty() && cbtelefono.getItems().isEmpty()&& cbfecha.getItems().isEmpty()&& c1.getItems().isEmpty()&& c2.getItems().isEmpty()&& comboBoxDir.getItems().isEmpty()&& comboBoxTlf.getItems().isEmpty()&& comboBoxEmail.getItems().isEmpty()&& comboBoxFecha.getItems().isEmpty()&& comboBoxContAso.getItems().isEmpty()&& comboBoxWeb.getItems().isEmpty() is complex.,140
+ProyectoEstructuras-main,Controller,CreacionContactosController,initialize,Long Statement,The length of the statement "if (etiqueta1.isEmpty() && etiqueta2.isEmpty() && etiqueta3.isEmpty()&& etiqueta3.isEmpty()&& etiqueta4.isEmpty()&& etiqueta5.isEmpty()&& etiqueta6.isEmpty()&& etiqueta7.isEmpty()&& etiqueta8.isEmpty()&& etiqueta9.isEmpty()&& etiqueta10.isEmpty()&& etiqueta11.isEmpty()) {" is 272.,140
+ProyectoEstructuras-main,Controller,CreacionContactosController,initialize,Long Statement,The length of the statement "if (cbdireccion.getItems().isEmpty() && cbemail.getItems().isEmpty() && cbtelefono.getItems().isEmpty()&& cbfecha.getItems().isEmpty()&& c1.getItems().isEmpty()&& c2.getItems().isEmpty()&& comboBoxDir.getItems().isEmpty()&& comboBoxTlf.getItems().isEmpty()&& comboBoxEmail.getItems().isEmpty()&& comboBoxFecha.getItems().isEmpty()&& comboBoxContAso.getItems().isEmpty()&& comboBoxWeb.getItems().isEmpty()) {" is 407.,140
+ProyectoEstructuras-main,Controller,CreacionContactosController,enviarListaContactos,Magic Number,The method contains a magic number: 90,177
+ProyectoEstructuras-main,Controller,CreacionContactosController,enviarListaContactos,Magic Number,The method contains a magic number: 100,177
+ProyectoEstructuras-main,Controller,CreacionContactosController,guardarEmpresa,Magic Number,The method contains a magic number: 90,235
+ProyectoEstructuras-main,Controller,CreacionContactosController,guardarEmpresa,Magic Number,The method contains a magic number: 100,235
+ProyectoEstructuras-main,Controller,CreacionContactosController,camposAdicionales,Magic Number,The method contains a magic number: 15,300
+ProyectoEstructuras-main,Controller,CreacionContactosController,camposAdicionales,Magic Number,The method contains a magic number: 15,300
+ProyectoEstructuras-main,Controller,CreacionContactosController,camposAdicionales,Magic Number,The method contains a magic number: 15,300
+ProyectoEstructuras-main,Controller,CreacionContactosController,camposAdicionales,Magic Number,The method contains a magic number: 20,300
+ProyectoEstructuras-main,Controller,CreacionContactosController,camposAdicionales,Magic Number,The method contains a magic number: 30,300
+ProyectoEstructuras-main,Controller,CreacionContactosController,camposAdicionales,Magic Number,The method contains a magic number: 27,300
+ProyectoEstructuras-main,Controller,CreacionContactosController,camposAdicionales,Magic Number,The method contains a magic number: 150,300
+ProyectoEstructuras-main,Controller,CreacionContactosController,camposAdicionales,Magic Number,The method contains a magic number: 75,300
+ProyectoEstructuras-main,Controller,CreacionContactosController,camposAdicionales,Magic Number,The method contains a magic number: 10,300
+ProyectoEstructuras-main,Controller,CreacionContactosController,camposAdicionales,Magic Number,The method contains a magic number: 10,300
+ProyectoEstructuras-main,Controller,CreacionContactosController,cargarCombobox,Complex Method,Cyclomatic complexity of the method is 23,365
+ProyectoEstructuras-main,Controller,CreacionContactosController,EscribirArchivoCamposAdicionales,Long Statement,The length of the statement "try (BufferedWriter writer=new BufferedWriter(new FileWriter("src/main/resources/archivos/CamposAdicionales.txt"`true))){" is 121.,479
+ProyectoEstructuras-main,Controller,CreacionContactosController,EscribirEmpresaCamposAdicionalesTxt,Long Statement,The length of the statement "try (BufferedWriter writer=new BufferedWriter(new FileWriter("src/main/resources/archivos/CamposAdicionales.txt"`true))){" is 121.,512
+ProyectoEstructuras-main,Controller,EditarContactoController,initialize,Complex Conditional,The conditional expression bdireccion.getItems().isEmpty() && bfecha.getItems().isEmpty() && bcell.getItems().isEmpty()&& badicional.getItems().isEmpty()&& bred.getItems().isEmpty() is complex.,97
+ProyectoEstructuras-main,Controller,EditarContactoController,initialize,Long Statement,The length of the statement "if (bdireccion.getItems().isEmpty() && bfecha.getItems().isEmpty() && bcell.getItems().isEmpty()&& badicional.getItems().isEmpty()&& bred.getItems().isEmpty()) {" is 161.,97
+ProyectoEstructuras-main,Controller,EditarContactoController,ponerimagenAsociada,Magic Number,The method contains a magic number: 90,143
+ProyectoEstructuras-main,Controller,EditarContactoController,ponerimagenAsociada,Magic Number,The method contains a magic number: 100,143
+ProyectoEstructuras-main,Controller,EditarContactoController,deleteFromFileEditContact,Long Statement,The length of the statement "try (BufferedReader lectura=new BufferedReader(new FileReader(archivo`StandardCharsets.UTF_8));BufferedWriter escritura=new BufferedWriter(new FileWriter(temporal`false))){" is 172.,199
+ProyectoEstructuras-main,Controller,EditarContactoController,guardarNewCambios,Complex Method,Cyclomatic complexity of the method is 9,231
+ProyectoEstructuras-main,Controller,EditarContactoController,guardarNewCambios,Long Statement,The length of the statement "Contacto people=new Contacto(newnombre.getText()`newapellido.getText()`new Telefono(bcell.getValue()`newtelefono.getText())`new Direccion(bdireccion.getValue()`newdireccion.getText())`new Email(bemail.getValue()`newemail.getText())`new Fecha(bfecha.getValue()`newfecha.getValue()));" is 282.,231
+ProyectoEstructuras-main,Controller,EditarContactoController,guardarNewCambios,Long Statement,The length of the statement "Contacto dateperson=new Contacto(newnombre.getText()`newapellido.getText()`new PersonaAdicional(newcontacto.getText()`badicional.getValue())`new RedSocial(bred.getValue()`newred.getText())`newempresa.getText());" is 211.,231
+ProyectoEstructuras-main,Controller,EditarContactoController,EscribirArchivoCamposAdicionalesEditados,Long Statement,The length of the statement "try (BufferedWriter writer=new BufferedWriter(new FileWriter("src/main/resources/archivos/CamposAdicionales.txt"`true))){" is 121.,367
+ProyectoEstructuras-main,Controller,EditarEmpresaController,initialize,Complex Conditional,The conditional expression comboBoxDireccionEmpresa.getItems().isEmpty() && comboBoxFechaEmpresa.getItems().isEmpty() && comboBoxTlfEmpresa.getItems().isEmpty()&& comboBoxContactoAd.getItems().isEmpty()&& comboBoxRedSocialEmpresa.getItems().isEmpty() is complex.,96
+ProyectoEstructuras-main,Controller,EditarEmpresaController,initialize,Long Statement,The length of the statement "if (comboBoxDireccionEmpresa.getItems().isEmpty() && comboBoxFechaEmpresa.getItems().isEmpty() && comboBoxTlfEmpresa.getItems().isEmpty()&& comboBoxContactoAd.getItems().isEmpty()&& comboBoxRedSocialEmpresa.getItems().isEmpty()) {" is 230.,96
+ProyectoEstructuras-main,Controller,EditarEmpresaController,ponerimagenAsociadaEmpresa,Magic Number,The method contains a magic number: 90,114
+ProyectoEstructuras-main,Controller,EditarEmpresaController,ponerimagenAsociadaEmpresa,Magic Number,The method contains a magic number: 100,114
+ProyectoEstructuras-main,Controller,EditarEmpresaController,deleteInfoFromFile,Long Statement,The length of the statement "try (BufferedReader lectura=new BufferedReader(new FileReader(archivo`StandardCharsets.UTF_8));BufferedWriter escritura=new BufferedWriter(new FileWriter(temporal`false))){" is 172.,206
+ProyectoEstructuras-main,Controller,EditarEmpresaController,guardarEmpresaEditada,Complex Method,Cyclomatic complexity of the method is 9,242
+ProyectoEstructuras-main,Controller,EditarEmpresaController,guardarEmpresaEditada,Long Statement,The length of the statement "Contacto people=new Contacto(labelNombreEmpresa.getText()`""`new Telefono(comboBoxTlfEmpresa.getValue()`labelTlfEmpresa.getText())`new Direccion(comboBoxDireccionEmpresa.getValue()`labelAddressEmpresa.getText())`new Email(comboBoxEmailEmpresa.getValue()`labelEmailEmpresa.getText())`new Fecha(comboBoxFechaEmpresa.getValue()`labelDateEmpresa.getValue()));" is 355.,242
+ProyectoEstructuras-main,Controller,EditarEmpresaController,guardarEmpresaEditada,Long Statement,The length of the statement "Contacto dateperson=new Contacto(labelNombreEmpresa.getText()`""`new PersonaAdicional(labelContactoEmpresa.getText()`comboBoxContactoAd.getValue())`new RedSocial(comboBoxRedSocialEmpresa.getValue()`labelRedSocialEmpresa.getText())`"");" is 235.,242
+ProyectoEstructuras-main,Controller,EditarEmpresaController,EscribirArchivoCamposAdEditados,Long Statement,The length of the statement "try (BufferedWriter writer=new BufferedWriter(new FileWriter("src/main/resources/archivos/CamposAdicionales.txt"`true))){" is 121.,398
+ProyectoEstructuras-main,Controller,EditarEmpresaController,EscribirArchivoCamposAdEditados,Long Statement,The length of the statement "red=DatosAdicionalesEmpresa.getRedSocial().getUsername() + "-" + DatosAdicionalesEmpresa.getRedSocial().getTipoRedSocial();" is 123.,398
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,eliminarFoto,Long Statement,The length of the statement "updateArchive(elementoFotoActual.getNombre()`elementoFotoActual.getApellido()`elementoFotoActual.getListaImagenesAsociadas());" is 126.,67
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,llenarListaFotosAsociadas,Long Statement,The length of the statement "try (BufferedReader br=new BufferedReader(new FileReader("src/main/resources/archivos/ImagenesAsociadas.txt"`StandardCharsets.UTF_8))){" is 135.,127
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,llenarListaFotosAsociadas,Magic Number,The method contains a magic number: 2,127
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,agregarAlArchivo,Long Statement,The length of the statement "try (BufferedReader reader=new BufferedReader(new FileReader(archivo`StandardCharsets.UTF_8));BufferedWriter writer=new BufferedWriter(new FileWriter(temp`false))){" is 164.,216
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,updateArchive,Long Statement,The length of the statement "try (BufferedReader reader=new BufferedReader(new FileReader(archivo`StandardCharsets.UTF_8));BufferedWriter writer=new BufferedWriter(new FileWriter(temp`false))){" is 164.,254
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,conseguirFotosAsociadas,Long Statement,The length of the statement "try (BufferedReader br=new BufferedReader(new FileReader("src/main/resources/archivos/ImagenesAsociadas.txt"`StandardCharsets.UTF_8))){" is 135.,296
+ProyectoEstructuras-main,Controller,ImagenesAsociadasController,conseguirFotosAsociadas,Magic Number,The method contains a magic number: 3,296
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Long Statement,The length of the statement "Contacto cont1=new Contacto(Nombre`apellido`new Telefono(tipocell`cell)`new Direccion(tipoubi`ubi)`new Email(tipoEma`ema)`new Fecha(tFecha`fec));" is 145.,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Magic Number,The method contains a magic number: 2,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Magic Number,The method contains a magic number: 2,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Magic Number,The method contains a magic number: 2,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Magic Number,The method contains a magic number: 3,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Magic Number,The method contains a magic number: 3,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Magic Number,The method contains a magic number: 3,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Magic Number,The method contains a magic number: 4,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Magic Number,The method contains a magic number: 4,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Magic Number,The method contains a magic number: 4,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Magic Number,The method contains a magic number: 5,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Magic Number,The method contains a magic number: 5,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarListaContactos,Magic Number,The method contains a magic number: 5,227
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarlistaCamposAdicionales,Long Statement,The length of the statement "Contacto camposCont1=new Contacto(nombre`apellido`new PersonaAdicional(PerContac`tipoPer)`new RedSocial(tipoRed`userRed)`empresa);" is 130.,262
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarlistaCamposAdicionales,Long Statement,The length of the statement "System.out.println("Datos guardados: " + nombre + "` "+ apellido+ "` "+ tipoPer+ " "+ PerContac+ "` "+ tipoRed+ " "+ userRed+ "` "+ empresa);" is 141.,262
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarlistaCamposAdicionales,Magic Number,The method contains a magic number: 5,262
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarlistaCamposAdicionales,Magic Number,The method contains a magic number: 2,262
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarlistaCamposAdicionales,Magic Number,The method contains a magic number: 2,262
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarlistaCamposAdicionales,Magic Number,The method contains a magic number: 3,262
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarlistaCamposAdicionales,Magic Number,The method contains a magic number: 3,262
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarlistaCamposAdicionales,Magic Number,The method contains a magic number: 4,262
+ProyectoEstructuras-main,Controller,ListaContactosController,actualizarlistaContactos,Magic Number,The method contains a magic number: 5000,314
+ProyectoEstructuras-main,Controller,ListaContactosController,run,Magic Number,The method contains a magic number: 5000,318
+ProyectoEstructuras-main,Controller,ListaContactosController,mostrarVentanaEmergente,Long Statement,The length of the statement "btnverConta.setStyle("-fx-background-color: #FA8072; -fx-effect: dropshadow(gaussian` rgba(0` 0` 0` 0.5)` 10` 0` 5` 5);");" is 122.,419
+ProyectoEstructuras-main,Controller,ListaContactosController,mostrarVentanaEmergente,Magic Number,The method contains a magic number: 10,419
+ProyectoEstructuras-main,Controller,ListaContactosController,mostrarVentanaEmergente,Magic Number,The method contains a magic number: 10,419
+ProyectoEstructuras-main,Controller,ListaContactosController,mostrarVentanaEmergente,Magic Number,The method contains a magic number: 10,419
+ProyectoEstructuras-main,Controller,ListaContactosController,mostrarVentanaEmergente,Magic Number,The method contains a magic number: 30,419
+ProyectoEstructuras-main,Controller,ListaContactosController,mostrarVentanaEmergente,Magic Number,The method contains a magic number: 300,419
+ProyectoEstructuras-main,Controller,ListaContactosController,mostrarVentanaEmergente,Magic Number,The method contains a magic number: 150,419
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarfotoPerfiles,Magic Number,The method contains a magic number: 2,494
+ProyectoEstructuras-main,Controller,ListaContactosController,ventanaBusqueda,Magic Number,The method contains a magic number: 10,512
+ProyectoEstructuras-main,Controller,ListaContactosController,ventanaBusqueda,Magic Number,The method contains a magic number: 10,512
+ProyectoEstructuras-main,Controller,ListaContactosController,ventanaBusqueda,Magic Number,The method contains a magic number: 10,512
+ProyectoEstructuras-main,Controller,ListaContactosController,ventanaBusqueda,Magic Number,The method contains a magic number: 30,512
+ProyectoEstructuras-main,Controller,ListaContactosController,ventanaBusqueda,Magic Number,The method contains a magic number: 300,512
+ProyectoEstructuras-main,Controller,ListaContactosController,ventanaBusqueda,Magic Number,The method contains a magic number: 150,512
+ProyectoEstructuras-main,Controller,ListaContactosController,buscarPorApellido,Magic Number,The method contains a magic number: 10,562
+ProyectoEstructuras-main,Controller,ListaContactosController,buscarPorApellido,Magic Number,The method contains a magic number: 10,562
+ProyectoEstructuras-main,Controller,ListaContactosController,buscarPorDireccion,Magic Number,The method contains a magic number: 10,576
+ProyectoEstructuras-main,Controller,ListaContactosController,buscarPorDireccion,Magic Number,The method contains a magic number: 10,576
+ProyectoEstructuras-main,Controller,ListaContactosController,buscarPorContactoAsociado,Magic Number,The method contains a magic number: 10,589
+ProyectoEstructuras-main,Controller,ListaContactosController,buscarPorContactoAsociado,Magic Number,The method contains a magic number: 10,589
+ProyectoEstructuras-main,Controller,ListaContactosController,buscarPorEtiquetas,Magic Number,The method contains a magic number: 10,603
+ProyectoEstructuras-main,Controller,ListaContactosController,buscarPorEtiquetas,Magic Number,The method contains a magic number: 10,603
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Complex Method,Cyclomatic complexity of the method is 8,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Long Method,The method has 198 lines of code.,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 20,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 14,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 14,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 14,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 14,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 500,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 58,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 500,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 65,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 25,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 150,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 180,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 500,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 216,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 20,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 150,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 180,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 500,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 216,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 10,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 150,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 180,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 500,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 216,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 20,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 150,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 180,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 500,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 216,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 10,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 150,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 180,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 500,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 216,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 20,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 150,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 180,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 500,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 216,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 10,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 150,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 180,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 500,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 216,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 20,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 150,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 180,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 500,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 216,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 10,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 500,634
+ProyectoEstructuras-main,Controller,ListaContactosController,VentanaEtiquetas,Magic Number,The method contains a magic number: 350,634
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 150,670
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 180,670
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 500,670
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 216,670
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 20,670
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 150,670
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 180,670
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 500,670
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 216,670
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 10,670
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 150,702
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 180,702
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 500,702
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 216,702
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 20,702
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 150,702
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 180,702
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 500,702
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 216,702
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 10,702
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 150,734
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 180,734
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 500,734
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 216,734
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 20,734
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 150,734
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 180,734
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 500,734
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 216,734
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 10,734
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 150,766
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 180,766
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 500,766
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 216,766
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 20,766
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 150,766
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 180,766
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 500,766
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 216,766
+ProyectoEstructuras-main,Controller,ListaContactosController,handle,Magic Number,The method contains a magic number: 10,766
+ProyectoEstructuras-main,Controller,ListaContactosController,cargarMapaEtiquetas,Magic Number,The method contains a magic number: 2,848
+ProyectoEstructuras-main,Controller,ListaContactosController,realizarBusquedaPersonalizada,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@26c6be2d,865
+ProyectoEstructuras-main,Controller,PerfilContactoController,mostrarPersonaActual,Long Statement,The length of the statement "try (FileInputStream input=new FileInputStream("src/main/resources/pics/" + cargarListaPerfiles(persona.getNombre()`persona.getApellido()))){" is 141.,163
+ProyectoEstructuras-main,Controller,PerfilContactoController,mostrarPersonaActual,Magic Number,The method contains a magic number: 20,163
+ProyectoEstructuras-main,Controller,PerfilContactoController,mostrarPersonaActual,Magic Number,The method contains a magic number: 90,163
+ProyectoEstructuras-main,Controller,PerfilContactoController,mostrarPersonaActual,Magic Number,The method contains a magic number: 100,163
+ProyectoEstructuras-main,Controller,PerfilContactoController,cargarListaPerfiles,Long Statement,The length of the statement "try (BufferedReader br=new BufferedReader(new FileReader("src/main/resources/archivos/FotosPerfil.txt"`StandardCharsets.UTF_8))){" is 129.,235
+ProyectoEstructuras-main,Controller,PerfilContactoController,cargarListaPerfiles,Magic Number,The method contains a magic number: 2,235
+ProyectoEstructuras-main,Controller,PerfilContactoController,cargarListaPerfiles,Long Statement,The length of the statement "try (BufferedReader br=new BufferedReader(new FileReader("src/main/resources/archivos/FotosPerfil.txt"`StandardCharsets.UTF_8))){" is 129.,257
+ProyectoEstructuras-main,Controller,PerfilContactoController,cargarListaPerfiles,Magic Number,The method contains a magic number: 2,257
+ProyectoEstructuras-main,Controller,PerfilContactoController,seleccionImagen,Magic Number,The method contains a magic number: 308,278
+ProyectoEstructuras-main,Controller,PerfilContactoController,seleccionImagen,Magic Number,The method contains a magic number: 137,278
+ProyectoEstructuras-main,Controller,PerfilContactoController,deleteFromFile,Long Statement,The length of the statement "try (BufferedReader lectura=new BufferedReader(new FileReader(archivo`StandardCharsets.UTF_8));BufferedWriter escritura=new BufferedWriter(new FileWriter(temporal`false))){" is 172.,290
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Complex Method,Cyclomatic complexity of the method is 8,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Long Method,The method has 122 lines of code.,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 20,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 14,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 14,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 500,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 58,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 500,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 65,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 50,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 250,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 150,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 500,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 216,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 20,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 250,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 150,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 500,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 216,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 20,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 500,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 216,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 50,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 500,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 216,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 50,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 500,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,VentanaOpcionesExportado,Magic Number,The method contains a magic number: 350,358
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 250,394
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 150,394
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 500,394
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 216,394
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 20,394
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 250,394
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 150,394
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 500,394
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 216,394
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 20,394
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 500,426
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 216,426
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 50,426
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 500,426
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 216,426
+ProyectoEstructuras-main,Controller,PerfilContactoController,handle,Magic Number,The method contains a magic number: 50,426
+ProyectoEstructuras-main,Controller,PerfilContactoController,ArchivoContactoExportado,Long Statement,The length of the statement "try (BufferedWriter writer=new BufferedWriter(new FileWriter("src/main/resources/ContactosExportados/InfoContacto" + lbname.getText() + c))){" is 141.,496
+ProyectoEstructuras-main,Controller,PerfilContactoController,showInfo,Complex Method,Cyclomatic complexity of the method is 12,524
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillasUsuarioLlena,Magic Number,The method contains a magic number: 80,70
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillasUsuarioLlena,Magic Number,The method contains a magic number: 90,70
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillasUsuarioLlena,Magic Number,The method contains a magic number: 80,70
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillasUsuarioLlena,Magic Number,The method contains a magic number: 90,70
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillasContraLlena,Magic Number,The method contains a magic number: 80,89
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillasContraLlena,Magic Number,The method contains a magic number: 90,89
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillasContraLlena,Magic Number,The method contains a magic number: 80,89
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillasContraLlena,Magic Number,The method contains a magic number: 90,89
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillaUltimaLlena,Magic Number,The method contains a magic number: 80,108
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillaUltimaLlena,Magic Number,The method contains a magic number: 90,108
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillaUltimaLlena,Magic Number,The method contains a magic number: 80,108
+ProyectoEstructuras-main,Controller,RegistroUsuarioController,validarCasillaUltimaLlena,Magic Number,The method contains a magic number: 90,108
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,mostrarInfo,Magic Number,The method contains a magic number: 90,108
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,mostrarInfo,Magic Number,The method contains a magic number: 100,108
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Complex Method,Cyclomatic complexity of the method is 8,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Long Method,The method has 122 lines of code.,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 20,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 14,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 14,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 500,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 58,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 500,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 65,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 50,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 250,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 150,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 500,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 216,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 20,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 250,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 150,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 500,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 216,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 20,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 500,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 216,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 50,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 500,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 216,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 50,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 500,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,exportadoContactoIndividual,Magic Number,The method contains a magic number: 350,138
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 250,173
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 150,173
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 500,173
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 216,173
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 20,173
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 250,173
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 150,173
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 500,173
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 216,173
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 20,173
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 500,206
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 216,206
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 50,206
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 500,206
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 216,206
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,handle,Magic Number,The method contains a magic number: 50,206
+ProyectoEstructuras-main,Controller,VistaContactoIndividualController,ArchivoContactoExportado,Long Statement,The length of the statement "try (BufferedWriter writer=new BufferedWriter(new FileWriter("src/main/resources/ContactosExportados/InfoContacto" + lbna.getText() + c))){" is 139.,277
+ProyectoEstructuras-main,ListTDA,ArrayG9,addCapacity,Magic Number,The method contains a magic number: 2,29
+ProyectoEstructuras-main,ListTDA,ArrayG9,addCapacity,Magic Number,The method contains a magic number: 2,29
+ProyectoEstructuras-main,ListTDA,ArrayG9,remove,Complex Conditional,The conditional expression this.isEmpty() || index >= this.effectiveSize || index < 0 is complex.,118
+ProyectoEstructuras-main,ListTDA,ArrayG9,subList,Complex Conditional,The conditional expression from < 0 || from > to || to >= effectiveSize is complex.,192
+ProyectoEstructuras-main,ListTDA,ArrayG9,addAll,Magic Number,The method contains a magic number: 100,234
+ProyectoEstructuras-main,ListTDA,LLDouble,add,Complex Conditional,The conditional expression element != null && index >= 0 && index <= size is complex.,127
+ProyectoEstructuras-main,ListTDA,LLDouble,swap,Complex Method,Cyclomatic complexity of the method is 9,226
+ProyectoEstructuras-main,ListTDA,LLDouble,indexOf,Magic Number,The method contains a magic number: 2,330
+ProyectoEstructuras-main,ListTDA,LLDouble,indexOf,Magic Number,The method contains a magic number: 2,330

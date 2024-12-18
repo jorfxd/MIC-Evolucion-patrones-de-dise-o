@@ -1,0 +1,86 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+ProyectoPOO,ec.edu.espol.proyectopoo,Auto,Auto,Long Parameter List,The method has 7 parameters. ,7
+ProyectoPOO,ec.edu.espol.proyectopoo,Camioneta,Camioneta,Long Parameter List,The method has 7 parameters. ,8
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,Comprador,Long Parameter List,The method has 5 parameters. ,11
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,filtrar_Vehiculos,Complex Conditional,The conditional expression tipoVe.equals("") || tipoVe.equals(veh.getTipo().toString()) && veh.getRecorrido() >= rangorecorrido1 && veh.getRecorrido() <= rangorecorrido2 && veh.getAÃ(o() >= rangoanio1 && veh.getAÃ(o() <= rangoanio2 && veh.getPrecio() >= rangoprecio1 && veh.getPrecio() <= rangoprecio2)) is complex.,20
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,filtrar_Vehiculos,Complex Method,Cyclomatic complexity of the method is 13,20
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,filtrar_Vehiculos,Long Statement,The length of the statement "System.out.println("1._Tipo de vehÃ­culo\n2._ Recorrido (Especificado en un rango)\n3._ AÃ±o (Especificado en un rango)\n4._ Precio (Especificado en un rango)");" is 161.,20
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,filtrar_Vehiculos,Long Statement,The length of the statement "System.out.println("Ingrese los numeros correspondientes de los parametros por los que desee filtrar separados por coma ");" is 123.,20
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,filtrar_Vehiculos,Long Statement,The length of the statement "if (tipoVe.equals("") || tipoVe.equals(veh.getTipo().toString()) && veh.getRecorrido() >= rangorecorrido1 && veh.getRecorrido() <= rangorecorrido2 && veh.getAÃ(o() >= rangoanio1 && veh.getAÃ(o() <= rangoanio2 && veh.getPrecio() >= rangoprecio1 && veh.getPrecio() <= rangoprecio2))) ;" is 283.,20
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,filtrar_Vehiculos,Magic Number,The method contains a magic number: 4,20
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,filtrar_Vehiculos,Magic Number,The method contains a magic number: 2,20
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,filtrar_Vehiculos,Magic Number,The method contains a magic number: 3,20
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,filtrar_Vehiculos,Magic Number,The method contains a magic number: 4,20
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,ofertar_Vehiculo,Complex Method,Cyclomatic complexity of the method is 11,92
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,ofertar_Vehiculo,Magic Number,The method contains a magic number: 2,92
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,readfile,Magic Number,The method contains a magic number: 2,160
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,readfile,Magic Number,The method contains a magic number: 3,160
+ProyectoPOO,ec.edu.espol.proyectopoo,Comprador,readfile,Magic Number,The method contains a magic number: 4,160
+ProyectoPOO,ec.edu.espol.proyectopoo,Oferta,readfile,Magic Number,The method contains a magic number: 2,52
+ProyectoPOO,ec.edu.espol.proyectopoo,ProyectoPOO,main,Magic Number,The method contains a magic number: 2,9
+ProyectoPOO,ec.edu.espol.proyectopoo,ProyectoPOO,main,Magic Number,The method contains a magic number: 3,9
+ProyectoPOO,ec.edu.espol.proyectopoo,Usuario,Usuario,Long Parameter List,The method has 5 parameters. ,17
+ProyectoPOO,ec.edu.espol.proyectopoo,Usuario,validar_correo,Magic Number,The method contains a magic number: 3,28
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,codificarHash,Magic Number,The method contains a magic number: 16,21
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,codificarHash,Magic Number,The method contains a magic number: 64,21
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,validar_clave,Magic Number,The method contains a magic number: 3,63
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,validar_clave,Magic Number,The method contains a magic number: 3,63
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,validar_clave,Magic Number,The method contains a magic number: 4,63
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,registrarUsuario,Empty catch clause,The method has an empty catch block.,85
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,registrarUsuario,Magic Number,The method contains a magic number: 2,85
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,menu,Complex Method,Cyclomatic complexity of the method is 13,174
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,menu,Long Parameter List,The method has 5 parameters. ,174
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,menu,Magic Number,The method contains a magic number: 2,174
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,menu,Magic Number,The method contains a magic number: 3,174
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,menu,Magic Number,The method contains a magic number: 2,174
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,menu,Magic Number,The method contains a magic number: 2,174
+ProyectoPOO,ec.edu.espol.proyectopoo,Utilitaria,menu,Magic Number,The method contains a magic number: 3,174
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,Vehiculo,Long Parameter List,The method has 7 parameters. ,26
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,toString,Long Statement,The length of the statement "return this.tipo + "`" + this.placa+ "`"+ this.correo_vendedor+ "`"+ this.marca+ "`"+ this.modelo+ "`"+ this.tipoDeMotor+ "`"+ this.aÃ.o+ "`"+ this.recorrido+ "`"+ this.color+ "`"+ this.tipoCombustible+ "`"+ this.precio;" is 220.,77
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Long Statement,The length of the statement "Vehiculo v1=new Vehiculo(TipoVehiculo.valueOf(tokens[0])`tokens[1]`tokens[2]`tokens[3]`tokens[4]`tokens[5]`Integer.parseInt(tokens[6])`Double.parseDouble(tokens[7])`tokens[8]`tokens[9]`Double.parseDouble(tokens[10]));" is 217.,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Long Statement,The length of the statement "Vehiculo v1=new Auto(TipoVehiculo.valueOf(tokens[0])`tokens[1]`tokens[2]`tokens[3]`tokens[4]`tokens[5]`Integer.parseInt(tokens[6])`Double.parseDouble(tokens[7])`tokens[8]`tokens[9]`Double.parseDouble(tokens[10])`tokens[11]`tokens[12]);" is 235.,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Long Statement,The length of the statement "Vehiculo v1=new Camioneta(TipoVehiculo.valueOf(tokens[0])`tokens[1]`tokens[2]`tokens[3]`tokens[4]`tokens[5]`Integer.parseInt(tokens[6])`Double.parseDouble(tokens[7])`tokens[8]`tokens[9]`Double.parseDouble(tokens[10])`tokens[11]`tokens[12]`tokens[13]);" is 251.,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 2,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 3,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 4,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 5,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 6,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 7,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 8,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 9,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 10,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 2,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 3,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 4,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 5,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 6,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 7,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 8,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 9,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 10,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 11,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 12,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 2,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 3,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 4,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 5,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 6,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 7,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 8,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 9,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 10,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 11,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 12,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vehiculo,readfile,Magic Number,The method contains a magic number: 13,89
+ProyectoPOO,ec.edu.espol.proyectopoo,Vendedor,Vendedor,Long Parameter List,The method has 5 parameters. ,11
+ProyectoPOO,ec.edu.espol.proyectopoo,Vendedor,llenarVehiculos,Long Parameter List,The method has 8 parameters. ,69
+ProyectoPOO,ec.edu.espol.proyectopoo,Vendedor,aceptarOferta,Long Statement,The length of the statement "Utilitaria.enviarConGMail(ofAceptada.getCorreoComprador()`"Oferta de VehÃ­culo"`"Su oferta del Vehiculo " + infoVe + " ha sido aceptada.");" is 139.,96
+ProyectoPOO,ec.edu.espol.proyectopoo,Vendedor,aceptarOferta,Magic Number,The method contains a magic number: 2,96
+ProyectoPOO,ec.edu.espol.proyectopoo,Vendedor,aceptarOferta,Magic Number,The method contains a magic number: 3,96
+ProyectoPOO,ec.edu.espol.proyectopoo,Vendedor,aceptarOferta,Magic Number,The method contains a magic number: 2,96
+ProyectoPOO,ec.edu.espol.proyectopoo,Vendedor,aceptarOferta,Magic Number,The method contains a magic number: 3,96
+ProyectoPOO,ec.edu.espol.proyectopoo,Vendedor,aceptarOferta,Magic Number,The method contains a magic number: 4,96
+ProyectoPOO,ec.edu.espol.proyectopoo,Vendedor,aceptarOferta,Magic Number,The method contains a magic number: 3,96
+ProyectoPOO,ec.edu.espol.proyectopoo,Vendedor,readfile,Magic Number,The method contains a magic number: 2,136
+ProyectoPOO,ec.edu.espol.proyectopoo,Vendedor,readfile,Magic Number,The method contains a magic number: 3,136
+ProyectoPOO,ec.edu.espol.proyectopoo,Vendedor,readfile,Magic Number,The method contains a magic number: 4,136

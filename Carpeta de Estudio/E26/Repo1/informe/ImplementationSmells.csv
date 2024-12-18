@@ -1,0 +1,107 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+POO4_PROY2P_Lindao_Salinas_Zavala-main,Clases,Local,cargarLocales,Magic Number,The method contains a magic number: 2,27
+POO4_PROY2P_Lindao_Salinas_Zavala-main,Clases,Local,cargarLocales,Magic Number,The method contains a magic number: 3,27
+POO4_PROY2P_Lindao_Salinas_Zavala-main,Clases,Local,toString,Long Statement,The length of the statement "return "Local" + "{coordenadaX=" + this.coordenadaX + "` coordenadaY="+ this.coordenadaY+ "` nombre="+ this.nombre+ "` horario="+ this.horario+ "}";" is 148.,77
+POO4_PROY2P_Lindao_Salinas_Zavala-main,Clases,Pago,Pago,Long Parameter List,The method has 6 parameters. ,19
+POO4_PROY2P_Lindao_Salinas_Zavala-main,Clases,Pedido,guardarPedido,Empty catch clause,The method has an empty catch block.,35
+POO4_PROY2P_Lindao_Salinas_Zavala-main,Clases,Pedido,serealizarPedido,Empty catch clause,The method has an empty catch block.,45
+POO4_PROY2P_Lindao_Salinas_Zavala-main,Clases,Pedido,n,Empty catch clause,The method has an empty catch block.,84
+POO4_PROY2P_Lindao_Salinas_Zavala-main,Clases,Pedido,n,Long Statement,The length of the statement "bw.write(p.getIdPago() + "`" + p.getIdpedido()+ "`"+ p.getNombreCLiente()+ "`"+ String.valueOf(p.getTotalPagar())+ "`"+ p.getFecha()+ "`"+ p.getTipo()+ "\n");" is 158.,84
+POO4_PROY2P_Lindao_Salinas_Zavala-main,Clases,Sabor,main,Magic Number,The method contains a magic number: 2.00,61
+POO4_PROY2P_Lindao_Salinas_Zavala-main,Clases,Usuario,cargarUsuarios,Magic Number,The method contains a magic number: 2,28
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado1Controller,continuar,Complex Conditional,The conditional expression btnYogurtSelected || btnHeladoSelected || btnVeganoSelected is complex.,69
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado1Controller,continuar,Magic Number,The method contains a magic number: 730,69
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado1Controller,continuar,Magic Number,The method contains a magic number: 530,69
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado1Controller,mostrarImg,Empty catch clause,The method has an empty catch block.,120
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado1Controller,mostrarImg,Empty catch clause,The method has an empty catch block.,120
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado1Controller,mostrarImg,Magic Number,The method contains a magic number: 730,120
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado1Controller,mostrarImg,Magic Number,The method contains a magic number: 530,120
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado2Controller,mostrarImg,Empty catch clause,The method has an empty catch block.,68
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado2Controller,mostrarImg,Empty catch clause,The method has an empty catch block.,68
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado2Controller,mostrarImg,Magic Number,The method contains a magic number: 730,68
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado2Controller,mostrarImg,Magic Number,The method contains a magic number: 530,68
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado2Controller,continuar,Magic Number,The method contains a magic number: 730,111
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado2Controller,continuar,Magic Number,The method contains a magic number: 530,111
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado3Controller,continuar,Magic Number,The method contains a magic number: 730,86
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado3Controller,continuar,Magic Number,The method contains a magic number: 530,86
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado3Controller,mostrarImg,Empty catch clause,The method has an empty catch block.,99
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado3Controller,mostrarImg,Empty catch clause,The method has an empty catch block.,99
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado3Controller,mostrarImg,Magic Number,The method contains a magic number: 730,99
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado3Controller,mostrarImg,Magic Number,The method contains a magic number: 530,99
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,mostrarImg,Empty catch clause,The method has an empty catch block.,92
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,mostrarImg,Empty catch clause,The method has an empty catch block.,92
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,mostrarImg,Magic Number,The method contains a magic number: 730,92
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,mostrarImg,Magic Number,The method contains a magic number: 530,92
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,confirmar,Magic Number,The method contains a magic number: 730,103
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,confirmar,Magic Number,The method contains a magic number: 530,103
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,cancelar,Magic Number,The method contains a magic number: 340,118
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,cancelar,Magic Number,The method contains a magic number: 230,118
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,mostrarPopUp,Magic Number,The method contains a magic number: 10,154
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,mostrarPopUp,Magic Number,The method contains a magic number: 10,154
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,mostrarPopUp,Magic Number,The method contains a magic number: 300,154
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,mostrarPopUp,Magic Number,The method contains a magic number: 150,154
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,validation,Complex Method,Cyclomatic complexity of the method is 12,186
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,validation,Magic Number,The method contains a magic number: 2,186
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,validation,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@5a9ef32e,186
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado4Controller,guardarPedido,Magic Number,The method contains a magic number: 1000,244
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,cambiarEscena,Magic Number,The method contains a magic number: 730,119
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,cambiarEscena,Magic Number,The method contains a magic number: 530,119
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,mostrarImg,Empty catch clause,The method has an empty catch block.,131
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,mostrarImg,Empty catch clause,The method has an empty catch block.,131
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,mostrarImg,Magic Number,The method contains a magic number: 730,131
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,mostrarImg,Magic Number,The method contains a magic number: 530,131
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,efectivo,Long Statement,The length of the statement "Pago p=new Pago(String.valueOf(id)`ArmaTuHelado4Controller.idPd`InicioController.name`Double.parseDouble(total.getText())`String.valueOf(fechaActual)`tipo);" is 156.,143
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,efectivo,Magic Number,The method contains a magic number: 0.12,143
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,efectivo,Magic Number,The method contains a magic number: 0.12,143
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,efectivo,Magic Number,The method contains a magic number: 1000,143
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,tarjeta,Complex Conditional,The conditional expression tf1.getText().isEmpty() || tf2.getText().isEmpty() || tf4.getText().isEmpty() is complex.,189
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,tarjeta,Long Statement,The length of the statement "Pago p=new Pago(String.valueOf(id)`ArmaTuHelado4Controller.idPd`tf1.getText()`Double.parseDouble(total.getText())`String.valueOf(fechaActual)`tipo);" is 148.,189
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,tarjeta,Magic Number,The method contains a magic number: 0.10,189
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,tarjeta,Magic Number,The method contains a magic number: 14,189
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,tarjeta,Magic Number,The method contains a magic number: 14,189
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,tarjeta,Magic Number,The method contains a magic number: 30,189
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,tarjeta,Magic Number,The method contains a magic number: 40,189
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,tarjeta,Magic Number,The method contains a magic number: 20,189
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado5Controller,tarjeta,Magic Number,The method contains a magic number: 1000,189
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado6Controller,mostrarImg,Empty catch clause,The method has an empty catch block.,51
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado6Controller,mostrarImg,Empty catch clause,The method has an empty catch block.,51
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado6Controller,mostrarImg,Magic Number,The method contains a magic number: 730,51
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado6Controller,mostrarImg,Magic Number,The method contains a magic number: 530,51
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado6Controller,mostrarImg2,Empty catch clause,The method has an empty catch block.,63
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado6Controller,mostrarImg2,Empty catch clause,The method has an empty catch block.,63
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado6Controller,hilo,Magic Number,The method contains a magic number: 5,75
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado6Controller,hilo,Magic Number,The method contains a magic number: 1000,75
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,ArmaTuHelado6Controller,hilo,Magic Number,The method contains a magic number: 1000,75
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,mostrarImg,Empty catch clause,The method has an empty catch block.,56
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,mostrarImg,Empty catch clause,The method has an empty catch block.,56
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,mostrarImg,Magic Number,The method contains a magic number: 730,56
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,mostrarImg,Magic Number,The method contains a magic number: 530,56
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,mostrarImg,Magic Number,The method contains a magic number: 0.8,56
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,encuentraLocales,Magic Number,The method contains a magic number: 730,68
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,encuentraLocales,Magic Number,The method contains a magic number: 495,68
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,pedido,Magic Number,The method contains a magic number: 730,80
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,pedido,Magic Number,The method contains a magic number: 530,80
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,mostarPopUp,Magic Number,The method contains a magic number: 250,100
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,mostarPopUp,Magic Number,The method contains a magic number: 150,100
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,mostarPopUp,Magic Number,The method contains a magic number: 2,100
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,BienvenidaController,mostarPopUp,Magic Number,The method contains a magic number: 5000,100
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,CancelarCompraController,cancelar,Magic Number,The method contains a magic number: 730,49
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,CancelarCompraController,cancelar,Magic Number,The method contains a magic number: 530,49
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,CancelarCompraController,mostrarImg,Empty catch clause,The method has an empty catch block.,65
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,CancelarCompraController,mostrarImg,Empty catch clause,The method has an empty catch block.,65
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,CancelarCompraController,mostrarImg,Magic Number,The method contains a magic number: 340,65
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,CancelarCompraController,mostrarImg,Magic Number,The method contains a magic number: 230,65
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,DetalleUbicacionController,tiempo,Magic Number,The method contains a magic number: 5,68
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,DetalleUbicacionController,tiempo,Magic Number,The method contains a magic number: 1000,68
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,InicioController,mostrarImg,Empty catch clause,The method has an empty catch block.,57
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,InicioController,mostrarImg,Empty catch clause,The method has an empty catch block.,57
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,InicioController,mostrarImg,Magic Number,The method contains a magic number: 730,57
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,InicioController,mostrarImg,Magic Number,The method contains a magic number: 530,57
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,InicioController,Bienvenida,Magic Number,The method contains a magic number: 730,93
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,InicioController,Bienvenida,Magic Number,The method contains a magic number: 530,93
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,Principal,start,Magic Number,The method contains a magic number: 730,23
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,Principal,start,Magic Number,The method contains a magic number: 530,23
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,UbicacionesController,obtenerImagen,Magic Number,The method contains a magic number: 45,59
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,UbicacionesController,obtenerImagen,Magic Number,The method contains a magic number: 45,59
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,UbicacionesController,mostrarIcono,Magic Number,The method contains a magic number: 10,69
+POO4_PROY2P_Lindao_Salinas_Zavala-main,com.pooespol.proyecto2_heladeria,UbicacionesController,mostrarIcono,Magic Number,The method contains a magic number: 1000,69

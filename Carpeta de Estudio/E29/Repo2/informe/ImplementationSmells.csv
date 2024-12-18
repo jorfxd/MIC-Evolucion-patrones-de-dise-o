@@ -1,0 +1,238 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+AppDeContactos,ec.edu.espol.appdecontactos,AgregarAsociadoController,up,Magic Number,The method contains a magic number: 11,106
+AppDeContactos,ec.edu.espol.appdecontactos,AgregarAsociadoController,up,Magic Number,The method contains a magic number: 11,106
+AppDeContactos,ec.edu.espol.appdecontactos,AgregarAsociadoController,down,Magic Number,The method contains a magic number: 11,121
+AppDeContactos,ec.edu.espol.appdecontactos,AgregarAsociadoController,down,Magic Number,The method contains a magic number: 11,121
+AppDeContactos,ec.edu.espol.appdecontactos,AgregarAsociadoController,llenarLista,Complex Method,Cyclomatic complexity of the method is 8,134
+AppDeContactos,ec.edu.espol.appdecontactos,AgregarAsociadoController,actualizarLista,Magic Number,The method contains a magic number: 5,180
+AppDeContactos,ec.edu.espol.appdecontactos,AgregarAsociadoController,actualizarLista,Magic Number,The method contains a magic number: 4,180
+AppDeContactos,ec.edu.espol.appdecontactos,AgregarAsociadoController,actualizarLista,Magic Number,The method contains a magic number: 11,180
+AppDeContactos,ec.edu.espol.appdecontactos,AgregarAsociadoController,actualizarLista,Magic Number,The method contains a magic number: 11,180
+AppDeContactos,ec.edu.espol.appdecontactos,AgregarAsociadoController,regresar,Empty catch clause,The method has an empty catch block.,202
+AppDeContactos,ec.edu.espol.appdecontactos,AgregarAsociadoController,asociarContacto,Empty catch clause,The method has an empty catch block.,212
+AppDeContactos,ec.edu.espol.appdecontactos,App,start,Magic Number,The method contains a magic number: 350,20
+AppDeContactos,ec.edu.espol.appdecontactos,App,start,Magic Number,The method contains a magic number: 650,20
+AppDeContactos,ec.edu.espol.appdecontactos,ContactosAsociadosController,agregarContactoAsociado,Empty catch clause,The method has an empty catch block.,104
+AppDeContactos,ec.edu.espol.appdecontactos,ContactosAsociadosController,volver,Empty catch clause,The method has an empty catch block.,113
+AppDeContactos,ec.edu.espol.appdecontactos,ContactosAsociadosController,up,Magic Number,The method contains a magic number: 11,124
+AppDeContactos,ec.edu.espol.appdecontactos,ContactosAsociadosController,up,Magic Number,The method contains a magic number: 11,124
+AppDeContactos,ec.edu.espol.appdecontactos,ContactosAsociadosController,down,Magic Number,The method contains a magic number: 11,139
+AppDeContactos,ec.edu.espol.appdecontactos,ContactosAsociadosController,down,Magic Number,The method contains a magic number: 11,139
+AppDeContactos,ec.edu.espol.appdecontactos,ContactosAsociadosController,llenarLista,Empty catch clause,The method has an empty catch block.,152
+AppDeContactos,ec.edu.espol.appdecontactos,ContactosAsociadosController,actualizarLista,Magic Number,The method contains a magic number: 5,184
+AppDeContactos,ec.edu.espol.appdecontactos,ContactosAsociadosController,actualizarLista,Magic Number,The method contains a magic number: 4,184
+AppDeContactos,ec.edu.espol.appdecontactos,ContactosAsociadosController,actualizarLista,Magic Number,The method contains a magic number: 11,184
+AppDeContactos,ec.edu.espol.appdecontactos,ContactosAsociadosController,actualizarLista,Magic Number,The method contains a magic number: 11,184
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,obtenerDireccionImagenesAsociadas,Magic Number,The method contains a magic number: 5,116
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,obtenerDireccionImagenesAsociadas,Magic Number,The method contains a magic number: 14,116
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,filtrarTipo,Magic Number,The method contains a magic number: 650,136
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,regresarTContactos,Magic Number,The method contains a magic number: 650,150
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,confirmarContacto,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@4d1b4fa1,168
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 16,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 20,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Magic Number,The method contains a magic number: 5,217
+AppDeContactos,ec.edu.espol.appdecontactos,CraerContactoController,registroGeneral,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@27b7e663,217
+AppDeContactos,ec.edu.espol.appdecontactos,EditarFotosController,initialize,Magic Number,The method contains a magic number: 200,42
+AppDeContactos,ec.edu.espol.appdecontactos,EditarFotosController,regresar,Empty catch clause,The method has an empty catch block.,49
+AppDeContactos,ec.edu.espol.appdecontactos,EditarFotosController,adelante,Magic Number,The method contains a magic number: 200,58
+AppDeContactos,ec.edu.espol.appdecontactos,EditarFotosController,atras,Magic Number,The method contains a magic number: 200,66
+AppDeContactos,ec.edu.espol.appdecontactos,EditarFotosController,borrarFotoActual,Magic Number,The method contains a magic number: 200,73
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Long Method,The method has 136 lines of code.,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Long Statement,The length of the statement "cuadr2.getChildren().addAll(TelefonoPrincipal`telefonoPrincipal`TelefonoTrabajo`telefonoTrabajo`TelefonoCasa`telefonoCasa`Facebook`facebook`Instagram`instagram`Fecha`fecha);" is 173.,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Long Statement,The length of the statement "cuad3.getChildren().addAll(CorreoPrincipal`correoPrincipal`CorreoTrabajo`correoTrabajo`CorreoProvisional`correoProvisional`TikTok`tiktok`X`x`Nota`nota);" is 152.,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Long Statement,The length of the statement "cuadr2.getChildren().addAll(TelefonoPrincipal`telefonoPrincipal`TelefonoWha`telefonoWha`TelefonoProvisional`telefonoProvisional`Facebook`facebook`Instagram`instagram`Fecha`fecha);" is 179.,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Long Statement,The length of the statement "cuad3.getChildren().addAll(CorreoPrincipal`correoPrincipal`CorreoSecundario`correoSecundario`CorreoProvisional`correoProvisional`TikTok`tiktok`X`x`Nota`nota);" is 158.,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 16,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 20,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,actualizarPagina,Magic Number,The method contains a magic number: 5,108
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,retrocederPantalla,Empty catch clause,The method has an empty catch block.,294
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,guardarContacto,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@ad585fb,312
+AppDeContactos,ec.edu.espol.appdecontactos,EditarPersonaController,editarFotos,Empty catch clause,The method has an empty catch block.,388
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,agregarNuevoContacto,Empty catch clause,The method has an empty catch block.,113
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,recorrerContactos,Complex Conditional,The conditional expression filtroNombre.isSelected() || filtroCumple.isSelected() || filtroEmpresa.isSelected() is complex.,122
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,recorrerContactos,Empty catch clause,The method has an empty catch block.,122
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,recorrerContactos,Long Statement,The length of the statement "if (filtroNombre.isSelected() || filtroCumple.isSelected() || filtroEmpresa.isSelected()) SessionManager.getInstance().setContactosFiltrados(contactosActuales);" is 160.,122
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,up,Magic Number,The method contains a magic number: 11,139
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,up,Magic Number,The method contains a magic number: 11,139
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,down,Magic Number,The method contains a magic number: 11,154
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,down,Magic Number,The method contains a magic number: 11,154
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,llenarLista,Complex Conditional,The conditional expression filtroNombre.isSelected() || filtroCumple.isSelected() || filtroEmpresa.isSelected() is complex.,167
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,llenarLista,Empty catch clause,The method has an empty catch block.,167
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,llenarLista,Long Statement,The length of the statement "if (filtroNombre.isSelected() || filtroCumple.isSelected() || filtroEmpresa.isSelected()) SessionManager.getInstance().setContactosFiltrados(contactosActuales);" is 160.,167
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,actualizarLista,Magic Number,The method contains a magic number: 5,199
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,actualizarLista,Magic Number,The method contains a magic number: 4,199
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,actualizarLista,Magic Number,The method contains a magic number: 11,199
+AppDeContactos,ec.edu.espol.appdecontactos,PrimaryController,actualizarLista,Magic Number,The method contains a magic number: 11,199
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,initialize,Magic Number,The method contains a magic number: 5,75
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,aplicarEstiloTexto,Magic Number,The method contains a magic number: 13,148
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,aplicarEstiloTexto,Magic Number,The method contains a magic number: 10,148
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,aplicarEstiloTexto,Magic Number,The method contains a magic number: 10,148
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 223,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 223,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 223,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 234,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 234,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 234,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 234,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 234,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 234,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 234,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 234,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 234,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 255,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 254,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 206,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 100,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 100,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 3,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 15,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 3,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 15,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 3,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 2,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 5,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,actualizarPagina,Magic Number,The method contains a magic number: 4,154
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,volverPrincipal,Empty catch clause,The method has an empty catch block.,254
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,volverPrincipal,Empty catch clause,The method has an empty catch block.,254
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,verFotos,Empty catch clause,The method has an empty catch block.,277
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,verContactosAsociados,Empty catch clause,The method has an empty catch block.,290
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,editarContacto,Empty catch clause,The method has an empty catch block.,304
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,copiarImagenAProyecto,Magic Number,The method contains a magic number: 100,330
+AppDeContactos,ec.edu.espol.appdecontactos,SecondaryController,copiarImagenAProyecto,Magic Number,The method contains a magic number: 100,330
+AppDeContactos,ec.edu.espol.appdecontactos,VerFotosController,initialize,Magic Number,The method contains a magic number: 200,34
+AppDeContactos,ec.edu.espol.appdecontactos,VerFotosController,regresar,Empty catch clause,The method has an empty catch block.,41
+AppDeContactos,ec.edu.espol.appdecontactos,VerFotosController,adelante,Magic Number,The method contains a magic number: 200,50
+AppDeContactos,ec.edu.espol.appdecontactos,VerFotosController,atras,Magic Number,The method contains a magic number: 200,58
+AppDeContactos,ec.edu.espol.appdecontactos.clases,ArrayList,addCapacity,Magic Number,The method contains a magic number: 2,74
+AppDeContactos,ec.edu.espol.appdecontactos.clases,ArrayList,addCapacity,Magic Number,The method contains a magic number: 2,74
+AppDeContactos,ec.edu.espol.appdecontactos.clases,ArrayList,get,Complex Conditional,The conditional expression effectiveSize == 0 || index < 0 || index >= effectiveSize is complex.,187
+AppDeContactos,ec.edu.espol.appdecontactos.clases,ArrayList,remove,Complex Conditional,The conditional expression effectiveSize == 0 || index < 0 || index >= effectiveSize is complex.,210
+AppDeContactos,ec.edu.espol.appdecontactos.clases,ArrayList,set,Complex Conditional,The conditional expression element == null || index < 0 || index >= effectiveSize is complex.,240
+AppDeContactos,ec.edu.espol.appdecontactos.clases,Contacto,Contacto,Long Parameter List,The method has 8 parameters. ,30
+AppDeContactos,ec.edu.espol.appdecontactos.clases,Contacto,saveListSer,Empty catch clause,The method has an empty catch block.,131
+AppDeContactos,ec.edu.espol.appdecontactos.clases,Contacto,toString,Long Statement,The length of the statement "return "Contacto{" + "nombre=" + nombre + "` telefonoPrincipal="+ telefonoPrincipal+ "` fotosAsociadas="+ fotosAsociadas+ "` fotoPerfil="+ fotoPerfil+ "` redesSociales="+ redesSociales+ "` correoPrincipal="+ correoPrincipal+ "` fechas="+ fechas+ "` contactosRelacionados="+ contactosRelacionados+ "` nota="+ nota+ '}';" is 318.,167
+AppDeContactos,ec.edu.espol.appdecontactos.clases,Empresa,Empresa,Long Parameter List,The method has 13 parameters. ,14
+AppDeContactos,ec.edu.espol.appdecontactos.clases,Empresa,toString,Long Statement,The length of the statement "return "Empresa{" + "nombre=" + nombre + "` telefonoWha="+ telefonoWha+ "` telefonoProvisional="+ telefonoProvisional+ "` correoSecundario="+ correoSecundario+ "` correoProvisional="+ correoProvisional+ '}';" is 207.,59
+AppDeContactos,ec.edu.espol.appdecontactos.clases,Persona,Persona,Long Parameter List,The method has 14 parameters. ,13
+AppDeContactos,ec.edu.espol.appdecontactos.clases,Persona,toString,Long Statement,The length of the statement "return "Persona{" + "nombre=" + nombre + "` apellido="+ apellido+ "` telefonoTrabajo="+ telefonoTrabajo+ "` telefonoCasa="+ telefonoCasa+ "` correoTrabajo="+ correoTrabajo+ "` correoProvisional="+ correoProvisional+ '}';" is 220.,67
