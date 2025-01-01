@@ -1,0 +1,11 @@
+Creacionales:
+-2 Singleton
+
+Estructurales:
+- Proxy
+-2 composite
+
+Comportamiento:
+-3 chain of responsability
+-3 iterator
+-1 strategy

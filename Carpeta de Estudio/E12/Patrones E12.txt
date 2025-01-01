@@ -1,0 +1,6 @@
+Creacionales:
+-Singleton
+-Factory method
+
+Estructurales:
+-module

@@ -1,0 +1,6 @@
+Crecionales:
+-Singleton
+-Factory method
+
+Estructurales:
+-2 decorator

@@ -1,0 +1,9 @@
+Creacionales:
+-Factory Method
+-Singleton
+
+Estructurales:
+-Composite
+
+Comportamiento:
+-2 Iterator

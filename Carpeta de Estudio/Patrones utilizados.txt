@@ -1,0 +1,21 @@
+Creacionales:
+-Builder
+-Singleton
+-Factory method
+-Abstrac factory
+
+Estructurales:
+-Proxy
+-composite
+-Decorator
+-module
+-Dao
+
+Comportamiento:
+-Chain of responsability
+-iterator
+-strategy
+-observer
+-Template mehod
+-state
+

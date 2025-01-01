@@ -1,0 +1,8 @@
+Creacionales:
+-Singleton
+
+Estructurales:
+-Decorator
+
+Comportamiento: 
+-Observer

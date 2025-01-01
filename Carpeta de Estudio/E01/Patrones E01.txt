@@ -1,0 +1,6 @@
+Creacionales:
+- 6 builder
+
+Estructurales:
+- 4 Proxy
+- 4 Dao (Data access object)

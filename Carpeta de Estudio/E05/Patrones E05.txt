@@ -1,0 +1,2 @@
+Estructurales:
+-5 Decorator

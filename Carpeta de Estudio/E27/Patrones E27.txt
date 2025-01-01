@@ -1,0 +1,11 @@
+Creacionales:
+-Singleton
+-5 Factory method
+-2 Builder
+
+Estructurales:
+-2 Decorator
+
+Comportamiento:
+-6 Observer
+-4 Strategy

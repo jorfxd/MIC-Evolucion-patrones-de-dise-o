@@ -1,0 +1,8 @@
+Estructurales:
+-4 Proxy
+-5 facade
+-3 composite
+-2 DAO
+
+comportamiento:
+- 3 strategy

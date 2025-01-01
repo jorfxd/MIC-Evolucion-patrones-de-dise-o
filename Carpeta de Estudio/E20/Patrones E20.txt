@@ -1,0 +1,11 @@
+Creacionales:
+-3 Abstract Factory
+-5 Factory method
+-2 Singleton
+-builder
+
+Estucturales:
+-Composite
+
+Comportamiento:
+-3 Strategy

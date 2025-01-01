@@ -1,0 +1,7 @@
+Creacionales:
+-Factory method
+-4 Builder
+
+Estructurales:
+- Decorator
+

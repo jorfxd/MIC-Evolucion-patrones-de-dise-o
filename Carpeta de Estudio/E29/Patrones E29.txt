@@ -1,0 +1,12 @@
+Creacionales:
+-3 Factory method
+-Singlelton
+-Builder
+
+Estructurales:
+-2 Composite
+
+Comportamiento:
+-2 Template method
+-4 Observer
+-7 Strategy

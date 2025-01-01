@@ -1,0 +1,5 @@
+Creacionales:
+- Factory method
+
+Comportamiento:
+- 2 Strategy

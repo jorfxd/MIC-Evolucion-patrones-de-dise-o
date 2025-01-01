@@ -1,0 +1,10 @@
+Creacionales:
+-Singleton
+
+Estrucurales:
+-5 Composite
+-Proxy
+
+Comportamiento:
+-4 Strategy
+-Observer

@@ -1,0 +1,10 @@
+Creacionales:
+-4 Singleton
+-Factory method
+
+Estructurales:
+-Composite
+
+Comportamiento:
+-2 Template method
+-Iterator

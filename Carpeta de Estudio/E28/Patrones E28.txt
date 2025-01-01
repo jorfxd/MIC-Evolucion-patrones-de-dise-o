@@ -1,0 +1,11 @@
+Creacionales:
+-4 Factory method
+-Singleton
+
+Estructurales:
+-2 Composite
+
+Comportamiento:
+-2 Iterator
+-2 Observer
+-2 Strategy

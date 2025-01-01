@@ -1,0 +1,3 @@
+Creacionales:
+-2 Singleton
+-2 Factory method

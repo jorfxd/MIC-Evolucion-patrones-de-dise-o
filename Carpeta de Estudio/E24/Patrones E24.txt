@@ -1,0 +1,7 @@
+Creacionales:
+-3 Factory method
+-5 Singleton
+
+Comportamiento:
+-8 Template method
+-2 Strategy
