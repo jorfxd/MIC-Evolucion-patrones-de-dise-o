@@ -8,8 +8,7 @@ Estructurales:
 -Proxy
 -composite
 -Decorator
--module
--Dao
+
 
 Comportamiento:
 -Chain of responsability
@@ -19,3 +18,7 @@ Comportamiento:
 -Template mehod
 -state
 
+Patrones no enseñados: Module y Dao. 
+Estos patrones se encuentran aplicados en algunos proyectos, pero no fueron
+enseñados en el curso de Diseño de software por lo que no se los tomara en
+cuenta cuando se realice el analisis.
