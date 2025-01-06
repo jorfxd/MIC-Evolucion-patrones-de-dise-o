@@ -1,0 +1,11 @@
+---------Sonarqube--------
+version: 24.12.0.100206
+codigo: En la consolar poner "StartSonar.bat" para iniciar la interfaz de sonarqube.
+
+-----------DesigniteJava (Professional)------
+version: 2.5.9
+codigo: Te colocas en la direccion de tu DesigniteJava.jar ejecuta el comando,
+designitejava -i "Direccion del Proyecto" -o "Direccion de los resultados".
+
+Especificaciones para Windows x64.
+
